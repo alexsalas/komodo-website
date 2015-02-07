@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+
+        <!-- Standard Meta -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Site Properities -->
+        <title>Auto-table Generation with Snippets, EJS and Komodo IDE/Edit | Komodo IDE</title>
+        <meta name="description" content="I hate laying out tedious HTML tables. I know you do too. In fact, I'm sure you have a better way of doing it then typing it out tag for closing tag. This post is to show you how you can easily write a snippet in Komodo that does that for you." />
+        <meta name="keywords" content="komodo, komodo ide, activestate komodo ide, activestate komodo ide 6, activestate komodo, activestate ide, comodo ide, activestate comodo, kumodo ide, active state komodo, perl komodo ide, ide software, perl ide, python ide, ide python, tcl ide, integrated development environment, development environment, activetstate, komodo linux, komodo mac" />
+        <meta name="google-site-verification" content="V2GfldsIqa0sZB3JNGexrZGI8xHcIiAJAZbaRseKTIg" />
+
+        <link rel="icon"  type="image/png" href="/images/favicon.png">
+
+        <!-- Meta -->
+        <meta name="generator" content="DocPad v6.64.2" />
+        <!-- Styles -->
+        <link  rel="stylesheet" href="http://komodoide.com/styles/all.min.css" />
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,400italic,500,700,700italic' rel='stylesheet' type='text/css'>
+
+    </head>
+    <body>
+
+        <noscript>
+            <div id="noscript-warning">
+                <h2>JavaScript Recommended</h2>
+                <p>
+                    Some of the functionality on this website relies on JavaScript
+                    to be enabled. Your experience will unfortunately be negatively
+                    affected if you do not use JavaScript.
+                </p>
+            </div>
+        </noscript>
+
+        <script type="text/javascript">
+            document.body.classList.remove("no-js")
+        </script>
+
+        <!-- Main Container -->
+        <div id="container">
+            <a name="top"></a>
+            <header>
+    <div class="outer">
+        <div class="inner">
+            <div class="nav-wrap">
+                <span class="collapser button primary">
+                    <i class="icon icon-bars fa fa-bars"></i>
+                </span>
+                <!-- Navigation -->
+                <nav>
+                    <ul class="unstyled">
+<li>
+<a href="http://komodoide.com" title="Home" target="_self">
+<span class="link-name">Home</span>
+</a>
+</li>
+<li class="has-sub">
+<a href="#" title="Solutions" target="_self">
+<span class="link-name">Solutions</span>
+<i class="icon icon-sort-down"></i>
+</a>
+<ul class="">
+<li>
+<a href="http://komodoide.com/komodo-edit" title="Komodo Edit" target="_self">
+<span class="link-name">Komodo Edit</span>
+</a>
+</li>
+<li>
+<a href="http://www.activestate.com/pro-studio" title="Pro Studio" target="_self">
+<span class="link-name">Pro Studio</span>
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="http://komodoide.com/pricing" title="Pricing" target="_self">
+<span class="link-name">Pricing</span>
+</a>
+</li>
+<li>
+<a href="http://komodoide.com/download" title="Download" target="_self">
+<span class="link-name">Download</span>
+</a>
+</li>
+<li class="has-sub">
+<a href="http://komodoide.com/resources" title="Resources" target="_self">
+<span class="link-name">Resources</span>
+<i class="icon icon-sort-down"></i>
+</a>
+<ul class="">
+<li>
+<a href="http://komodoide.com/screencasts" title="Screencasts" target="_self">
+<span class="link-name">Screencasts</span>
+</a>
+</li>
+<li>
+<a href="/resources/addons" title="Addons" target="_self">
+<span class="link-name">Addons</span>
+</a>
+</li>
+<li>
+<a href="/resources/macros" title="Macros" target="_self">
+<span class="link-name">Macros</span>
+</a>
+</li>
+<li>
+<a href="/resources/toolbox" title="Toolbox" target="_self">
+<span class="link-name">Toolbox</span>
+</a>
+</li>
+<li>
+<a href="/resources/colorschemes" title="Color Schemes" target="_self">
+<span class="link-name">Color Schemes</span>
+</a>
+</li>
+<li>
+<a href="/resources/skins" title="Skins" target="_self">
+<span class="link-name">Skins</span>
+</a>
+</li>
+<li>
+<a href="/resources/iconsets" title="Iconsets" target="_self">
+<span class="link-name">Iconsets</span>
+</a>
+</li>
+<li>
+<a href="/resources/languages" title="Languages" target="_self">
+<span class="link-name">Languages</span>
+</a>
+</li>
+<li>
+<a href="/resources/keybindings" title="Keybindings" target="_self">
+<span class="link-name">Keybindings</span>
+</a>
+</li>
+<li>
+<a href="/resources/miscellaneous" title="Miscellaneous" target="_self">
+<span class="link-name">Miscellaneous</span>
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="http://komodoide.com/blog" title="Blog" target="_self">
+<span class="link-name">Blog</span>
+</a>
+</li>
+<li>
+<a href="http://forum.komodoide.com/" title="Forums" target="_self">
+<span class="link-name">Forums</span>
+</a>
+</li>
+</ul>                </nav>
+            </div>
+
+            <!-- Logo -->
+            <a href="http://komodoide.com"><figure id="header-logo"></figure></a>
+        </div>
+    </div>
+    </header>
+
+            <div id="content" class="document-auto-table-generation-snippets-ejs-komodo                                     sidebar                                     document-blog-entry drupal-import">
+
+                
+                <section role="main">
+                <article class="normalize">
+
+    <div class="share">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="KomodoIDE" data-size="large" data-dnt="true">Tweet</a>
+        <div class="spacer-quarter"></div>
+        <script>
+        document.write('<div class="fb-like" data-href="'+location.href+'" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>');
+        </script>
+    </div>
+
+    <h1>Auto-table Generation with Snippets, EJS and Komodo IDE/Edit</h1>
+    <div class="clearfix"></div>
+    <!--<span class="blog-title-under">
+        by <a href="#">Carey Hoffman</a> / tags
+                <a href="/blog/tags#EJS">EJS</a>
+                <a href="/blog/tags#HTML tables">HTML tables</a>
+                <a href="/blog/tags#macro">macro</a>
+                / December 3rd, 2013    </span>-->
+    <div class="content">
+    <div>
+  		
+          <p><img alt="Auto-Table Generation" src="/images/blog/2013-12/table-ch.jpg" style="width: 180px; height: 180px;">I hate laying out tedious HTML tables. I know you do too. In fact, I'm sure you have a better way of doing it then typing it out tag for closing tag. This post is to show you how you can easily write a snippet in Komodo that does that for you.</p>
+  <p>By using EJS in our snippets which was <a href="http://activestate.com/blog/2012/12/saving-keystrokes-macro-snippets">implemented by EricP in Komodo 8</a> you can now perform processing tasks within your <a href="http://docs.activestate.com/komodo/latest/snippets.html#snippets_top" target="_blank">snippets</a> as well as the <a href="http://docs.activestate.com/komodo/latest/komodo-js-api.html#ko.interpolate" target="_blank">existing interpolation </a>in snippets and other features.</p>
+  <p>Here's the code for the HTML table generating snippet I promised:</p>
+  <p>&#160;</p>
+  <pre style="font-size: 14px; clear: none;"><code class="hljs">
+  &lt;%
+  var cols = parseInt(ko.interpolate.interpolateString(["%(ask: How many columns?)"]));
+  var rows = parseInt(ko.interpolate.interpolateString(["%(ask: How many rows?)"]));
+  if (cols &lt;= 0 || rows &lt;= 0){
+    alert("I don't know how to make a table with \"" + cols + "\"" +
+       "\n or \"" + rows + "\". &#160;How about you try that again.");
+  } else {
+    c = 0;
+      r = 0;
+    var filler = "&lt;!-- Fill me IN --&gt;";
+    &#160;var table = "&lt;table&gt;\n";
+    &#160;while(c &lt; cols) {
+      r=0;
+      &#160;table += "\t&lt;tr&gt;\n";
+      &#160;while (r &lt; rows) {
+        &#160;table += "\t\t&lt;td&gt;" + filler + "&lt;/td&gt;\n";
+        &#160;r++;
+      &#160;}
+      table += "\t&lt;/tr&gt;\n";
+      &#160;c++;
+    &#160;}
+    &#160;table += "&lt;/table&gt;";
+  }
+  %&gt;&lt;%= table? table : "" %&gt;
+   </code></pre>
+  <p><span style="line-height: 1.3em;">As you can see, in the first control EJS block, &lt;% %&gt;, I query for dimensions of the table from the user with ko.interpolate and perform some simple processing with the numbers to concatenate a table together with the correct dimensions. I also parseInt() the inputs so I can do a simple number &gt; 0 check to see that I have appropriate inputs.</span></p>
+  <p><span style="line-height: 1.3em;">Then I simply dump the string to the editor buffer using an emitter block, &lt;%= %&gt;.</span></p>
+  <p><span style="line-height: 1.3em;">1. To try this snippet out, here are quick instructions on how to create the snippet so it works in your HTML documents:</span><br><span style="line-height: 1.3em;">2. In Komodo, menu View &gt; Tabs &amp; Sidebars &gt; Toolbox</span>.<br><span style="line-height: 1.3em;">3. In Toolbox, Sample (x.y.z) &gt; Abbreviations: right click &#160;"HTML-common" &gt; Add &gt; Snippet. *</span><br><span style="line-height: 1.3em;">4. Name the snippet something short (I used tb, "table generator")</span><br><span style="line-height: 1.3em;">5. Enter the code from above in the code text field</span><br><span style="line-height: 1.3em;">6. Select the Auto-Abbreviation and Treat As EJS options then click ok.</span><br><span style="line-height: 1.3em;">7. Open a new HTML template: CTRL + shift + N (mac is Ctrl + cmd + n) &gt; select html from Templates &gt; click Open</span><br><span style="line-height: 1.3em;">8. Type "tb" then space</span></p>
+  <p><span style="line-height: 1.3em;">The snippet should trigger at this point. You can fill in the field and generate a table now (Fist pump). Now some of you might have just read this and thought &#8220;Carey...the emmet plugin works in Komodo as well. And it totally blows this script out of the water.&#8221; And to you I say &#8220;I already wrote the snippet and part of the post by the time I found that out&#8221;, so here we are. You could modify this snippet easily to create unorder lists and many other repetitive formatting tasks in HTML. Now go play!</span></p>
+  <p><em style="line-height: 1.3em;"><span style="line-height: 1.3em;">* If you're going to create your own snippets you must pull the Abbreviations folder out of the Sample (x.y.z) folder and place it in the root of your toolbox or else they will be moved aside on your next upgrade.</span></em></p>
+  <p><strong><em><span style="line-height: 1.3em;">References:</span> </em></strong><br><span style="line-height: 1.3em;">The Komodo Extension Developer toolkit -</span><a href="http://community.activestate.com/node/1824" style="line-height: 1.3em;" target="_blank">http://community.activestate.com/node/1824</a><span style="line-height: 1.3em;"> (I use the javascript shell in that kit constantly)</span><br><span style="line-height: 1.3em;">Komodo Javascript API - </span><a href="http://docs.activestate.com/komodo/latest/komodo-js-api.html" style="line-height: 1.3em;" target="_blank">http://docs.activestate.com/komodo/latest/komodo-js-api.html</a><br><span style="line-height: 1.3em;">Komodo Macro API - </span><a href="http://docs.activestate.com/komodo/latest/macroapi.html" style="line-height: 1.3em;" target="_blank">http://docs.activestate.com/komodo/latest/macroapi.html</a><br><span style="line-height: 1.3em;">Komodo IRC channel: </span><a href="irc://irc.mozilla.org/#komodo" style="line-height: 1.3em;" target="_blank">irc://irc.mozilla.org/#komodo</a></p>
+</div>        <hr>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+            var disqus_shortname = 'activestateblog';
+    
+            var disqus_identifier = 'node/3834';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+</article>
+                </section>
+                                <aside class="sidebar-blog normalize">
+                    <div id="side-border"></div>
+                    <button id="side-collapse" class="button big">
+                        <i class="icon icon-chevron-left"></i>
+                        <i class="icon icon-chevron-right"></i>
+                    </button>
+                    <div class="inner">
+                        <a href="/resources/submit-instructions/#pane-blogs" class="button big primary submit-content">
+    Submit Content
+</a>
+<div class="info">
+    <h1>Blog Info</h1>
+
+        <img src="/images/authors/CareyHoffman.jpg" alt="Carey Hoffman">
+
+    <p>
+        <strong>By:</strong>
+                    <a href="/authors#CareyHoffman">Carey Hoffman</a>
+            </p>
+
+    <p>
+        <strong>Tags: </strong>
+                <a href="/blog/tagged?EJS">EJS</a>
+                <a href="/blog/tagged?HTML tables">HTML tables</a>
+                <a href="/blog/tagged?macro">macro</a>
+            </p>
+    <p><strong>Date Posted: </strong>December 3rd, 2013</p>
+</div>
+<div class="clearfix"></div>
+<div class="blogs">
+            <h1>Related</h1>
+    <ul>
+                <li>
+            <a href="/blog/2014-05/auto-allman-style-braces">Auto Allman-style Braces in Komodo</a>
+        </li>
+                <li>
+            <a href="/blog/2014-05/git-submodules">Getting git submodule to track a branch</a>
+        </li>
+                <li>
+            <a href="/blog/2012-12/saving-keystrokes-macro-snippets">Saving Keystrokes with Macro-Like Snippets</a>
+        </li>
+                <li>
+            <a href="/blog/2014-02/adding-new-functionality-to-komodo-with-macros">Adding Functionality to Komodo With Macros</a>
+        </li>
+                <li>
+            <a href="/blog/2014-03/open-terminal-from-komodo">Open Terminal From Komodo</a>
+        </li>
+                <li>
+            <a href="/blog/2012-11/komodo-macro-day-inserting-image-tags">Komodo Macro of the day: Inserting Image Tags</a>
+        </li>
+                <li>
+            <a href="/blog/2014-03/quickly-adding-custom-snippets">Quickly Adding Custom Snippets</a>
+        </li>
+                <li>
+            <a href="/blog/2012-10/komodo-chess-macro">Komodo: Chess Grandmaster</a>
+        </li>
+                <li>
+            <a href="/blog/2014-03/show-absolute-position-in-statusbar">Absolute Cursor Position in Statusbar</a>
+        </li>
+                <li>
+            <a href="/blog/2014-03/variable-dumper-macro">Variable Dumper Macro</a>
+        </li>
+            </ul>
+    
+    <h1>Recent Blogs</h1>
+    <ul>
+                <li>
+            <a href="/blog/2015-02/join-the-komodo-team">
+                Come and join the Komodo development team!            </a>
+        </li>
+                <li>
+            <a href="/blog/2015-01/logging-time-in-komodo-with-wakatime">
+                Logging Time in Komodo with WakaTime            </a>
+        </li>
+                <li>
+            <a href="/blog/2014-12/tracking-editor-changes-in-komodo">
+                Tracking Editor Changes in Komodo 9            </a>
+        </li>
+                <li>
+            <a href="/blog/2014-12/komodo-9-beta-release-now-available">
+                Komodo 9 Beta Release Now Available!            </a>
+        </li>
+                <li>
+            <a href="/blog/2014-10/introducing-go-lang-support">
+                Go-lang Support for Komodo            </a>
+        </li>
+                <li>
+            <a href="/blog/2014-11/live-markdown-viewing-in-komodo">
+                Live Markdown Preview in Komodo            </a>
+        </li>
+                <li>
+            <a href="/blog/2014-11/komodo-ide-personal-is-here-to-stay">
+                Komodo IDE Personal is Here to Stay!            </a>
+        </li>
+                <li>
+            <a href="/blog/2014-10/multi-row-editor-tabs">
+                Multi-row Editor Tabs for Komodo            </a>
+        </li>
+                <li>
+            <a href="/blog/2014-10/enhancing-productivity-with-command-line-applications">
+                Enhancing Productivity with Command Line Applications through Komodo Macros            </a>
+        </li>
+                <li>
+            <a href="/blog/2014-10/introducing-kopy-io">
+                Introducing kopy.io            </a>
+        </li>
+            </ul>
+</div>
+<div class="screencasts">
+    <h1>Recent Screencasts</h1>
+        <a href="/screencasts/watch/91022155-fast-open-go-to-file">
+        <i class="icon icon-youtube-play"></i>
+        <figure style="background-image: url('http://i.vimeocdn.com/video/470396218_200x150.jpg')"></figure>
+        <span>Fast Open (Go To File)</span>
+    </a>
+        <a href="/screencasts/watch/89728467-auto-abbreviations-snippets">
+        <i class="icon icon-youtube-play"></i>
+        <figure style="background-image: url('http://i.vimeocdn.com/video/468591284_200x150.jpg')"></figure>
+        <span>Auto-Abbreviations (Snippets)</span>
+    </a>
+        <a href="/screencasts/watch/89123307-vi-mode">
+        <i class="icon icon-youtube-play"></i>
+        <figure style="background-image: url('http://i.vimeocdn.com/video/467750155_200x150.jpg')"></figure>
+        <span>Vi Mode</span>
+    </a>
+        <a href="/screencasts/watch/88367341-customizable-panes">
+        <i class="icon icon-youtube-play"></i>
+        <figure style="background-image: url('http://i.vimeocdn.com/video/466804084_200x150.jpg')"></figure>
+        <span>Customizable Panes</span>
+    </a>
+        <a href="/screencasts/watch/87675282-open-files-widget">
+        <i class="icon icon-youtube-play"></i>
+        <figure style="background-image: url('http://i.vimeocdn.com/video/465826977_200x150.jpg')"></figure>
+        <span>Open Files Widget</span>
+    </a>
+        <a href="/screencasts/watch/87287634-projects-and-what-theyre-for">
+        <i class="icon icon-youtube-play"></i>
+        <figure style="background-image: url('http://i.vimeocdn.com/video/465288761_200x150.jpg')"></figure>
+        <span>Projects and What They're For</span>
+    </a>
+    </div>
+                    </div>
+                </aside>
+                            </div>
+            <div id="footer_push"></div>
+        </div>
+
+        <!-- Analytics -->
+        
+        <!-- AS.com -->
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+        _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+        _gaq.push(['_setAccount', 'UA-20072-24']);
+        _gaq.push(['_setDomainName', '.komodoide.com']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_setAllowHash', false]);
+        _gaq.push(['_trackPageview']);
+        (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async =
+        true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+        </script>
+
+        <!-- KIDE -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','_gak');
+
+          _gak('create', 'UA-47685083-1', 'auto');
+          _gak('require', 'linkid', 'linkid.js');
+          // pageview is handled in scripts.js
+
+        </script>
+
+        <!-- Adwords -->
+        <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 1071420929;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+        </script>
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+        </script>
+        <noscript>
+        <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1071420929/?value=0&amp;guid=ON&amp;script=0"/>
+        </div>
+        </noscript>
+
+        <!-- Clicky -->
+        <script type="text/javascript">
+        var clicky_site_ids = clicky_site_ids || [];
+        clicky_site_ids.push(100751147);
+        (function() {
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = '//static.getclicky.com/js';
+          ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+        })();
+        </script>
+        <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100751147ns.gif" /></p></noscript>
+
+        
+        <!-- Marketo -->
+        <script type="text/javascript">
+        (function() {
+          var didInit = false;
+          function initMunchkin() {
+            if(didInit === false) {
+              didInit = true;
+              Munchkin.init('894-ACS-622');
+            }
+          }
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = '//munchkin.marketo.net/munchkin.js';
+          s.onreadystatechange = function() {
+            if (this.readyState == 'complete' || this.readyState == 'loaded') {
+              initMunchkin();
+            }
+          };
+          s.onload = initMunchkin;
+          document.getElementsByTagName('head')[0].appendChild(s);
+        })();
+        </script>
+
+        <!-- Footer -->
+        <footer>
+            <div class="columns">
+                <div class="navigation">
+                    <h3>Navigation</h3>
+                    <ul class="">
+<li>
+<a href="http://komodoide.com" title="Home" target="_self">
+<span class="link-name">Home</span>
+</a>
+</li>
+<li>
+<a href="http://komodoide.com/features" title="Features" target="_self">
+<span class="link-name">Features</span>
+</a>
+</li>
+<li>
+<a href="http://komodoide.com/pricing" title="Pricing" target="_self">
+<span class="link-name">Pricing</span>
+</a>
+</li>
+<li class="has-sub">
+<a href="http://komodoide.com/download" title="Download" target="_self">
+<span class="link-name">Download</span>
+</a>
+<ul class="">
+<li>
+<a href="http://downloads.activestate.com/Komodo/" title="Archive" target="_self">
+<span class="link-name">Archive</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="has-sub">
+<a href="http://komodoide.com/customize" title="Customize" target="_self">
+<span class="link-name">Customize</span>
+</a>
+<ul class="">
+<li>
+<a href="/resources" title="Resources" target="_self">
+<span class="link-name">Resources</span>
+</a>
+</li>
+<li>
+<a href="/customize" title="Get Involved" target="_self">
+<span class="link-name">Get Involved</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="has-sub">
+<a href="http://forum.komodoide.com/category/support" title="Support" target="_self">
+<span class="link-name">Support</span>
+</a>
+<ul class="">
+<li>
+<a href="http://docs.activestate.com/komodo" title="Documentation" target="_self">
+<span class="link-name">Documentation</span>
+</a>
+</li>
+<li>
+<a href="http://bugs.activestate.com/enter_bug.cgi?product=Komodo" title="Report Bug" target="_blank">
+<span class="link-name">Report Bug</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>                </div>
+                <div class="support">
+                    <h3>Support</h3>
+                    <ul class="">
+<li>
+<a href="http://docs.activestate.com/komodo" title="Documentation" target="_self">
+<span class="link-name">Documentation</span>
+</a>
+</li>
+<li>
+<a href="http://docs.activestate.com/komodo/latest/macroapi.html#macroapi_top" title="API Reference" target="_self">
+<span class="link-name">API Reference</span>
+</a>
+</li>
+<li>
+<a href="#" title="&nbsp;" target="_self">
+<span class="link-name">&nbsp;</span>
+</a>
+</li>
+<li>
+<a href="http://bugs.activestate.com/enter_bug.cgi?product=Komodo" title="Report a Bug" target="_blank">
+<span class="link-name">Report a Bug</span>
+</a>
+</li>
+<li>
+<a href="http://forum.komodoide.com/" title="Ask the Community" target="_self">
+<span class="link-name">Ask the Community</span>
+</a>
+</li>
+</ul>
+                    <h3>ActiveState</h3>
+                    <ul class="">
+<li>
+<a href="http://www.activestate.com/company" title="About" target="_blank">
+<span class="link-name">About</span>
+</a>
+</li>
+<li>
+<a href="http://www.activestate.com/company/contact-us" title="Contact" target="_blank">
+<span class="link-name">Contact</span>
+</a>
+</li>
+<li>
+<a href="http://www.activestate.com/company/careers" title="Careers" target="_blank">
+<span class="link-name">Careers</span>
+</a>
+</li>
+</ul>                </div>
+                <div class="communicate">
+                    <ul class="social">
+<li>
+<a href="http://twitter.com/KomodoIDE" title="Twitter" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/twitter-24x24.png" alt="Twitter"/>
+<span class="link-name">Twitter</span>
+</a>
+</li>
+<li>
+<a href="https://www.facebook.com/komodoide" title="Facebook" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/facebook-24x24.png" alt="Facebook"/>
+<span class="link-name">Facebook</span>
+</a>
+</li>
+<li>
+<a href="https://plus.google.com/u/0/115431120071336108525/posts" title="Google+" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/google+-24x24.png" alt="Google+"/>
+<span class="link-name">Google+</span>
+</a>
+</li>
+<li>
+<a href="https://vimeo.com/channels/komodo" title="Vimeo" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/vimeo-24x24.png" alt="Vimeo"/>
+<span class="link-name">Vimeo</span>
+</a>
+</li>
+<li>
+<a href="https://github.com/Komodo" title="GitHub" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/github-24x24.png" alt="GitHub"/>
+<span class="link-name">GitHub</span>
+</a>
+</li>
+<li>
+<a href="http://stackoverflow.com/questions/tagged/komodo" title="StackOverflow" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/stackoverflow-24x24.png" alt="StackOverflow"/>
+<span class="link-name">StackOverflow</span>
+</a>
+</li>
+<li>
+<a href="/blog.rss" title="RSS Feed" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/feed-24x24.png" alt="RSS Feed"/>
+<span class="link-name">RSS Feed</span>
+</a>
+</li>
+</ul>
+                    <p>&nbsp;</p>
+                    <a href="https://twitter.com/KomodoIDE" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @KomodoIDE</a>
+
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-text="Auto-table Generation with Snippets, EJS and Komodo IDE/Edit via @KomodoIDE" data-dnt="true">Tweet</a>
+
+                    <p>&nbsp;</p>
+
+                    <script>
+                        document.write('<div class="fb-like" data-href="'+location.href+'" data-layout="button" data-action="recommend" data-show-faces="false" data-share="true"></div>');
+                    </script>
+
+                    <h3>Communicate</h3>
+                    <ul class="">
+<li>
+<a href="http://www.activestate.com/company/contact-us" title="Contact Us" target="_self">
+<span class="link-name">Contact Us</span>
+</a>
+</li>
+<li>
+<a href="http://komodoide.com/blog" title="Blog" target="_self">
+<span class="link-name">Blog</span>
+</a>
+</li>
+<li>
+<a href="http://forum.komodoide.com/" title="Forums" target="_self">
+<span class="link-name">Forums</span>
+</a>
+</li>
+<li>
+<a href="http://kiwiirc.com/client/irc.mozilla.org/komodo?nick=komodo_visitor" title="IRC" target="_blank">
+<span class="link-name">IRC</span>
+</a>
+</li>
+<li>
+<a href="http://code.activestate.com/lists#ActiveState" title="Mailing Lists" target="_self">
+<span class="link-name">Mailing Lists</span>
+</a>
+</li>
+</ul>                </div>
+                <div class="newsletter">
+                    <!--
+                    <form>
+                        <h3>Newsletter Sign Up</h3>
+                        <input type="text" placeholder="Enter your E-Mail address"/>
+                    </form>
+                    -->
+
+                    <p>
+                        ActiveState Software Inc.
+                        Suite 1700-409 Granville St.,
+                        Vancouver, BC,
+                        V6C 1T2, Canada
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        General Enquiries: 778.786.1100 <br>
+                        Fax: 778.786.1133 <br>
+                        Sales: 1.866.631.4581
+                    </p>
+                    <p>&nbsp;</p>
+                    <p class="copytrade">
+                        © 2014 ActiveState Software Inc. All rights reserved. ActiveState®, Komodo®, ActivePerl®, ActivePython®, ActiveTcl®, and Stackato® are registered trademarks of ActiveState. All other marks are property of their respective owners.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        <a href="/privacy">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script>
+        //<![CDATA[
+            window.twttr = (function (d,s,id) {
+            var t, js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+            js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+            return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+            }(document, "script", "twitter-wjs"));
+            twttr.ready(function (twttr) {
+                twttr.events.bind('tweet', function (event) {
+                    if (_gak) _gaq.push(['_trackSocial', "Twitter", "Tweet"]);
+                    $.event.trigger({
+                        type: "pageShared",
+                        url: event.target.baseURI,
+                        network: "Twitter",
+                        action: "Tweet"
+                    });
+                });
+            });
+
+            (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=252636704908473&version=v2.0";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+            window.fbAsyncInit = function() {
+                // init the FB JS SDK
+
+                FB.Event.subscribe('edge.create', function(href, widget) {
+                    $.event.trigger({
+                        type: "pageShared",
+                        url: href,
+                        network: "Facebook",
+                        action: "like"
+                    });
+                });
+            };
+        //]]>
+        </script>
+        
+        <script defer="defer"  src="http://komodoide.com/scripts/all.min.js"></script>    </body>
+</html>

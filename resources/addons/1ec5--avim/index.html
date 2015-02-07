@@ -1,0 +1,2623 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+
+        <!-- Standard Meta -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Site Properities -->
+        <title>Avim | Komodo IDE</title>
+        <meta name="description" content="One IDE, All Your Favourite Languages. Komodo is the professional IDE for major web languages, including Python, PHP, Ruby, Perl, HTML, CSS and JavaScript." />
+        <meta name="keywords" content="komodo, komodo ide, activestate komodo ide, activestate komodo ide 6, activestate komodo, activestate ide, comodo ide, activestate comodo, kumodo ide, active state komodo, perl komodo ide, ide software, perl ide, python ide, ide python, tcl ide, integrated development environment, development environment, activetstate, komodo linux, komodo mac" />
+        <meta name="google-site-verification" content="V2GfldsIqa0sZB3JNGexrZGI8xHcIiAJAZbaRseKTIg" />
+
+        <link rel="icon"  type="image/png" href="/images/favicon.png">
+
+        <!-- Meta -->
+        <meta name="generator" content="DocPad v6.64.2" />
+        <!-- Styles -->
+        <link  rel="stylesheet" href="http://komodoide.com/styles/all.min.css" />
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,400italic,500,700,700italic' rel='stylesheet' type='text/css'>
+
+    </head>
+    <body>
+
+        <noscript>
+            <div id="noscript-warning">
+                <h2>JavaScript Recommended</h2>
+                <p>
+                    Some of the functionality on this website relies on JavaScript
+                    to be enabled. Your experience will unfortunately be negatively
+                    affected if you do not use JavaScript.
+                </p>
+            </div>
+        </noscript>
+
+        <script type="text/javascript">
+            document.body.classList.remove("no-js")
+        </script>
+
+        <!-- Main Container -->
+        <div id="container">
+            <a name="top"></a>
+            <header>
+    <div class="outer">
+        <div class="inner">
+            <div class="nav-wrap">
+                <span class="collapser button primary">
+                    <i class="icon icon-bars fa fa-bars"></i>
+                </span>
+                <!-- Navigation -->
+                <nav>
+                    <ul class="unstyled">
+<li>
+<a href="http://komodoide.com" title="Home" target="_self">
+<span class="link-name">Home</span>
+</a>
+</li>
+<li class="has-sub">
+<a href="#" title="Solutions" target="_self">
+<span class="link-name">Solutions</span>
+<i class="icon icon-sort-down"></i>
+</a>
+<ul class="">
+<li>
+<a href="http://komodoide.com/komodo-edit" title="Komodo Edit" target="_self">
+<span class="link-name">Komodo Edit</span>
+</a>
+</li>
+<li>
+<a href="http://www.activestate.com/pro-studio" title="Pro Studio" target="_self">
+<span class="link-name">Pro Studio</span>
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="http://komodoide.com/pricing" title="Pricing" target="_self">
+<span class="link-name">Pricing</span>
+</a>
+</li>
+<li>
+<a href="http://komodoide.com/download" title="Download" target="_self">
+<span class="link-name">Download</span>
+</a>
+</li>
+<li class="has-sub">
+<a href="http://komodoide.com/resources" title="Resources" target="_self">
+<span class="link-name">Resources</span>
+<i class="icon icon-sort-down"></i>
+</a>
+<ul class="">
+<li>
+<a href="http://komodoide.com/screencasts" title="Screencasts" target="_self">
+<span class="link-name">Screencasts</span>
+</a>
+</li>
+<li>
+<a href="/resources/addons" title="Addons" target="_self">
+<span class="link-name">Addons</span>
+</a>
+</li>
+<li>
+<a href="/resources/macros" title="Macros" target="_self">
+<span class="link-name">Macros</span>
+</a>
+</li>
+<li>
+<a href="/resources/toolbox" title="Toolbox" target="_self">
+<span class="link-name">Toolbox</span>
+</a>
+</li>
+<li>
+<a href="/resources/colorschemes" title="Color Schemes" target="_self">
+<span class="link-name">Color Schemes</span>
+</a>
+</li>
+<li>
+<a href="/resources/skins" title="Skins" target="_self">
+<span class="link-name">Skins</span>
+</a>
+</li>
+<li>
+<a href="/resources/iconsets" title="Iconsets" target="_self">
+<span class="link-name">Iconsets</span>
+</a>
+</li>
+<li>
+<a href="/resources/languages" title="Languages" target="_self">
+<span class="link-name">Languages</span>
+</a>
+</li>
+<li>
+<a href="/resources/keybindings" title="Keybindings" target="_self">
+<span class="link-name">Keybindings</span>
+</a>
+</li>
+<li>
+<a href="/resources/miscellaneous" title="Miscellaneous" target="_self">
+<span class="link-name">Miscellaneous</span>
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="http://komodoide.com/blog" title="Blog" target="_self">
+<span class="link-name">Blog</span>
+</a>
+</li>
+<li>
+<a href="http://forum.komodoide.com/" title="Forums" target="_self">
+<span class="link-name">Forums</span>
+</a>
+</li>
+</ul>                </nav>
+            </div>
+
+            <!-- Logo -->
+            <a href="http://komodoide.com"><figure id="header-logo"></figure></a>
+        </div>
+    </div>
+    </header>
+
+            <div id="content" class="document-resource                                     sidebar                                     sidebar-left">
+
+                                <ul class="trail">
+                                        <li>
+                                                    <a href="http://komodoide.com/resources">Resources</a>
+                                            </li>
+                                        <li>
+                                                    <a href="http://komodoide.com/resources/addons">Addons</a>
+                                            </li>
+                                        <li>
+                                                    Avim                                            </li>
+                                    </ul>
+                
+                <section role="main">
+                <article class="normalize">
+    
+<div class="beta">BETA</div>
+
+<div class="push-right">
+<div class="social-meta">
+    <a href="https://github.com/1ec5/avim/watchers" class="watchers button small">
+        <i class="icon icon-eye"></i>
+        <strong>Watchers</strong>
+        <span>7</span>
+    </a>
+    <a href="https://github.com/1ec5/avim/stargazers" class="stars button small">
+        <i class="icon icon-star"></i>
+        <strong>Stars</strong>
+        <span>7</span>
+    </a>
+    <a href="https://github.com/1ec5/avim/network" class="forks button small">
+        <i class="icon icon-code-fork"></i>
+        <strong>Forks</strong>
+        <span>0</span>
+    </a>
+</div>
+
+<div class="details-meta clearfix">
+    <dl>
+        <dt>Author</dt>
+        <dd>
+            <a href="https://github.com/1ec5">
+                <span>1ec5</span>
+            </a>
+        </dd>
+
+                <dt>Created</dt>
+        <dd title="November 5 2013 4:15 AM">
+            a year ago        </dd>
+        
+                <dt>Updated</dt>
+        <dd title="February 1 2015 10:54 PM">
+            5 days ago        </dd>
+        
+                <dt>Homepage</dt>
+        <dd>
+            <a href="http://avim.1ec5.org/">
+                http://avim.1ec5.org/            </a>
+        </dd>
+        
+                <dt>Github</dt>
+        <dd>
+            <a href="https://github.com/1ec5/avim">
+                https://github.com/1ec5/avim            </a>
+        </dd>
+        
+                <dt>Issues</dt>
+        <dd>
+            <span>54</span>
+            <a href="https://github.com/1ec5/avim/issues">view</a>
+        </dd>
+        
+                <dt>Wiki</dt>
+        <dd>
+            <a href="https://github.com/1ec5/avim/wiki">view</a>
+        </dd>
+        
+                <dt>Downloads</dt>
+        <dd>
+            <span>626</span>
+            <a href="https://github.com/1ec5/avim/releases">view</a>
+        </dd>
+            </dl>
+</div>
+</div>
+
+<h1>Avim</h1>
+<div class="main-meta">
+    <span class="author">
+                <i class="icon icon-user" title="Author"></i>
+                <a href="https://github.com/1ec5">
+            <span>1ec5</span>
+        </a>
+    </span>
+        <span class="homepage">
+        <i class="icon icon-link" title="Homepage"></i>
+        <a href="http://avim.1ec5.org/">
+            http://avim.1ec5.org/        </a>
+    </span>
+        <span class="last-update">
+        <i class="icon icon-clock-o" title="Last Updated"></i>
+        <span>5 days ago</span>
+    </span>
+</div>
+
+<p class="description">Vietnamese input method extension to Firefox and other Mozilla-based applications</p>
+
+<h2>Download</h2>
+<div class="download">
+                    <select class="paneSelector" data-pane-prefix="release-">
+                        <option value="797517">
+                Năm chấm bốn                            </option>
+                        <option value="790135">
+                Năm chấm bốn                                    (Pre-Release)
+                            </option>
+                        <option value="739691">
+                Năm chấm bốn                                    (Pre-Release)
+                            </option>
+                        <option value="737684">
+                Năm chấm ba chấm một                            </option>
+                        <option value="679234">
+                Năm chấm ba                            </option>
+                        <option value="650614">
+                Năm chấm ba                                    (Pre-Release)
+                            </option>
+                        <option value="566074">
+                Năm trăm hăm sáu                                    (Pre-Release)
+                            </option>
+                        <option value="556737">
+                Năm trăm hăm lăm                            </option>
+                        <option value="529589">
+                Năm trăm hăm lăm                                    (Pre-Release)
+                            </option>
+                        <option value="520837">
+                Năm trăm hăm lăm                                    (Pre-Release)
+                            </option>
+                        <option value="520833">
+                Năm trăm hăm lăm                                    (Pre-Release)
+                            </option>
+                        <option value="520830">
+                Năm trăm hăm bốn                            </option>
+                        <option value="520819">
+                Bốn trăm rưởi                            </option>
+                        <option value="520817">
+                Ba trăm sáu mươi sáu                            </option>
+                        <option value="520807">
+                Ba trăm băm bốn                            </option>
+                        <option value="520804">
+                Ba trăm hăm lăm                            </option>
+                        <option value="520802">
+                Ba trăm lẻ sáu                            </option>
+                        <option value="520794">
+                Hai trăm chín mươi                            </option>
+                        <option value="520793">
+                Hai trăm tám mươi                            </option>
+                        <option value="520790">
+                Hai trăm sáu mươi lăm                            </option>
+                        <option value="520789">
+                Hai trăm rưởi                            </option>
+                        <option value="520783">
+                Hai trăm băm bảy                            </option>
+                        <option value="520777">
+                Hai trăm mười bảy                            </option>
+                        <option value="520770">
+                Hai trăm mười                            </option>
+                        <option value="520724">
+                Một trăm chín mươi lăm                            </option>
+                        <option value="520719">
+                Một trăm tám mươi lăm                            </option>
+                        <option value="520715">
+                Một trăm tám mươi mốt                            </option>
+                        <option value="520709">
+                Một trăm bảy mươi bảy                            </option>
+                        <option value="520707">
+                Một trăm băm chín                            </option>
+                        <option value="520701">
+                Một trăm mười tám                            </option>
+                    </select>
+                <div class="releases">
+                    <div class="release  0" id="release-797517">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/v5.4.0">
+                            https://github.com/1ec5/avim/releases/tag/v5.4.0                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>2 months ago</span>
+                    </span>
+                </div>
+                <p>![Doorhanger](https://cloud.githubusercontent.com/assets/1231218/5314765/a9e66ad2-7c2a-11e4-983e-41183982260b.png)
+
+* Sửa vấn đề trong Google Docs và Slides làm cho con nháy bị dính sau khi đặt dấu.
+* Phím tắt Ctrl hai lần được hạn chế để khó bật/tắt lộn. Để bật/tắt AVIM, phải bấm Ctrl hai lần trong một giây.
+* Nếu bấm Ctrl hai lần trong khi nút AVIM ở trong trình đơn hoặc bị tắt, một “thẻ treo cửa” sẽ nổi lên một chốc để cho biết bạn đã bật/tắt AVIM.
+* Cập nhật hình tượng trong trình đơn cho Windows và Linux.
+
+----
+
+* Fixed an issue in Google Docs and Slides in which the caret got stuck after adding diacritics.
+* It is now harder to accidentally invoke the double-Ctrl shortcut. To toggle AVIM, press Ctrl twice within one second.
+* If you press Ctrl twice while AVIM’s button is in the application menu or disabled, a “doorhanger” pops up briefly to let you know you’ve toggled AVIM.
+* Updated menu icon for Windows and Linux.
+
+----
+
+* Resolver una problema en Google Docs y Slides que el cursor se atasca después de añadir los signos diacríticos.
+* Ahora es más difícil que invoques la tecla aceleradora de doble-Ctrl sin querer. Para activar o desactivar AVIM, presionar Ctrl dos veces en un segundo.
+* Cuando presionas Ctrl dos veces mientras que el botón de AVIM es en el menú de la aplicación o es desactivado, un “colgador de puerta” emerge por un momento para notificarte que AVIM está activa o desactiva.
+* Actualizar el icono en el menú para Windows y Linux.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/v5.4.0/avim-5.4.0.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-5.4.0.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>14</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Năm chấm bốn.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 1" id="release-790135">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/v5.4.0b2">
+                            https://github.com/1ec5/avim/releases/tag/v5.4.0b2                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>2 months ago</span>
+                    </span>
+                </div>
+                <p>* Sửa vấn đề trong Google Docs và Slides làm cho con nháy bị dính sau khi đặt dấu.
+
+----
+
+* Fixed an issue in Google Docs and Slides in which the caret got stuck after adding diacritics.
+
+----
+
+* Resolver una problema en Google Docs y Slides que el cursor se atasca después de añadir los signos diacríticos.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/v5.4.0b2/avim-5.4.0b2.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-5.4.0b2.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>8</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Năm chấm bốn.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 2" id="release-739691">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/v5.4.0b1">
+                            https://github.com/1ec5/avim/releases/tag/v5.4.0b1                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>2 months ago</span>
+                    </span>
+                </div>
+                <p>![Doorhanger](https://cloud.githubusercontent.com/assets/1231218/5314765/a9e66ad2-7c2a-11e4-983e-41183982260b.png)
+
+* Phím tắt Ctrl hai lần được hạn chế để khó bật/tắt lộn. Để bật/tắt AVIM, phải bấm Ctrl hai lần trong một giây.
+* Nếu bấm Ctrl hai lần trong khi nút AVIM ở trong trình đơn hoặc bị tắt, một “thẻ treo cửa” sẽ nổi lên một chốc để cho biết bạn đã bật/tắt AVIM.
+* Cập nhật hình tượng trong trình đơn cho Windows và Linux.
+
+----
+
+* It is now harder to accidentally invoke the double-Ctrl shortcut. To toggle AVIM, press Ctrl twice within one second.
+* If you press Ctrl twice while AVIM’s button is in the application menu or disabled, a “doorhanger” pops up briefly to let you know you’ve toggled AVIM.
+* Updated menu icon for Windows and Linux.
+
+----
+
+* Ahora es más difícil que invoques la tecla aceleradora de doble-Ctrl sin querer. Para activar o desactivar AVIM, presionar Ctrl dos veces en un segundo.
+* Cuando presionas Ctrl dos veces mientras que el botón de AVIM es en el menú de la aplicación o es desactivado, un “colgador de puerta” emerge por un momento para notificarte que AVIM está activa o desactiva.
+* Actualizar el icono en el menú para Windows y Linux.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/v5.4.0b1/avim-5.4.0b1.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-5.4.0b1.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>11</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Năm chấm bốn.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 3" id="release-737684">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/v5.3.1">
+                            https://github.com/1ec5/avim/releases/tag/v5.3.1                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>2 months ago</span>
+                    </span>
+                </div>
+                <p>* Sửa việc đặt dấu trên các bình luận trên Facebook.
+* Cập nhật hình tượng trong trình đơn cho OS X Yosemite.
+
+----
+
+* Fixed adding diacritical marks to comments on Facebook.
+* Updated menu icon for OS X Yosemite.
+
+----
+
+* Arreglar la adición de los signos diacríticos en los comentarios en Facebook.
+* Actualizar el icono en el menú para OS X Yosemite.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/v5.3.1/avim-5.3.1.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-5.3.1.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>13</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Năm chấm ba chấm một.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 4" id="release-679234">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/v5.3.0">
+                            https://github.com/1ec5/avim/releases/tag/v5.3.0                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>3 months ago</span>
+                    </span>
+                </div>
+                <p>* Tăng tốc độ gõ trong Google Docs and Google Slides.
+* Hỗ trợ các cửa sổ [Điện phân](http://arewee10syet.com/) (e10s) của Firefox 36.
+* Phục hồi sự hỗ trợ cho trong hộp văn bản có định dạng trong Firefox 35.
+* Làm đơn giản số phiên bản của phần mở rộng này.
+
+----
+
+* Improved typing performance in Google Docs and Google Slides.
+* Added support for [Electrolysis](http://arewee10syet.com/) (e10s) windows in Firefox 36.
+* Restored support for rich text editors in Firefox 35.
+* Simplified this extension’s version number.
+
+----
+
+* Mejorar la performancia de teclear en Google Docs y Google Slides.
+* Apoyar las ventanas de [Electrólisis](http://arewee10syet.com/) (e10s) en Firefox 36.
+* Restaurar el apoyo de los editors de texto rico en Firefox 35.
+* Simplificar el número de la versión de esta extensión.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/v5.3.0/avim-5.3.0.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-5.3.0.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>9</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Năm chấm ba.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 5" id="release-650614">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/v5.3.0b1">
+                            https://github.com/1ec5/avim/releases/tag/v5.3.0b1                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>4 months ago</span>
+                    </span>
+                </div>
+                <p>* Phục hồi sự hỗ trợ cho trong hộp văn bản có định dạng trong Firefox 35.
+* Làm đơn giản số phiên bản của phần mở rộng.
+
+----
+
+* Restored support for rich text editors in Firefox 35.
+* Simplified the extension’s version number.
+
+----
+
+* Restaurar el apoyo de los editors de texto rico en Firefox 35.
+* Simplificar el número de la versión de esta extensión.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/v5.3.0b1/avim-5.3.0b1.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-5.3.0b1.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>11</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Năm chấm ba.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 6" id="release-566074">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.526b1">
+                            https://github.com/1ec5/avim/releases/tag/20080728.526b1                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>4 months ago</span>
+                    </span>
+                </div>
+                <p>* Tăng tốc độ gõ trong Google Docs and Google Slides.
+* Hỗ trợ các cửa sổ [Điện phân](http://arewee10syet.com/) (e10s) của Firefox 36.
+
+----
+
+* Improved typing performance in Google Docs and Google Slides.
+* Added support for [Electrolysis](http://arewee10syet.com/) (e10s) windows in Firefox 36.
+
+----
+
+* Mejorar la performancia de teclear en Google Docs y Google Slides.
+* Apoyar las ventanas de [Electrólisis](http://arewee10syet.com/) (e10s) en Firefox 36.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.526b1/avim-20080728.526b1.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.526b1.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>18</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Năm trăm hăm sáu.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 7" id="release-556737">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.525">
+                            https://github.com/1ec5/avim/releases/tag/20080728.525                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>5 months ago</span>
+                    </span>
+                </div>
+                <p>* Giảm nhẹ bộ nhớ khi mở nhiều cửa sổ.
+* Tương thích hơn với Firefox 34.
+* Sửa những lỗi hồi quy trong việc bỏ dấu.
+* Phục hồi sự hỗ trợ cho Google Docs và Google Slides. Khi nào AVIM được bật lên, nó tự động tắt các công cụ nhập liệu của Google để tránh xung đột giữa hai bộ gõ.
+* Phục hồi sự hỗ trợ cho iCloud.
+* Hỗ trợ Zoho Write và Zoho Show.
+* Hỗ trợ Silverlight trong Firefox 32 trở lên.
+* AVIM hiện nhận ra các applet Silverlight sau khi bỏ màn [click-to-play](https://blog.mozilla.org/futurereleases/2013/09/24/plugin-activation-in-firefox/).
+* Trong các hộp văn bản có định dạng, cũng như trong Komodo IDE và Komodo Edit, con nháy được giữ ở vị trí đúng sau khi hoàn tác và làm lại.
+* AVIM lại nhận thấy rằng Mudim đang được bật lên trong lúc about:addons đang mở.
+* Phục hồi sự hỗ trợ cho BlueGriffon.
+
+----
+
+* Reduced memory usage when multiple windows are open.
+* Improved compatibility with Firefox 34.
+* Fixed typing regressions.
+* Restored rudimentary support for Google Docs and Google Slides. Google’s built-in input tools feature is automatically disabled when AVIM is enabled, to avoid conflicts between the two IMEs.
+* Restored support for iCloud.
+* Added support for Zoho Write and Zoho Show.
+* Added support for Silverlight in Firefox 32 and above.
+* AVIM now recognizes Silverlight applets after dismissing [click-to-play](https://blog.mozilla.org/futurereleases/2013/09/24/plugin-activation-in-firefox/).
+* In rich text editors, as well as in Komodo IDE and Komodo Edit, the caret now stays in the right place after undoing and redoing.
+* AVIM once again detects when Mudim is on while about:addons is open.
+* Restored support for BlueGriffon.
+
+----
+
+* Reducir el uso de memoria mientras que varias ventanas están abiertas.
+* Mejorar la compatibilidad con Firefox 34.
+* Resolver las regresiones de teclear.
+* Restablecer el apoyo de Google Docs y Google Slides. Cuando AVIM es activado, desactiva automáticamente la característica de herramientas de entrada de Google para evitar los conflictos entre los dos editores de método de entrada.
+* Restablecer el apoyo de iCloud.
+* Apoyar Zoho Write y Zoho Show.
+* Apoyar Silverlight en Firefox 32 y superior.
+* AVIM ahora now reconoce los applets de Silverlight después de ocultar el [click-to-play](https://blog.mozilla.org/futurereleases/2013/09/24/plugin-activation-in-firefox/).
+* En los editores de texto rico, así como en Komodo IDE y Komodo Edit, el cursor ahora se queda en el lugar correcto después de deshacer y rehacer.
+* Una vez más, AVIM detectar que Mudim está activada cuando about:addons está abierto.
+* Restablecer el apoyo de BlueGriffon.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.525/avim-20080728.525.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.525.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>28</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Năm trăm hăm lăm.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 8" id="release-529589">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.525b3">
+                            https://github.com/1ec5/avim/releases/tag/20080728.525b3                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>5 months ago</span>
+                    </span>
+                </div>
+                <p>* Sửa lỗi khi nhập dấu vào Ace, Google Docs, v.v. trong Firefox 16 trở xuống.
+* Ngăn nhấp nháy trong Google Docs.
+* Phục hồi sự hỗ trợ cho BlueGriffon.
+
+----
+
+* Fixed an issue typing diacritics into Ace, Google Docs, etc. in Firefox 16 and below.
+* Fixed flashing in Google Docs.
+* Restored support for BlueGriffon.
+
+----
+
+* Resolver una problema cuando entrar marcas diacríticas en Ace, Google Docs, etc. en Firefox 16 o anterior.
+* Resolver los parpadeos y en Google Docs.
+* Restablecer el apoyo de BlueGriffon.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.525b3/avim-20080728.525b3.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.525b3.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>19</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Năm trăm hăm lăm.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 9" id="release-520837">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.525b2">
+                            https://github.com/1ec5/avim/releases/tag/20080728.525b2                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>5 months ago</span>
+                    </span>
+                </div>
+                <p>* Giảm nhẹ bộ nhớ khi mở nhiều cửa sổ.
+* Sửa những lỗi hồi quy trong việc bỏ dấu.
+* Hỗ trợ Zoho Write và Zoho Show.
+* Hỗ trợ Silverlight trong Firefox 32 trở lên.
+* AVIM hiện nhận ra các applet Silverlight sau khi bỏ màn [click-to-play](https://blog.mozilla.org/futurereleases/2013/09/24/plugin-activation-in-firefox/).
+* Trong các hộp văn bản có định dạng, cũng như trong Komodo IDE và Komodo Edit, con nháy được giữ ở vị trí đúng sau khi hoàn tác và làm lại.
+* AVIM lại nhận thấy rằng Mudim đang được bật lên trong lúc about:addons đang mở.
+
+----
+
+* Reduced memory usage when multiple windows are open.
+* Fixed typing regressions.
+* Added support for Zoho Write and Zoho Show.
+* Added support for Silverlight in Firefox 32 and above.
+* AVIM now recognizes Silverlight applets after dismissing [click-to-play](https://blog.mozilla.org/futurereleases/2013/09/24/plugin-activation-in-firefox/).
+* In rich text editors, as well as in Komodo IDE and Komodo Edit, the caret now stays in the right place after undoing and redoing.
+* AVIM once again detects when Mudim is on while about:addons is open.
+
+----
+
+* Reducir el uso de memoria mientras que varias ventanas están abiertas.
+* Resolver las regresiones de teclear.
+* Apoyar Zoho Write y Zoho Show.
+* Apoyar Silverlight en Firefox 32 y superior.
+* AVIM ahora now reconoce los applets de Silverlight después de ocultar el [click-to-play](https://blog.mozilla.org/futurereleases/2013/09/24/plugin-activation-in-firefox/).
+* En los editores de texto rico, así como en Komodo IDE y Komodo Edit, el cursor ahora se queda en el lugar correcto después de deshacer y rehacer.
+* Una vez más, AVIM detectar que Mudim está activada cuando about:addons está abierto.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.525b2/avim-20080728.525b2.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.525b2.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>24</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Năm trăm hăm lăm.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 10" id="release-520833">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.525b1">
+                            https://github.com/1ec5/avim/releases/tag/20080728.525b1                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>6 months ago</span>
+                    </span>
+                </div>
+                <p>* Tương thích hơn với Firefox 34.
+* Phục hồi sự hỗ trợ cho Google Docs và Google Slides. Khi nào AVIM được bật lên, nó tự động tắt các công cụ nhập liệu của Google để tránh xung đột giữa hai bộ gõ.
+* Phục hồi sự hỗ trợ cho iCloud.
+
+----
+
+* Improved compatibility with Firefox 34.
+* Restored rudimentary support for Google Docs and Google Slides. Google’s built-in input tools feature is automatically disabled when AVIM is enabled, to avoid conflicts between the two IMEs.
+* Restored support for iCloud.
+
+----
+
+* Mejorar la compatibilidad con Firefox 34.
+* Restablecer el apoyo de Google Docs y Google Slides. Cuando AVIM es activado, desactiva automáticamente la característica de herramientas de entrada de Google para evitar los conflictos entre los dos editores de método de entrada.
+* Restablecer el apoyo de iCloud.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.525b1/avim-20080728.525b.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.525b.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>21</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Năm trăm hăm lăm.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 11" id="release-520830">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.524">
+                            https://github.com/1ec5/avim/releases/tag/20080728.524                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>a year ago</span>
+                    </span>
+                </div>
+                <p>* Thêm một trình đơn Gõ Tiếng Việt vào trình đơn Firefox (Windows và Linux).
+* Thống nhất các nút trên thanh công cụ thành một nút tương tự với panel trên thanh trạng thái. Khi nâng cấp tới Firefox 29, nút này được tự động thêm vào thanh công cụ.
+* Hiện có thể bật/tắt AVIM bằng cách bấm Ctrl hai lần liên tục (⌃⌃ trên Mac), y chang với AVIM cho Chrome. AVIM chơi tiếng nhỏ để báo bạn về sự thay đổi. Để điều chỉnh âm lượng, hãy kiếm mục AVIM trong about:addons và bấm nút Tùy chọn hay Tùy chỉnh.
+* Firefox Sync hiện có thể đồng bộ hóa các tùy chỉnh AVIM qua Firefox và Firefox Di động trên các thiết bị.
+* Sửa vấn đề chọn văn bản và bấm Backspace trong điều khiển văn bản có định dạng sẽ xóa quá nhiều chữ.
+* Thêm bản dịch tiếng Bồ Đào Nha Brasil của Mauro José da Silva.
+* Thêm bản dịch tiếng Trung Quốc giản thể của Wang.H.K.
+* Hỗ trợ [iCloud](http://www.icloud.com/).
+* Hỗ trợ Komodo Edit 8._x_.
+* Hỗ trợ Silverlight 4 trở lên.
+* Hỗ trợ [Ymacs](http://www.ymacs.org/), một trình soạn thảo mã nguồn kiểu emacs.
+* Hỗ trợ nhiều lựa chọn cùng lúc trong Ace.
+* Không còn hỗ trợ 280 Slides vì dịch vụ đã đóng cửa.
+* Bộ giám sát kịch bản hiện có khả năng tắt chức năng Bàn phím ảo tại Google Tiếng Việt và Google Việt Nam.
+* Sửa vấn đề dòng hiện tại trong trình soạn thảo Ace được thi hành như mã nguồn JavaScript không có đặc quyền.
+* Sử dụng biểu tượng AVIM trong giao diện Silvermel làm hình tượng của phần mở rộng.
+
+----
+
+* Added a Vietnamese Input menu under the Firefox menu (Windows and Linux).
+* Consolidated the various toolbar buttons into a single toolbar button that resembles the status bar panel. When upgrading to Firefox 29, this button is automatically added to the toolbar.
+* You can now toggle AVIM by pressing Ctrl twice in a row (⌃⌃ on the Mac), just like in AVIM for Chrome. AVIM plays a faint sound to alert you that it has been toggled. To adjust the volume, go to AVIM’s entry in about:addons and click the Options or Preferences button.
+* Firefox Sync can now keep AVIM preferences synchronized across different installations of Firefox and Firefox Mobile.
+* Fixed an issue in rich text controls where selecting text and pressing Backspace would delete one character too many.
+* Added a Brazilian Portuguese localization by Mauro José da Silva.
+* Added a Simplified Chinese localization by Wang.H.K.
+* Added support for [iCloud](http://www.icloud.com/).
+* Added support for Komodo Edit 8._x_.
+* Added support for Silverlight 4 and above.
+* Added support for [Ymacs](http://www.ymacs.org/), an emacs-style code editor.
+* Added support for multiple selection in Ace.
+* Removed support for 280 Slides, which has gone offline.
+* The Script Monitor can now disable the Virtual Keyboard features at Google Tiếng Việt and Google Việt Nam.
+* Fixed an issue in the Ace editor that in some cases caused the current line to be executed as unprivileged JavaScript code.
+* Adopted the Silvermel version of the AVIM logo as the extension icon.
+
+----
+
+* Añadir un menú Entrada en Vietnamita al menú Firefox (Windows y Linux).
+* Consolidar los varios botones en la barra de herramientas a un botón único que se parece como un panel en la barra de estatus. Cuando actualiza a Firefox 29, este botón se añade automáticamente a la barra de herramientas.
+* Pudes activar o desactivar AVIM por presionar Ctrl dos veces seguidas (⌃⌃ en el Mac), exactamente como en AVIM para Chrome. AVIM toca un sonido pequeño para alertarte que se ha activado o desactivado. Para ajustar el volumen, ir a la entrada de AVIM en about:addons y hacer clic en el botón Opciones o Preferencias.
+* Firefox Sync ahora puede sincronizar las preferencias de AVIM sobre varios instalaciones de Firefox y Firefox Móvil.
+* Resolver una problema en los controles de texto rico que seleccionar el texto y presionar Backspace borrar demasiados caracteres.
+* Añadir una localización portugués por Mauro José da Silva.
+* Añadir una localización chinés simplificado por Wang.H.K.
+* Apoyar [iCloud](http://www.icloud.com/).
+* Apoyar Komodo Edit 8._x_.
+* Apoyar Silverlight 4 o superior.
+* Apoyar [Ymacs](http://www.ymacs.org/), un editor de código del estilo de emacs.
+* Apoyar las selecciones múltiples simultáneas en Ace.
+* Borrar el apoyo de 280 Slides, que está cerrado.
+* El monitor de scripts ahora puede desactivar las funciones Teclado Virtual en Google Tiếng Việt y Google Việt Nam.
+* Resolver una problema en el editor Ace que en unas situaciones la línea actual se ejecutó como código no privilegiado de JavaScript.
+* Adoptar la versión del logotipo de AVIM para Silvermel como el icono de la extensión.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.524/avim-20080728.524.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.524.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>25</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Năm trăm hăm bốn.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 12" id="release-520819">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.450">
+                            https://github.com/1ec5/avim/releases/tag/20080728.450                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>4 years ago</span>
+                    </span>
+                </div>
+                <p>* Phục hồi sự hỗ trợ cho Firefox 2 sau hơn hai năm. (Chào mừng những nguời vẫn còn dùng Windows 98!) Các phiên bản cũ của những chương trình hệ Mozilla khác cũng được hỗ trợ.
+* Hỗ trợ Firefox 4.
+* Đổi tên kiểu gõ &ldquo;Tự động&rdquo; thành &ldquo;Tổng hợp&rdquo;.
+* Xây lại hộp thoại tùy chỉnh. Hộp thoại mới đã được tổ hợp lại để cho dễ hiểu và ổn định hơn. Nó cũng bao gồm các tùy chọn của bộ giám sát script mà về trước chỉ điều khiển được trong about:config.
+* Thêm bản dịch tiếng Hà Lan của <span lang="nl" xml:lang="nl">John Willemse</span>.
+* Gỡ các bản dịch tiếng Pháp và Trung Quốc vì không còn được giữ gìn. Nếu bạn có quan tâm về việc cập nhật các bản dịch này, xin liên lạc với Minh.
+* Tăng mức an toàn của bộ giám sát script và chức năng hỗ trợ Silverlight.
+* Hỗ trợ các loại hộp tìm kiếm, địa chỉ <acronym class="initialism">URL</acronym> và địa chỉ thư điện tử của <acronym title="HyperText Markup Language " class="initialism">HTML</acronym>5.
+* Hiện có thể xóa dấu dùng `Shift`+`Backspace` (<span title="Shift">&#x21e7;</span><span title="Delete">&#x232b;</span> trong Mac) giống như <a href="http://k-n.co.cc/gotv/" rel="bookmark" title="Trần Kỳ Nam&rsquo;s homepage: Chương trình Gõ Tiếng Việt">GoTiengVietFx</a>.
+* Hỗ trợ con nháy lựa chọn đa dòng trong Komodo <acronym class="intialism">IDE</acronym> và Komodo Edit.
+* Hỗ trợ <a href="http://ace.ajax.org/" rel="boomkark"><acronym title="Ajax.org Code Editor">Ace</acronym></a>, trình soạn kế tiếp Bespin.
+* Hỗ trợ <a href="http://280slides.com/" rel="bookmark">280 Slides</a>.
+* Chuyển lời cảnh báo về phần mở rộng <acronym title="Mudzot&rsquo;s Input Method">Mudim</acronym> từ hộp thoại tùy chỉnh của <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> sang cửa sổ Tiện ích chính. (Lời cảnh báo này không có sẵn trong Firefox 4.)
+* Thêm nút Trợ giúp vào hộp thoại tùy chỉnh để mở tài liệu <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> trong cửa sổ mới.
+* Bộ giám sát script hiện có thể tắt <a href="http://www.google.com/webelements/virtualkeyboard/" hreflang="en" rel="bookmark" title="Google Web Elements: Virtual Keyboard Element">Bàn phím Ảo của Google</a> trong các trang Web.
+* Thêm nút vào thanh công cụ bên phải của Fennec để bật/tắt <acronym title="Advanced Vietnamese Input Method">AVIM</acronym>.
+* Sửa trình đơn kiểu gõ trong panel tùy chọn trong Fennec.
+* Thêm tùy chọn nhận ra hộp mật khẩu trong Fennec.
+* Sửa lỗi biểu tượng của các nút trên thanh công cụ trong SeaMonkey không hiện, trừ trong hộp thoại Tùy biến.
+
+----
+
+* Restored support for Firefox 2 after over two years. (Welcome back, Windows 98 users!) Older versions of other Mozilla-based applications are now supported too.
+* Added support for Firefox 4.
+* Renamed the &ldquo;Auto&rdquo; input method to &ldquo;Mixed&rdquo;.
+* Overhauled the preferences dialog. The reorganized and rewritten dialog is easier to understand and much more reliable. It also includes script monitor options that before were only accessible through about:config.
+* Added a Dutch localization by John Willemse.
+* Removed the French and Chinese localizations, which have not been maintained. If you are interested in bringing these localizations back, please contact Minh.
+* Improved the security of the script monitor and Silverlight support.
+* Added support for the <acronym title="HyperText Markup Language " class="initialism">HTML</acronym>5 search box, <acronym title="uniform resource locator" class="initialism">URL</acronym>, and e-mail address controls.
+* Shift+Backspace (<span title="Shift">&#x21e7;</span><span title="Delete">&#x232b;</span> on the Mac) now removes a diacritical mark from the preceding word like <a href="http://k-n.co.cc/gotv/" rel="bookmark" title="Trần Kỳ Nam&rsquo;s homepage: Chương trình Gõ Tiếng Việt">GoTiengVietFx</a> does.
+* Added support for multiline selection in Komodo <acronym title="Integrated Development Environment" class="intialism">IDE</acronym> and Komodo Edit.
+* Added support for <a href="http://ace.ajax.org/" rel="boomkark"><acronym title="Ajax.org Code Editor">Ace</acronym></a>, the successor to Bespin.
+* Added support for <a href="http://280slides.com/" rel="bookmark">280 Slides</a>.
+* Moved the <acronym title="Mudzot&rsquo;s Input Method">Mudim</acronym> compatibility warning from <acronym title="Advanced Vietnamese Input Method">AVIM</acronym>&rsquo;s preferences dialog to the main Add-ons window. (The compatibility warning is not available in Firefox 4.)
+* Added a help button to the preferences dialog that opens <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> help documentation in a new window.
+* The script monitor can now disable <a href="http://www.google.com/webelements/virtualkeyboard/" rel="bookmark" title="Google Web Elements: Virtual Keyboard Element">Google Virtual Keyboard</a> in webpages.
+* Added a button to Fennec&rsquo;s right toolbar for enabling and disabling <acronym title="Advanced Vietnamese Input Method">AVIM</acronym>.
+* Fixed the input method menu in the options panel in Fennec.
+* Added an option to recognize password boxes to the options panel in Fennec.
+* Fixed a regression in SeaMonkey where icons would not appear for the toolbar buttons except in the Customize dialog.
+
+----
+
+* Restorar el apoyo de Firefox 2 después más de dos años. (¡Bienvenidos, los usuarios de Windows 98!) También se apoyan las versiones antiguas de las otras aplicaciones basada en Mozilla.
+* Apoyar Firefox 4.
+* Cambiar el nombre del método de entrada &ldquo;Automático&rdquo; a &ldquo;Mixto&rdquo;.
+* Revisar el diálogo de preferencias. El diálogo reorganizado y reescrito es más fácil para entender y mucho más fiable. Incluye también las opciones del monitor de scripts que sólo eran accesible por about:config.
+* Añadir la localización holandés por John Willemse.
+* Borrar las localizaciones francés y chino que no se han mantenido. Si te interesa revivir estas localizaciones, por favor contacta a Minh.
+* Mejorar la seguridad del monitor de scripts y el apoyo de Silverlight.
+* Apoyar las cajas buscar, <acronym class="initialism">URL</acronym>, y dirreción de correo electrónico de <acronym title="HyperText Markup Language " class="initialism">HTML</acronym>5.
+* `Shift`+`Backspace` (<span title="Mayúsculas">&#x21e7;</span><span title="Borrar">&#x232b;</span> en el Mac) ahora borra un diacrítico de la palabra previo como hace <a href="http://k-n.co.cc/gotv/" hreflang="en" rel="bookmark" title="Trần Kỳ Nam&rsquo;s homepage: Chương trình Gõ Tiếng Việt">GoTiengVietFx</a>.
+* Apoyar la selección multilínea en Komodo <acronym class="intialism">IDE</acronym> y Komodo Edit.
+* Apoyar <a href="http://ace.ajax.org/" hreflang="en" rel="boomkark"><acronym title="Ajax.org Code Editor">Ace</acronym></a>, el sucesor de Bespin.
+* Apoyar <a href="http://280slides.com/" rel="bookmark">280 Slides</a>.
+* Mover el aviso de compatibilidad con <acronym title="Mudzot&rsquo;s Input Method">Mudim</acronym> del diálogo de preferencias de <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> a la ventana principal de la página Complementos. (El aviso de compatibilidad no es disponible en Firefox 4.)
+* Añadir un botón ayuda al diálogo de preferencias para abrir la documentación de <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> en una ventana nueva.
+* El monitor de scripts ahora puede desactivar <a href="http://www.google.com/webelements/virtualkeyboard/" hreflang="en" rel="bookmark" title="Google Web Elements: Virtual Keyboard Element">Teclado Virtual de Google</a> en las páginas web.
+* Añadir un botón a la barra al derecho para activar y apagar <acronym title="Advanced Vietnamese Input Method">AVIM</acronym>.
+* Arreglar el menú del método de entrada en el panel de opciones en Fennec.
+* Añadir una opción para reconocer las cajas de contraseña en el panel de opciones de Fennec.
+* Resolver una regresión en SeaMonkey que los iconos no aparecían en los botones en la barra de herramientas, sólamente en el diálogo Personalizar.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.450/avim-20080728.450.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.450.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>26</strong> times
+                               </div>
+                               </div>
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.450/Instantbird.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "Instantbird.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>21</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Bốn trăm rưởi.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 13" id="release-520817">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.366">
+                            https://github.com/1ec5/avim/releases/tag/20080728.366                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>5 years ago</span>
+                    </span>
+                </div>
+                <p>* Thử nghiệm hỗ trợ Microsoft Silverlight 2 trở lên. <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> hiện nhận ra các hộp văn bản chuẩn của Silverlight. Tuy nhiên, các applet viết bằng mã quản lý (<i lang="en-us" xml:lang="en-us">managed code</i>) không được hỗ trợ.
+* Thêm bản dịch tiếng Đức của <span lang="de-de" xml:lang="de-de">Erwin D. Glockner</span>.
+* Khi nhập `dd` (hoặc `d9` với <acronym>VNI</acronym>) ngay đằng sau con số, `dd` hiện trở thành ký hiệu đồng.
+* Xác định biên giới từ một cách giỏi hơn. Ngay cả khi tùy chọn Đúng Chính Tả được bật lên, có thể nhập từ tiếng Việt ngay đằng sau dấu nào, cũng như bên cạnh các chữ Hoa và văn bản trong tiếng nào không sử dụng chữ khoảng cách. Đặc biệt là dấu chéo ngược hiện được coi là biên giới từ.
+* Thêm panel tùy chỉnh dễ chỉ trỏ dành cho Fennec 1.0.
+* Sửa vấn đề mở cửa sổ tùy chọn thì danh sách <acronym class="initialism">ID</acronym> để bỏ qua bị xóa sạch.
+* Hỗ trợ kết hợp dấu ngã với chữ G trong &ldquo;Ng&#x0303;&rdquo;, để viết tắt &ldquo;Nguyễn&rdquo;.
+* Có thể thoát các phím chết của <acronym title="VIetnamese Quoted-Readable">VIQR</acronym> và <acronym title="VIetnamese Quoted-Readable">VIQR</acronym>* dùng dấu chéo ngược trong khi sử dụng kiểu gõ Tự động.
+* Bộ giám sát script hiện có khả năng tự động tắt avim.js khi gõ trong hộp sửa đổi thử nghiệm &ldquo;<a href="http://usability.wikimedia.org/wiki/Releases/Babaco" hreflang="en" rel="bookmark" title="Wikipedia Usability Initiative: Releases/Babaco">Babaco</a>&rdquo; của Wikipedia, cũng như <a href="http://www.codeproject.com/KB/scripting/VietUni2.aspx" hreflang="en" rel="bookmark" title="CodeProject: Fastest &amp; Smallest Vietnamese JavaScript Input Editor">VietUni 1.7</a>.
+* Hỗ trợ phiên bản alpha của Komodo <acronym title="Integrated Development Environment" class="initialism">IDE</acronym> và Komodo Edit 6.0.
+* Các giao diện <a href="http://www.silvermel.net/" hreflang="en" rel="bookmark" title="themes for firefox and thunderbird">Charamel và Silvermel</a> hiện sử dụng biểu trưng <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> óng ánh hơn trong sửa sổ Tiện ích và cửa sổ tùy chọn của <acronym title="Advanced Vietnamese Input Method">AVIM</acronym>.
+* Biểu trưng của <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> được hiển thị trong cửa sổ Tiện ích ngay cả khi phần mở rộng này đang vô hiệu.
+
+----
+
+* Added experimental support for Microsoft Silverlight 2 and above. <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> now works in standard Silverlight textboxes. However, applets written with managed code are not supported.
+* Added a German localization by <span lang="de-de" xml:lang="de-de">Erwin D. Glockner</span>.
+* When `dd` (or `d9` for <acronym>VNI</acronym>) is entered immediately after a number, the `dd` now turns into the dong sign.
+* Improved word boundary detection. Even with the Enforce Spelling option enabled, Vietnamese words can be typed immediately after any punctuation, as well as next to words in Chinese and other languages that do not use spaces. In particular, backslashes are now treated as word boundaries.
+* Added a new finger-friendly preferences panel for Fennec 1.0.
+* Fixed an issue where opening the options pane would clear the ignored <acronym title="identifier" class="initialism">ID</acronym>s list.
+* Fixed an issue where a backslash was not treated as a word boundary.
+* Added support for placing a combining tilde over the letter G in &ldquo;<span lang="vi" xml:lang="vi">Ng&#x0303;</span>&rdquo;, for abbreviating &ldquo;<span lang="vi" xml:lang="vi">Nguyễn</span>&rdquo;.
+* <acronym title="VIetnamese Quoted-Readable">VIQR</acronym> and <acronym title="VIetnamese Quoted-Readable">VIQR</acronym>* dead keys can now be escaped using a backslash when the Auto input method is active.
+* The script monitor can now disable avim.js when typing in Wikipedia&rsquo;s experimental &ldquo;<a href="http://usability.wikimedia.org/wiki/Releases/Babaco" rel="bookmark" title="Wikipedia Usability Initiative: Releases/Babaco">Babaco</a>&rdquo; editor, as well as <a href="http://www.codeproject.com/KB/scripting/VietUni2.aspx" rel="bookmark" title="CodeProject: Fastest &amp; Smallest Vietnamese JavaScript Input Editor">VietUni 1.7</a>.
+* Added support for alpha versions of Komodo <acronym title="Integrated Development Environment" class="initialism">IDE</acronym> and Komodo Edit 6.0.
+* The <a href="http://www.silvermel.net/" rel="bookmark" title="themes for firefox and thunderbird">Charamel and Silvermel</a> themes now use a creamier version of <acronym title="Advanced Vietnamese Input Method">AVIM</acronym>&rsquo;s logo in the Add-ons window and <acronym title="Advanced Vietnamese Input Method">AVIM</acronym>&rsquo;s options pane.
+* <acronym title="Advanced Vietnamese Input Method">AVIM</acronym>&rsquo;s logo is now displayed in the Add-ons window even when the extension is disabled.
+
+----
+
+* Apoyar Microsoft Silverlight 2 o superior. <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> ahora funciona en las cajas de texto estandar de Silverlight. Sin embargo, los applets escrito en código gestionado no se apoyan.
+* Añadir la localización alemán por <span lang="de-de" xml:lang="de-de">Erwin D. Glockner</span>.
+* Cuando entras `dd` (o `d9` para <acronym>VNI</acronym>) inmediatamente después de número, el `dd` ahora se transforma en símbolo dong.
+* Mejorar la detección de los límites de las palabras. Aún cuando la opción &ldquo;Ortografía correcta&rdquo; se selecciona, puedes teclear las palabras vietnamitas inmediatamente después cualquier signo de puntuación, y también conjunto con texto en chino y otras idiomas que no usan espacios. Particularmente, la barra invertida ahora se trata como un límite de palabra.
+* Añadir en panel de preferencias especial para los dedos en Fennec 1.0.
+* Resolver una problema que la lista de <acronym title="identificadores" class="initialism">IDs</acronym> se vaciaba cuando abrías el panel de preferencias.
+* Apoyar combina la tilde con la letra G en &ldquo;<span lang="vi" xml:lang="vi">Ng&#x0303;</span>&rdquo;, la abreviatura de &ldquo;<span lang="vi" xml:lang="vi">Nguyễn</span>&rdquo;.
+* Ahora puedes escapar las teclas muertas de <acronym title="VIetnamese Quoted-Readable">VIQR</acronym> y <acronym title="VIetnamese Quoted-Readable">VIQR</acronym>* con una barra invertida cuando se selecciona el método de entrada Automática.
+* El monitor de scripts ahora puede desactivar avim.js cuando tecleas en el editor &ldquo;<a href="http://usability.wikimedia.org/wiki/Releases/Babaco" hreflang="en" rel="bookmark" title="Wikipedia Usability Initiative: Releases/Babaco">Babaco</a>&rdquo; experimental de Wikipedia, como también <a href="http://www.codeproject.com/KB/scripting/VietUni2.aspx" hreflang="en" rel="bookmark" title="CodeProject: Fastest &amp; Smallest Vietnamese JavaScript Input Editor">VietUni 1.7</a>.
+* Apoyar las versiones alfas de Komodo <acronym title="Integrated Development Environment" class="initialism">IDE</acronym> y Komodo Edit 6.0.
+* Los temas <a href="http://www.silvermel.net/" hreflang="en" rel="bookmark" title="themes for firefox and thunderbird">Charamel y Silvermel</a> ahora usan una versión más cremosa del logotipo de <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> en la ventana Complementos y el panel de preferencias de <acronym title="Advanced Vietnamese Input Method">AVIM</acronym>.
+* El logotipo de <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> ahora se muestra en la ventana Complementos aún cuando la extensión es desactivada.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.366/avim-20080728.366.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.366.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>22</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Ba trăm sáu mươi sáu.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 14" id="release-520807">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.334">
+                            https://github.com/1ec5/avim/releases/tag/20080728.334                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>6 years ago</span>
+                    </span>
+                </div>
+                <p>* Hỗ trợ <a href="https://bespin.mozilla.com/" hreflang="en-US" rel="bookmark" title="Bespin, Code in the Cloud">Bespin</a> 0.2.1 (&ldquo;Cheeky Cirrus&rdquo;) trở lên, bao gồm các nơi cài đặt không trực thuộc Mozilla.
+* Hỗ trợ Songbird 1.2.
+* &ldquo;Đaư&rdquo; hiện được nhận ra là không chính xác.
+* Sửa vấn đề ```gin` ``` không trở thành &ldquo;gìn&rdquo;.
+* Sửa vấn đề trong Windows và Linux là các tùy chọn trong cửa sổ tùy chọn không được bật tắt đúng lúc.
+* Sửa vấn đề nút Khôi phục Mặc định lúc nào được bật lên, ngay cả khi danh sách <acronym title="identifier">ID</acronym> để bỏ qua đã có giá trị mặc định.
+
+----
+
+* Added support for <a href="https://bespin.mozilla.com/" rel="bookmark" title="Bespin, Code in the Cloud">Bespin</a> 0.2.1 (&ldquo;Cheeky Cirrus&rdquo;) and above, including non-Mozilla installations.
+* Added support for Songbird 1.2.
+* &ldquo;<span lang="vi" xml:lang="vi">Đaư</span>&rdquo; is now treated as a misspelled word.
+* Fixed an issue where ```gin` ``` would not become &ldquo;<span lang="vi" xml:lang="vi">gìn</span>&rdquo;.
+* Fixed an issue in Windows and Linux where options in the options pane were not enabled and disabled correctly.
+* Fixed an issue where the Restore to Default button was always enabled, even when the ignored <acronym title="identifier">ID</acronym>s list was already set to the default.
+
+----
+
+* Apoyar <a href="https://bespin.mozilla.com/" rel="bookmark" title="Bespin, Code in the Cloud">Bespin</a> 0.2.1 (&ldquo;Cheeky Cirrus&rdquo;) y superior, incluyendo las instalaciones no de Mozilla.
+* Apoyar Songbird 1.2.
+* Ahorar se trata &ldquo;<span lang="vi" xml:lang="vi">đaư</span>&rdquo; como una palabra mal escrita.
+* Resolver una problema que ```gin` ``` no se convertaban en &ldquo;<span lang="vi" xml:lang="vi">gìn</span>&rdquo;.
+* Resolver una problema en Windows y Linux que las opciones en el panel de preferencias no estaban activadas o desactivadas correctamente.
+* Resolver una problema que el botón &ldquo;Restaurar el valor por defecto&rdquo; siempre estaba activado, aún cuando la lista de <acronym title="identificadores">IDs</acronym> para ignorar ya tenga el valor por defecto.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.334/avim-20080728.334.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.334.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>21</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Ba trăm băm bốn.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 15" id="release-520804">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.325">
+                            https://github.com/1ec5/avim/releases/tag/20080728.325                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>6 years ago</span>
+                    </span>
+                </div>
+                <p>* Thử hỗ trợ trình soạn thảo <a href="https://bespin.mozilla.com/" hreflang="en-US" rel="bookmark" title="Bespin, Code in the Cloud">Bespin</a> của Mozilla Labs.
+* Hỗ trợ Songbird 1.1.
+* Sửa vấn đề trong Komodo <acronym title="Integrated Development Environment" class="initialism">IDE</acronym> và Komodo Edit là <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> không nhận ra khung bọc SciMoz được, khung này hay được chọn thay vì SciMoz.
+* Sửa vấn đề con nháy đôi khi bị kéo chệch khi làm lại.
+* Chỉnh sửa văn bản trong bản Việt hóa để hợp với Firefox và Thunderbird.
+* Những người phát triển trang Web hiện có thể tắt <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> trong một hộp văn bản nào đó bằng cách đặt thuộc tính <acronym title="Cascading Style Sheets" class="initialism">CSS</acronym> <a href="https://developer.mozilla.org/En/CSS/Ime-mode" rel="bookmark" title="Mozilla Developer Center: ime-mode"><code>ime-mode</code></a> với giá trị <code>disabled</code>.
+* Sửa vấn đề trong SeaMonkey là các nút bấm của <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> trên thanh công cụ không có hình tượng.
+
+----
+
+* Added experimental support for the <a href="https://bespin.mozilla.com/" rel="bookmark" title="Bespin, Code in the Cloud">Bespin</a> editor by Mozilla Labs.
+* Added support for Songbird 1.1.
+* Fixed an issue in Komodo <acronym title="Integrated Development Environment" class="initialism">IDE</acronym> and Komodo Edit where <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> would not recognize SciMoz&rsquo;s wrapper frame, which is often focused instead of SciMoz itself.
+* Fixed an issue where the caret would sometimes drift when redoing.
+* Adjusted the Vietnamese localization&rsquo;s messages to be consistent with Firefox and Thunderbird.
+* Web developers can now disable <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> within a specific textbox by setting its <a href="https://developer.mozilla.org/En/CSS/Ime-mode" rel="bookmark" title="Mozilla Developer Center: ime-mode"><code>ime-mode</code></a> <acronym title="Cascading Style Sheets" class="initialism">CSS</acronym> property to <code>disabled</code>.
+* Fixed an issue in SeaMonkey where <acronym title="Advanced Vietnamese Input Method">AVIM</acronym>&rsquo;s toolbar buttons would appear without any icons.
+
+----
+
+* Apoyar experimentalmente el editor <a href="https://bespin.mozilla.com/" hreflang="en-US" rel="bookmark" title="Bespin, Code in the Cloud">Bespin</a> de Mozilla Labs.
+* Apoyar Songbird 1.1.
+* Resolver una problema en Komodo <acronym title="Integrated Development Environment" class="initialism">IDE</acronym> y Komodo Edit que <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> no reconocía el cuadro que encapsula SciMoz, que muchas veces tiene la selección en lugar de SciMoz sí mismo.
+* Resolver una problema que el cursor flotó cuando rehaga.
+* Modificar las mensajes de la localización vietnamita para ser conherente con Firefox y Thunderbird.
+* Los desarrolladores Web ahora pueden desactivar <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> dentro de una caja de texto especifica dando la propieded <a href="https://developer.mozilla.org/es/CSS/ime-mode" rel="bookmark" title="Mozilla Developer Center: ime-mode"><code>ime-mode</code></a> de <acronym title="Cascading Style Sheets" class="initialism">CSS</acronym> el valor <code>disabled</code>.
+* Resolver una problema en SeaMonkey que los botones de <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> en la barra de herramientos no tenían los iconos.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.325/avim-20080728.325.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.325.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>19</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Ba trăm hăm lăm.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 16" id="release-520802">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.306">
+                            https://github.com/1ec5/avim/releases/tag/20080728.306                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>6 years ago</span>
+                    </span>
+                </div>
+                <p>* Loại bỏ sự chậm chạp khi thêm dấu. Các hộp văn bản chứa nhiều văn bản không còn chậm chạp.
+* Hỗ trợ phần bổ trợ SciMoz (<a href="http://www.scintilla.org/" hreflang="en" rel="bookmark" title="Scintilla and SciTE">Scintilla</a>) trong Komodo <acronym title="Integrated Development Environment" class="initialism">IDE</acronym> và Komodo Edit.
+* Sửa vấn đề tất cả nội dung của hộp văn bản được chọn sau khi hoàn tác; bây giờ con nháy đứng yên.
+* Sửa tính năng chuyển dấu về cuối từ (chẳng hạn &ldquo;tóan&rdquo; trở thành &ldquo;toán&rdquo;).
+* Sửa vấn đề các hộp văn bản ở trong trang Web không cập nhật danh sách gợi ý sau khi thêm dấu.
+* Sửa vấn đề trong các hộp soạn thảo có định dạng là các dấu bị mất sau khi hoàn tác rồi làm lại.
+* Script Mudim được tắt theo mặc định, tại vì Mudim phổ biến và việc tắt nó không có ảnh hưởng đến tốc độ.
+* Hiện có thể bỏ qua những hộp văn bản có <acronym title="identifier" class="initialism">ID</acronym> chứa ký tự Unicode.
+* Bấm `Enter` ở trong hộp văn bản <acronym title="identifier" class="initialism">ID</acronym> hiện thêm <acronym title="identifier" class="initialism">ID</acronym> vào danh sách.
+* Bấm `Backspace` hoặc `Delete` ở trong danh sách &ldquo;Hộp để Bỏ qua&rdquo; hiện dời các <acronym title="identifier" class="initialism">ID</acronym> được chọn khỏi danh sách.
+* <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> hiện kiểm tra tên (<code>name</code>) của hộp văn bản, cũng như <acronym title="identifier" class="initialism">ID</acronym> của nó, để biết cần bỏ qua hộp hay không.
+
+----
+
+* Eliminated lag when adding diacritics. Editing a textbox with a large amount of text no longer incurs any noticeable delay.
+* Added support for the SciMoz plugin (<a href="http://www.scintilla.org/" rel="bookmark" title="Scintilla and SciTE">Scintilla</a>) in Komodo <acronym title="Integrated Development Environment" class="initialism">IDE</acronym> and Komodo Edit.
+* Fixed an issue where the entire contents of the textbox were selected after undoing; the caret now stays in place.
+* Fixed automatic shifting forward of diacritics (for example, &ldquo;tóan&rdquo; becomes &ldquo;toán&rdquo;).
+* Fixed an issue where textboxes inside webpages would not update their autocompletion lists after adding diacritics.
+* Fixed an issue in rich text editors where diacritics were lost after undoing then redoing.
+* The Mudim script is disabled by default, since Mudim is widespread and disabling it does not significantly impact performance.
+* Unicode characters are now allowed in ignored textbox <acronym title="identifier" class="initialism">ID</acronym>s.
+* Pressing Enter while focused on the <acronym title="identifier" class="initialism">ID</acronym> textbox adds the <acronym title="identifier" class="initialism">ID</acronym> to the list.
+* Pressing Backspace or Delete while focused on the Ignored Textboxes list removes the selected textbox <acronym title="identifier" class="initialism">ID</acronym>s from the list.
+* <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> now checks a textbox&rsquo;s <code>name</code> in addition to its <acronym title="identifier" class="initialism">ID</acronym> when determining whether to ignore the textbox.
+
+----
+
+* Eliminar el lag cuando añadir los signos diacríticos. Ya no hay ningún retraso cuando editar una caja que contiene mucho texto.
+* Apoyar el plugin SciMoz (<a href="http://www.scintilla.org/" hreflang="en" rel="bookmark" title="Scintilla and SciTE">Scintilla</a>) en Komodo <acronym title="Integrated Development Environment" class="initialism">IDE</acronym> y Komodo Edit.
+* Resolver una problema que todas las contenidas de la caja de texto se seleccionaba después de deshacer; ahora el cursor se queda en su sitio.
+* Arreglar la avance automática de los signos diacríticos (por ejemplo, &ldquo;tóan&rdquo; se convierte en &ldquo;toán&rdquo;).
+* Resolver una problema que las cajas de texto dentro de las páginas Web no actualizaban sus listas de autocompletación después de añadir los signos diacríticos.
+* Resolver una problema en las cajas de texto enriquecido que se desaparecían los signos diacríticos después de deshacer y luego rehacer.
+* Desactivar el script Mudim por defecto, porque Mudim es popular y no afecta la performancia cuando desactivarlo.
+* Las <acronym title="identificadores" class="initialism">IDs</acronym> de las cajas de texto para ignorar ahora pueden contienen las carácteres de Unicode.
+* Permitir que presione `Intro` en la caja de texto <acronym title="identificador" class="initialism">ID</acronym> para añadir la <acronym title="identificador" class="initialism">ID</acronym> en la lista.
+* Permitir que presione `Suprimir` o `Borrar` en la lista &ldquo;Cajas de texto para ignorar&rdquo; para borrar las <acronym title="identificadores" class="initialism">IDs</acronym> seleccionados de la lista.
+* <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> ahora verifica el nombre (<code>name</code>) de una caja de texto, además de su <acronym title="identificador" class="initialism">ID</acronym>, para decidir ignorar la caja de texto o no.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.306/avim-20080728.306.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.306.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>29</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Ba trăm lẻ sáu.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 17" id="release-520794">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.290">
+                            https://github.com/1ec5/avim/releases/tag/20080728.290                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>6 years ago</span>
+                    </span>
+                </div>
+                <p>* <strong>Sửa vấn đề an ninh cho phép các trang Web độc ác thực thi mã JavaScript nào đó với đặc quyền.</strong>
+* Hiện có thể gõ nhanh hơn trong hộp văn bản đa dòng chứa đựng nhiều văn bản.
+* Hỗ trợ phần mở rộng <a href="https://addons.mozilla.org/vi/firefox/addon/4687" rel="bookmark" title="Tiện ích Firefox: IME and DiMENSiON"><acronym title="Input Method Editor">IME</acronym> và DiMENSiON</a> một cách thí nghiệm.
+
+----
+
+* <strong>Fixed a security vulnerability that allowed malicious webpages to execute arbitrary JavaScript as privileged code.</strong>
+* Improved performance when editing a multiline textbox with a large amount of text.
+* Added experimental support for the <a href="https://addons.mozilla.org/en-US/firefox/addon/4687" rel="bookmark" title="Firefox Add-ons: IME and DiMENSiON"><acronym title="Input Method Editor">IME</acronym> and DiMENSiON</a> extension.
+
+----
+
+* <strong>Resolver una vulnerabilidad de seguridad que permite que las páginas Web maliciosas ejecuten el código JavaScript arbitrario con privilegios.</strong>
+* Acelerar la edición de una caja de texto multilínea con mucho texto.
+* Apoyar experimentalmente la extensión <a href="https://addons.mozilla.org/en-US/firefox/addon/4687" hreflang="ja" rel="bookmark" title="Complementos para Firefox: IME and DiMENSiON"><acronym title="Input Method Editor">IME</acronym> y DiMENSiON</a>.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.290/avim-20080728.290.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.290.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>17</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Hai trăm chín mươi.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 18" id="release-520793">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.280">
+                            https://github.com/1ec5/avim/releases/tag/20080728.280                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>6 years ago</span>
+                    </span>
+                </div>
+                <p>* Thêm tùy chọn để cho phép bỏ dấu vào hộp mật khẩu. Hãy cẩn thận khi nào đăng nhập vào một website dùng mật khẩu có dấu; có thể website đó không thể xử lý các mật khẩu Unicode đúng kiểu.
+* Sửa nhãn của tùy chọn sử dụng Telex khi Tự động được chọn.
+* Giải quyết vấn đề các hộp văn bản đặc biệt không cập nhật sau khi chỉnh sửa một từ bắt đầu với chữ có dấu. Các hộp được ảnh hưởng bao gồm Thanh Tìm kiếm (trong trang) và Thanh Địa chỉ trong Firefox, cũng như Thanh Chủ đề trong Thunderbird.
+* Giải quyết vấn đề thuộc tính đánh dấu không được lưu khi được chỉnh sửa trong Thư viện.
+* Chỉnh lại một số quy tắc chính tả để cấm những kết hợp âm thanh không hợp lệ.
+* Cập nhật phần hỗ trợ các nightly gần đây của BlueGriffon.
+* Sửa việc chỉnh sửa trong hộp soạn thảo của BlueGriffon khi <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> được bật lên.
+
+----
+
+* Added an option to allow diacritics in password boxes. Use caution when logging into a website using an accented password; the website may not handle Unicode passwords properly.
+* Corrected the label for the option to use Telex while Auto is active.
+* Fixed an issue where specialized textboxes would not update after editing a word that begins with an accented letter. Affected textboxes include the Find Bar and Location Bar in Firefox, as well as the Subject bar in Thunderbird.
+* Fixed an issue where bookmark properties would not save when edited from within the Library.
+* Tweaked some spelling rules to prevent invalid vowel sequences.
+* Updated support for the latest BlueGriffon nightlies.
+* Fixed editing in BlueGriffon&rsquo;s rich text editor with <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> enabled.
+
+----
+
+* Añadir una preferencia para admitir los signos diacríticos en las cajas de contraseña. Ten cuidado cuando entres un sitio Web usando una contraseña con diacríticos; es posible que el sitio no pueda procesar las contraseñas de Unicode correctamente.
+* Corregir el texto de la preferencia para usar Telex cuando Automática está activada.
+* Resolver una problema que las cajas de texto especializadas no actualizan después de editar una palabra comenzada por una letra con diacrítico. Las cajas de texto afectadas incluyen la barra Encontrar y la Barra de Dirección en Firefox, así como la barra Asunto en Thunderbird.
+* Resolver una problema que no se guardan las propiedades de los marcadores cuando las editas dentro del Catálogo.
+* Ajustar unas reglas de ortografía para impedir las secuencias de vocales inválidas.
+* Actualizar el apoyo de los nightlies recientes de BlueGriffon.
+* Arreglar la edición en el editor de texto enriquecido de BlueGriffon cuando <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> está activada.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.280/avim-20080728.280.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.280.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>25</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Hai trăm tám mươi.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 19" id="release-520790">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.265">
+                            https://github.com/1ec5/avim/releases/tag/20080728.265                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>6 years ago</span>
+                    </span>
+                </div>
+                <p>* Hỗ trợ các nightly của Firefox 3.2.
+* Sửa vấn đề trong các cửa sổ tùy chỉnh làm <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> chặn trang đầu tiên không hiện được, do <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=330458" rel="bookmark" title="Bugzilla@Mozilla: Cannot dynamically load an overlay using document.loadOverlay until a previous overlay is completely loaded">Lỗi 330.458</a>.
+* Sửa vấn đề các nút bấm trên thanh công cụ không hiển thị.
+* Các nút bấm trên thanh công cụ hiện không còn nhìn giống như đang có hiệu lực trong khi <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> bị tắt.
+* Phiên bản <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> tại <a href="http://xalo.vn/" hreflang="vi" rel="bookmark" lang="vi" xml:lang="vi">XaLộ</a> hiện được nhận ra và bị tắt.
+
+----
+
+* Added support for Firefox 3.2 nightlies.
+* Fixed an issue in preference windows where <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> prevents the initial pane from loading, due to <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=330458" rel="bookmark" title="Bugzilla@Mozilla: Cannot dynamically load an overlay using document.loadOverlay until a previous overlay is completely loaded">Bug 330,458</a>.
+* Fixed an issue that prevented the toolbar buttons from displaying.
+* The toolbar buttons now appear disabled when <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> is turned off.
+* <a href="http://xalo.vn/" hreflang="vi" rel="bookmark" lang="vi" xml:lang="vi">XaLộ</a>&rsquo;s version of <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> is now recognized and disabled.
+
+----
+
+* Apoyar los nightlies de Firefox 3.2.
+* Resolver una problema de las ventanas de preferencias que <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> impide que se cargue el panel incial, por <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=330458" hreflang="en-US" rel="bookmark" title="Bugzilla@Mozilla: No puedes cargar dinamicamente un overlay usando document.loadOverlay hasta que se carga completamente un overlay anterior">Bug 330.458</a>.
+* Resolver una problema que impide que los botones en la barra de herramientas aparezca.
+* Los botones en la barra de herramientas ahora se parecen como botones desactivadas cuando <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> está desactivada.
+* Ahora se reconoce y se desactiva la versión de <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> en <a href="http://xalo.vn/" hreflang="vi" rel="bookmark" lang="vi" xml:lang="vi">XaLộ</a>.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.265/avim-20080728.265.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.265.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>21</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Hai trăm sáu mươi lăm.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 20" id="release-520789">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.250">
+                            https://github.com/1ec5/avim/releases/tag/20080728.250                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>6 years ago</span>
+                    </span>
+                </div>
+                <p>* <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> hiện hoạt động ở trong bất cứ mọi cửa sổ và hộp thoại trong các chương trình được hỗ trợ, hoặc do chương trình mở hoặc do phần mở rộng mở.
+* Hỗ trợ các phiên bản<a href="http://www.mozilla.org/projects/calendar/sunbird/" hreflang="en" rel="bookmark" title="mozilla.org: Mozilla Sunbird&reg;">Sunbird</a> 1.0 và <a href="http://www.spicebird.com/" hreflang="en" rel="bookmark" title="Spicebird">Spicebird</a> 0.7 sắp tới.
+* Thêm trình đơn Chỉnh sửa&nbsp;&#x25b8; Gõ Tiếng Việt vào phần nhiều cửa sổ SeaMonkey.
+* Giảm kích thước của gói cài đặt bằng cách nén các tập tin JavaScript. Các script gốc chưa được nén có sẵn trong <a href="http://version.1ec5.org/viewvc.cgi/avim/trunk/" rel="bookmark" title="1ec5.org ViewVC: avim trunk">kho Subversion</a> của <acronym title="Advanced Vietnamese Input Method">AVIM</acronym>.
+
+----
+
+* <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> now works on all windows and dialog boxes in the supported applications, whether built-in or provided by third-party extensions.
+* Added support for upcoming releases of <a href="http://www.mozilla.org/projects/calendar/sunbird/" rel="bookmark" title="mozilla.org: Mozilla Sunbird&reg;">Sunbird</a> 1.0 and <a href="http://www.spicebird.com/" rel="bookmark" title="Spicebird">Spicebird</a> 0.7.
+* Added Edit&nbsp;&#x25b8; Vietnamese Input menu to most SeaMonkey windows.
+* Reduced installer package size further by compressing JavaScript files. The original, uncompressed scripts can be found in <acronym title="Advanced Vietnamese Input Method">AVIM</acronym>&rsquo;s <a href="http://version.1ec5.org/viewvc.cgi/avim/trunk/" rel="bookmark" title="1ec5.org ViewVC: avim trunk">Subversion repository</a>.
+
+----
+
+* <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> ahora functiona en todas las ventanas y cajas de diálogo de las aplicaciones apoyadas, si incluido con la aplicación o con una extensión.
+* Apoyar los lanzamientos <a href="http://www.mozilla.org/projects/calendar/sunbird/" hreflang="en" rel="bookmark" title="mozilla.org: Mozilla Sunbird&reg;">Sunbird</a> 1.0 y <a href="http://www.spicebird.com/" hreflang="en" rel="bookmark" title="Spicebird">Spicebird</a> 0.7 próximos.
+* Añadir el menú Editar&nbsp;&#x25b8; Entrada en vietnamita en la mayoría de las vantanas de SeaMonkey.
+* Reducir el tamaño del instalador más por comprimir los archivos JavaScript. Puedes encontrar los scripts originales no comprimidos en el <a href="http://version.1ec5.org/viewvc.cgi/avim/trunk/" hreflang="en" rel="bookmark" title="1ec5.org ViewVC: avim trunk">repositorio Subversion</a> de <acronym title="Advanced Vietnamese Input Method">AVIM</acronym>.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.250/avim-20080728.250.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.250.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>25</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Hai trăm rưởi.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 21" id="release-520783">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.237">
+                            https://github.com/1ec5/avim/releases/tag/20080728.237                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>6 years ago</span>
+                    </span>
+                </div>
+                <p>* Hỗ trợ những tính năng cơ bản trong SeaMonkey 2.0; các trình đơn có thể không hiển thị trong một số loại cửa sổ.
+* Hỗ trợ Firefox 3.1 beta 1, Fennec, BlueGriffon, Komodo <acronym title="Integrated Development Environment" class="initialism">IDE</acronym> 5 alpha 3, và phiên bản Songbird 1.0 sắp tới.
+* Giảm kích thước của gói cài đặt tới mức tháng 8 năm 2008.
+* Sửa các lỗi trong gói địa hóa tiếng Pháp.
+* Sửa lỗi nhập `dcd` thì trở thành &ldquo;đt&rdquo; còn `dtd` thì trở thành &ldquo;đc&rdquo;.
+* Sửa lỗi trong hộp thoại Tìm kiếm Nâng cao của Zotero.
+* Hỗ trợ các tiện ích trong Thanh công cụ Google 5.
+* Hỗ trợ các phần mở rộng ErrorZilla Plus, WebChunks, và pyshell.
+
+----
+
+* Added functional support for SeaMonkey 2.0; the menus may not appear in some types of windows.
+* Added support for Firefox 3.1 beta 1, Fennec, BlueGriffon, Komodo <acronym title="Integrated Development Environment" class="initialism">IDE</acronym> 5 alpha 3, and the upcoming Songbird 1.0 release.
+* Reduced installer package size to August 2008 levels.
+* Corrected errors in the French localization.
+* Fixed an issue where entering `dcd` and `dtd` resulted in &ldquo;<span lang="vi" xml:lang="vi">đc</span>&rdquo; and &ldquo;<span lang="vi" xml:lang="vi">đt</span>&rdquo;, respectively.
+* Fixed an error in Zotero&rsquo;s Advanced Search dialog.
+* Added support for gadgets in Google Toolbar 5.
+* Added support for the ErrorZilla Plus, WebChunks, and pyshell extensions.
+
+----
+
+* Apoyar funcionalmente SeaMonkey 2.0; los menús pueden no aparecer en unos tipos de ventana.
+* Apoyar Firefox 3.1 beta 1, Fennec, BlueGriffon, Komodo <acronym title="Integrated Development Environment" class="initialism">IDE</acronym> 5 alfa 3, y el lanzamiento Songbird 1.0 próximo.
+* Reducir el tamaño del instalador al nivel de agosto de 2008.
+* Corregir los errores de la localización francesa.
+* Resolver una problema que entrar `dcd` y `dtd` resultaban de &ldquo;<span lang="vi" xml:lang="vi">đc</span>&rdquo; y &ldquo;<span lang="vi" xml:lang="vi">đt</span>&rdquo;, respectivamente.
+* Resolver un error en la caja de diálogo Búsqueda avanzada de Zotero.
+* Apoyar los gadgets de la barra Google 5.
+* Apoyar las extensiones ErrorZilla Plus, WebChunks, y pyshell.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.237/avim-20080728.237.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.237.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>27</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Hai trăm băm bảy.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 22" id="release-520777">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.217">
+                            https://github.com/1ec5/avim/releases/tag/20080728.217                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>6 years ago</span>
+                    </span>
+                </div>
+                <p>* Sửa lỗi không thể bỏ qua một số hộp văn bản.
+
+----
+
+* Fixed an issue that prevented certain textboxes from being ignored.
+
+----
+
+* Resolver una problema que impedía que se ignoren algunas cajas de texto.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.217/avim-20080728.217.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.217.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>23</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Hai trăm mười bảy.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 23" id="release-520770">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.210">
+                            https://github.com/1ec5/avim/releases/tag/20080728.210                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>6 years ago</span>
+                    </span>
+                </div>
+                <p>* Hỗ trợ sơ sơ các phiên bản alpha của <a href="http://www.activestate.com/Products/komodo_ide/" hreflang="en" rel="bookmark" title="ActiveState: Komodo IDE Overview">Komodo <acronym title="Integrated Development Environment" class="initialism">IDE</acronym></a> 5.0 và <a href="http://www.openkomodo.com/" hreflang="en" rel="bookmark" title="Open Komodo">Komodo Edit</a> 5.0.
+* Hỗ trợ các phần mở rộng <a href="http://deepestsender.mozdev.org/" hreflang="en" rel="bookmark" title="mozdev.org: Deepest Sender">Deepest Sender</a>, <a href="https://addons.mozilla.org/vi/firefox/addon/3863" rel="bookmark" title="Tiện ích Firefox: iMacros for Firefox">iMacros</a>, <a href="https://addons.mozilla.org/vi/firefox/addon/1191" rel="bookmark" title="Tiện ích Firefox: ReminderFox">ReminderFox</a>, và <a href="http://www.zotero.org/" hreflang="en" rel="bookmark" title="Zotero">Zotero</a>.
+* Sửa tính năng dời dấu bằng cách lặp lại, lần này cho <acronym class="initialism">VNI</acronym> và <acronym title="VIetnamese Quoted-Readable">VIQR</acronym>.
+* Giải quyết vấn đề trong <acronym title="VIetnamese Quoted-Readable">VIQR</acronym> và <acronym title="VIetnamese Quoted-Readable">VIQR</acronym>* mà cho vào <tt>o```</tt> thì dấu lại bị gắn vào nguyên âm.
+* Có thể bỏ qua các hộp soạn thảo có định dạng theo <acronym class="initialism">ID</acronym> của khung chung quanh.
+* Hỗ trợ thanh tìm kiếm trong Trình Quản lý các Tiện ích.
+* Hỗ trợ Firebug và ScribeFire trong cửa sổ riêng.
+* Hỗ trợ các hộp thoại tìm kiếm trong Thunderbird.
+* Hỗ trợ các loại hộp văn bản ít gặp, như là thẻ <code>&lt;isindex></code> của <acronym title="HyperText Markup Language" class="initialism">HTML</acronym>.
+
+----
+
+* Added rudimentary support for alpha versions of <a href="http://www.activestate.com/Products/komodo_ide/" rel="bookmark" title="ActiveState: Komodo IDE Overview">Komodo <acronym title="Integrated Development Environment" class="initialism">IDE</acronym></a> 5.0 and <a href="http://www.openkomodo.com/" rel="bookmark" title="Open Komodo">Komodo Edit</a> 5.0.
+* Added support for the <a href="http://deepestsender.mozdev.org/" rel="bookmark" title="mozdev.org: Deepest Sender">Deepest Sender</a>, <a href="https://addons.mozilla.org/en-US/firefox/addon/3863" rel="bookmark" title="Firefox Add-ons: iMacros for Firefox">iMacros</a>, <a href="https://addons.mozilla.org/en-US/firefox/addon/1191" rel="bookmark" title="Firefox Add-ons: ReminderFox">ReminderFox</a>, and <a href="http://www.zotero.org/" rel="bookmark" title="Zotero">Zotero</a> extensions.
+* Fixed removing diacritics by repeating them, this time for <acronym class="initialism">VNI</acronym> and <acronym title="VIetnamese Quoted-Readable">VIQR</acronym>.
+* Fixed an issue with <acronym title="VIetnamese Quoted-Readable">VIQR</acronym> and <acronym title="VIetnamese Quoted-Readable">VIQR</acronym>* where entering <tt>o```</tt> added the tone mark back onto the vowel.
+* Rich text editors can now be ignored by the <acronym title="identifier" class="initialism">ID</acronym>s of their container frames.
+* Added support for the Add-ons Manager&rsquo;s search bar.
+* Added support for Firebug and ScribeFire when opened in separate windows.
+* Added support for search dialogs in Thunderbird.
+* Added support for obscure types of textboxes, such as <acronym title="HyperText Markup Language" class="initialism">HTML</acronym>&rsquo;s <code>&lt;isindex></code> tag.
+
+----
+
+* Empezar a apoyar las versiones alfas de <a href="http://www.activestate.com/Products/komodo_ide/" hreflang="en" rel="bookmark" title="ActiveState: Komodo IDE Overview">Komodo <acronym title="Integrated Development Environment" class="initialism">IDE</acronym></a> 5.0 y <a href="http://www.openkomodo.com/" hreflang="en" rel="bookmark" title="Open Komodo">Komodo Edit</a> 5.0.
+* Apoyar las extensiones <a href="http://deepestsender.mozdev.org/" hreflang="en" rel="bookmark" title="mozdev.org: Deepest Sender">Deepest Sender</a>, <a href="https://addons.mozilla.org/es-ES/firefox/addon/3863" rel="bookmark" title="Complementos para Firefox: iMacros for Firefox">iMacros</a>, <a href="https://addons.mozilla.org/es-ES/firefox/addon/1191" rel="bookmark" title="Complementos para Firefox: ReminderFox">ReminderFox</a>, y <a href="http://www.zotero.org/" hreflang="en" rel="bookmark" title="Zotero">Zotero</a>.
+* Arreglar la boración de los signos diacríticos por repitición, esta vez para <acronym class="initialism">VNI</acronym> y <acronym title="VIetnamese Quoted-Readable">VIQR</acronym>.
+* Resolver una problema de <acronym title="VIetnamese Quoted-Readable">VIQR</acronym> y <acronym title="VIetnamese Quoted-Readable">VIQR</acronym>* que, cuando se entra <tt>o```</tt>, la marca tonal vuelva a la vocal.
+* Ignorar los editores de texto enriquecido por los <acronym title="identificadores" class="initialism">IDs</acronym> de los marcos contenedores.
+* Apoyar la barra de buscar de la Administrador de Complementos.
+* Apoyar Firebug y ScribeFire como ventanas separadas.
+* Apoyar las cajas de diálogo de buscar de Thunderbird.
+* Apoyar los tipos poco conocidos de cajas de texto, como la etiqueta <code>&lt;isindex></code> de <acronym title="HyperText Markup Language" class="initialism">HTML</acronym>.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.210/avim-20080728.210.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.210.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>19</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Hai trăm mười.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 24" id="release-520724">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.195">
+                            https://github.com/1ec5/avim/releases/tag/20080728.195                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>6 years ago</span>
+                    </span>
+                </div>
+                <p>* Thêm các bản dịch chữ Hoa giản thể và phồn thể do <a href="http://stanford.edu/~kmisra/journal/" hreflang="en-us" rel="bookmark" title="Journal();">Karan Misra</a> dịch.
+* Sửa tính năng dời dấu bằng cách lặp lại (thí dụ đánh `o^^` thì phải cho ra <samp>o^</samp>).
+* Giảm nhẹ những quy tắc chính tả tiếp, cho phép `p` ở đầu từ. Theo lời yêu cầu, `y` cũng được chấp nhận ở những chỗ thường có `i`.
+* Giải quyết vấn đề &ldquo;uu&rdquo; (&ldquo;ưu&rdquo;, &ldquo;uư&rdquo;, <abbr title="vân vân">v.v.</abbr>) ở giữa từ được chấp nhận.
+* Sửa các lỗi chính tả trong bản dịch tiếng Tây Ban Nha.
+* Các phiên bản gói lại của phần mở rộng này không còn bao gồm nhật trình thay đổi, để giảm xuống cỡ tập tin tải xuống. Có thể xem lịch sử các thay đổi trong <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> tại trang này.
+
+----
+
+* Added simplified and traditional Chinese localizations by <a href="http://stanford.edu/~kmisra/journal/" rel="bookmark" title="Journal();">Karan Misra</a>.
+* Fixed removing diacritics by repeating them (<abbr title="exempli gratia" lang="la" xml:lang="la">e.g.</abbr>, entering `o^^` should produce <samp>o^</samp>).
+* Relaxed the spelling rules further, allowing `p` at the beginning of a word. By request, `y` is also allowed where `i` would normally be used.
+* Fixed an issue where &ldquo;uu&rdquo; (<i lang="vi" xml:lang="vi">ưu</i>, <i lang="vi" xml:lang="vi">uư</i>, <abbr title="et cetera" lang="la" xml:lang="la">etc.</abbr>) in the middle of a word was accepted.
+* Fixed typos in the Spanish localization.
+* The changelog is no longer included in packaged versions of this extension, to reduce download size. A history of changes to <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> can be viewed on this page.
+
+----
+
+* Añadir las localizaciones de chino simplificado y tradicional por <a href="http://stanford.edu/~kmisra/journal/" hreflang="en-us" rel="bookmark" title="Journal();">Karan Misra</a>.
+* Arreglar la boración de signos diacríticos por repitición (<abbr title="por ejemplo">p.ej.</abbr>, entrar `o^^` debe producir <samp>o^</samp>).
+* Relajar las reglas ortografías más, aceptando `p` inicial. A petición, se acepta `y` donde típicamente se usa `i`.
+* Resolver un problema que se acepta &ldquo;uu&rdquo; (<i lang="vi" xml:lang="vi">ưu</i>, <i lang="vi" xml:lang="vi">uư</i>, <abbr title="etcétera">etc.</abbr>) interior.
+* Arreglar unos errores tipográficas en la localización en español.
+* No incluir el registro de cambios en las versiones empequetadas de esta extensión, para reducir la tamaño de la descarga. Puedes ver una historia de cambios de <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> en esta página.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.195/avim-20080728.195.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.195.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>24</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Một trăm chín mươi lăm.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 25" id="release-520719">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.185">
+                            https://github.com/1ec5/avim/releases/tag/20080728.185                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>6 years ago</span>
+                    </span>
+                </div>
+                <p>* Giải quyết vấn đề nhập dấu thanh đằng sau từ thì cả từ bị đổi thành chữ thường.
+* Giảm nhẹ những quy tắc chính tả, vì tính năng chính tả có mục đích chỉ hủy bỏ các từ không thể phát âm trong tiếng Việt. Hành thử không còn hủy bỏ `ka`, `ko`, và `ku`. Ngoài ra, &ldquo;gìn&rdquo; lại được chấp nhận.
+
+----
+
+* Fixed an issue where entering a tone mark after a word forced the entire word to lowercase.
+* Relaxed spelling rules, since the spelling feature is intended to reject only words that would be unpronounceable in Vietnamese. `Ka`, `ko`, and `ku` are no longer rejected. Also, <i lang="vi" xml:lang="vi">gìn</i> is allowed again.
+
+----
+
+* Resolver un problema que entrar una marca tonal después de una palabra convertía toda la palabra a las letras minúsculas.
+* Relajar las reglas de ortografía, porque la funciona de ortografía tiene el propósito de rechazar sólo las palabras que no puedes pronunciar en vietnamita. Ya no rechaza `ka`, `ko`, y `ku`. Además, se acepta <i lang="vi" xml:lang="vi">gìn</i>.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.185/avim-20080728.185.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.185.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>22</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Một trăm tám mươi lăm.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 26" id="release-520715">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.181">
+                            https://github.com/1ec5/avim/releases/tag/20080728.181                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>6 years ago</span>
+                    </span>
+                </div>
+                <p>* Hỗ trợ Pencil trong hình thức một chương trình chạy riêng.
+* Sửa nút &ldquo;Bỏ qua&rdquo;; nó không kích hoạt sau khi điền vào hộp văn bản bên cạnh.
+
+----
+
+* Added support for Pencil as a standalone application.
+* Fixed the Ignore button, which remained disabled even when the adjacent textbox was filled out.
+
+----
+
+* Apoyar Pencil como aplicación separada.
+* Arreglar el botón Ignorar, que quedó desactivada, aún cuando la caja de texto contingua tenía texto.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.181/avim-20080728.181.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.181.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>22</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Một trăm tám mươi mốt.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 27" id="release-520709">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080728.177">
+                            https://github.com/1ec5/avim/releases/tag/20080728.177                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>6 years ago</span>
+                    </span>
+                </div>
+                <p>* Hỗ trợ <a href="http://getsongbird.com/" hreflang="en" rel="bookmark" title="Songbird Media Player">Songbird</a> và <a href="http://www.instantbird.com/" hreflang="en" rel="bookmark" title="Instantbird">Instantbird</a>.
+* Hỗ trợ các phiên bản alpha của Firefox 3.1.
+* Hỗ trợ các phần mở rộng <a href="https://addons.mozilla.org/vi/firefox/addon/33" rel="bookmark" title="Tiện ích Firefox: googlebar">googlebar</a>, <a href="https://addons.mozilla.org/vi/firefox/addon/138" rel="bookmark" title="Tiện ích Firefox: StumbleUpon">StumbleUpon</a>, và <a href="https://addons.mozilla.org/vi/firefox/addon/216" rel="bookmark" title="Tiện ích Firefox: JavaScript Debugger">Venkman</a>.
+* Viết lại các hàm chính để chạy nhanh hơn.
+* Khi nhập văn bản vào hộp soạn thảo có định dạng, không còn cho từ đầu tiên ra ngược.
+* Giải quyết vấn đề các từ bắt đầu với `z` được chấp nhận.
+* Các từ bắt đầu với `q` mà không bắt đầu với `qu` hiện được coi là lỗi chính tả. Ngoài ra, các từ bắt đầu với `ka`, `ko`, hoặc `ku` cũng bị hủy bỏ.
+* Giải quyết vấn đề không thể bỏ qua các hộp văn bản đặc biệt trong Firefox, như là các hộp tìm kiếm.
+* Giải quyết vấn đề không thể tắt một số script nhúng vào trang. Có thể bạn cần phải mặc định lại các tùy chọn ẩn dùng <samp>about:config</samp> để chắc chắn tắt các script này.
+* Thêm nút &ldquo;Mặc định lại giá trị&rdquo; vào tab Ô Bỏ qua trong cửa sổ tùy chỉnh.
+* Giải quyết các vấn đề cửa sổ tùy chỉnh hoạt động bất thường trong Mac <acronym title="Operating System" class="initialism">OS</acronym> <abbr title="Ten">X</abbr>. Thanh trình đơn không còn bị ẩn, các phím tắt chuẩn hoạt động tốt, và <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> nhận ra được hộp &ldquo;<acronym class="initialism">ID</acronym> của hộp văn bản&rdquo;.
+* Hiện có thể tự động tắt <a href="http://github.com/tiendung/vinova/tree/master" hreflang="en" rel="bookmark" title="GitHub: tiendung&rsquo;s vinova at master">Vinova</a> trong các trang Web dùng một tùy chọn ẩn.
+
+----
+
+* Added support for <a href="http://getsongbird.com/" rel="bookmark" title="Songbird Media Player">Songbird</a> and <a href="http://www.instantbird.com/" rel="bookmark" title="Instantbird">Instantbird</a>.
+* Added support for alpha versions of Firefox 3.1.
+* Added support for the <a href="https://addons.mozilla.org/en-US/firefox/addon/33" rel="bookmark" title="Firefox Add-ons: googlebar">googlebar</a>, <a href="https://addons.mozilla.org/en-US/firefox/addon/138" rel="bookmark" title="Firefox Add-ons: StumbleUpon">StumbleUpon</a>, and <a href="https://addons.mozilla.org/en-US/firefox/addon/216" rel="bookmark" title="Firefox Add-ons: JavaScript Debugger">Venkman</a> extensions.
+* Rewrote core functions for increased performance.
+* The first word typed into a rich textbox is no longer flipped around.
+* Fixed an issue where words beginning with `z` were accepted.
+* Words that begin with `q` but not `qu` are rejected. So are words that begin with `ka`, `ko`, or `ku`.
+* Fixed an issue where special textboxes in Firefox, such as the search and find bars, could not be ignored.
+* Fixed an issue where some in-page scripts would not be disabled. You may need to reset hidden preferences in <samp>about:config</samp> in order to have these scripts disabled.
+* Added a &ldquo;Restore to Default&rdquo; button to the Ignored Textboxes tab of the preference panel.
+* Fixed issues where the preference panel would not behave like a normal window in Mac <acronym title="Operating System" class="initialism">OS</acronym> <abbr title="Ten">X</abbr>. Now the menu bar remains visible, standard key combinations work, and <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> recognizes the panel&rsquo;s Textbox <acronym title="identifier" class="initialism">ID</acronym> textbox.
+* <a href="http://github.com/tiendung/vinova/tree/master" rel="bookmark" title="GitHub: tiendung&rsquo;s vinova at master">Vinova</a> can now be automatically disabled on webpages via a hidden preference.
+
+----
+
+* Apoyar <a href="http://getsongbird.com/" hreflang="en" rel="bookmark" title="Songbird Media Player">Songbird</a> e <a href="http://www.instantbird.com/" hreflang="en" rel="bookmark" title="Instantbird">Instantbird</a>.
+* Apoyar las versiones alfas de Firefox 3.1.
+* Apoyar las extensiones <a href="https://addons.mozilla.org/es-ES/firefox/addon/33" rel="bookmark" title="Complementos para Firefox: googlebar">googlebar</a>, <a href="https://addons.mozilla.org/es-ES/firefox/addon/138" rel="bookmark" title="Complementos para Firefox: StumbleUpon">StumbleUpon</a>, y <a href="https://addons.mozilla.org/es-ES/firefox/addon/216" rel="bookmark" title="Complementos para Firefox: JavaScript Debugger">Venkman</a>.
+* Reescribir las funciones principales para mejorar el funcionamiento.
+* No invertir la primera palabra entrada en una caja de texto enriquecido.
+* Resolver un problema que las palabras comenzadas por `z` se aceptaban.
+* Rechazar las palabras comenzadas por `q` pero no por `qu`, y también las que comienzan por `ka`, `ko`, o `ku`.
+* Resolver un problema que las cajas de texto especiales de Firefox no podían estar ignoradas.
+* Resolver un problema que unos scripts dentro de las páginas no podían estar desactivadas. Es posible que tengas que restaurar unas preferencias ocultas usando <samp>about:config</samp> para que estos scripts sean desactivados.
+* Añadir un botón &ldquo;Restaurar el valor por defecto&rdquo; en la pestaña &ldquo;Cajas de texto para ignorar&rdquo; del panel de preferencias.
+* Resolver los problemas que el panel de preferencias no funcionaban como una ventana ordinario en Mac <acronym title="Operating System" class="initialism">OS</acronym> <abbr title="Ten">X</abbr>. Ahora la barra de menús queda visible, las combinaciones de teclas estándares funcionan, y <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> reconoce la caja de texto &ldquo;ID de la caja de texto&rdquo; del panel.
+* Ahora puedes automáticamente desactivar <a href="http://github.com/tiendung/vinova/tree/master" hreflang="en" rel="bookmark" title="GitHub: tiendung&rsquo;s vinova at master">Vinova</a> usando una preferencia oculta.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080728.177/avim-20080728.177.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080728.177.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>20</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Một trăm bảy mươi bảy.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 28" id="release-520707">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080224.139">
+                            https://github.com/1ec5/avim/releases/tag/20080224.139                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>7 years ago</span>
+                    </span>
+                </div>
+                <p>* Thêm bản dịch tiếng Pháp.
+* Hỗ trợ các phiên bản beta của <a href="http://www.flock.com/" hreflang="en" rel="bookmark" title="Flock Browser">Flock</a> 2.
+* Hỗ trợ các chương trình xây trên <a href="http://labs.mozilla.com/projects/prism/" hreflang="en" rel="bookmark" title="Mozilla Labs: Prism">Mozilla Prism</a> (WebRunner).
+* Hỗ trợ các phiên bản alpha của <a href="http://www.mozillamessaging.com/en-US/thunderbird/" hreflang="en-us" rel="bookmark" title="Mozilla Messaging: Thunderbird">Mozilla Thunderbird</a> 3.
+* Các hộp văn bản một dòng không còn nhảy lại đầu mỗi lần khi bỏ dấu.
+* Giải quyết vấn đề bộ giám sát script cứ tắt phần mở rộng mỗi khi gõ vào thanh lọc của thanh lề Đánh dấu.
+* Nhận ra các danh sách trình đơn soạn thảo (hộp tổ hợp), dùng trong <a href="http://toolbar.google.com/" rel="bookmark" title="Google Toolbar for Firefox">Google Toolbar</a> và tính năng Tiêu đề Động của Firefox.
+* Hỗ trợ các cây soạn thảo.
+* Giảm số khoản hoàn tác/làm lại được tạo ra khi bỏ dấu, để có thể gõ nhanh hơn trong các hộp rất đầy văn bản.
+* Cửa sổ tùy chỉnh mới hiển thị đúng kiểu trên Mac dù là đã nghịch với tùy chọn <samp>general.useragent.locale</samp>.
+
+----
+
+* Added French localization.
+* Added support for beta versions of <a href="http://www.flock.com/" rel="bookmark" title="Flock Browser">Flock</a> 2.
+* Added support for applications built atop <a href="http://labs.mozilla.com/projects/prism/" rel="bookmark" title="Mozilla Labs: Prism">Mozilla Prism</a> (WebRunner).
+* Added support for alpha versions of <a href="http://www.mozillamessaging.com/en-US/thunderbird/" rel="bookmark" title="Mozilla Messaging: Thunderbird">Mozilla Thunderbird</a> 3.
+* Single-line textboxes no longer jump to the beginning whenever adding diacritics to words.
+* Fixed an issue where the script monitor would disable the extension when typing in the Bookmarks sidebar&rsquo;s filter bar.
+* Fixed behavior on editable menulists (combo boxes), used in <a href="http://toolbar.google.com/" rel="bookmark" title="Google Toolbar for Firefox">Google Toolbar</a> and Firefox&rsquo;s Live Titles feature.
+* Added support for editable trees.
+* Reduced the number of undo/redo levels created when adding diacritics, speeding up typing in textboxes with lots of existing text.
+* The preferences panel now displays correctly on the Mac even if <samp>general.useragent.locale</samp> has been modified.
+
+----
+
+* Añadir una localización en francés.
+* Apoyar las versiones beta de <a href="http://www.flock.com/" hreflang="en" rel="bookmark" title="Flock Browser">Flock</a> 2.
+* Apoyar las aplicaciones construidas por <a href="http://labs.mozilla.com/projects/prism/" hreflang="en" rel="bookmark" title="Mozilla Labs: Prism">Mozilla Prism</a> (WebRunner).
+* Apoyar las versiones alfas de <a href="http://www.mozillamessaging.com/en-US/thunderbird/" hreflang="en" rel="bookmark" title="Mozilla Messaging: Thunderbird">Mozilla Thunderbird</a> 3.
+* Las cajas de texto de una sólo línea ya no saltan al comienzo siempre que añadas un signo diacrítico en una palabra.
+* Resolver un problema que el monitor de scripts desactivaba la extensión cuando entrar texto en la barra filtro de la barra lateral Marcadores.
+* Arreglar el funcionamiento respeto a las listas de menú modificables, usadas en la <a href="http://www.google.com/tools/firefox/toolbar/FT3/intl/es/index.html" rel="bookmark" title="Barra Google para Firefox">Barra Google</a> y la característica Títulos Dinámicos de Firefox.
+* Apoyar los árboles modificables.
+* Reducir la cantidad de niveles de deshacer y rehacer creadas cuando añadir los signos diacríticos, para acelerar la entrada en las cajas de texto que ya tienes mucho texto.
+* El panel de preferencias ahora se muestra correctamente en el Mac, aún si <samp>general.useragent.locale</samp> se ha modificado.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080224.139/avim-20080224.139.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080224.139.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>22</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Một trăm băm chín.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                    <div class="release hide 29" id="release-520701">
+                                <div class="release-meta">
+                    <span class="homepage">
+                        <i class="icon icon-link" title="View on Github"></i>
+                        <a href="https://github.com/1ec5/avim/releases/tag/20080224.118">
+                            https://github.com/1ec5/avim/releases/tag/20080224.118                        </a>
+                    </span>
+                    <span class="last-update">
+                        <i class="icon icon-clock-o" title="Released"></i>
+                        <span>7 years ago</span>
+                    </span>
+                </div>
+                <p>* Thêm tùy chọn để chấp nhận các từ bắt đầu với `dz` hoặc `f`, ngay cả khi bắt buộc quy tắc chính tả.
+* Hỗ trợ thêm hộp soạn thảo có định dạng, bao gồm <a href="http://dojotoolkit.org/book/dojo-book-0-9/part-2-dijit/advanced-editing-and-display/editor-rich-text" hreflang="en" rel="bookmark" title="The Dojo Toolkit: The Book of Dojo: Editor">Dijit.Editor</a> của Dojo.
+* Hỗ trợ việc tắt một số phiên bản của <a href="http://www.dactai.com/download.html" rel="bookmark" title="Đắc Tài: Download MViet">MViet</a>.
+* Hỗ trợ việc tắt các script <a href="http://xvnkb.sourceforge.net/chim/" hreflang="en" rel="bookmark" title="CHIM"><acronym title="CHuoi&rsquo;s Input Method">CHIM</acronym></a> và <a href="http://code.google.com/p/mudim/" rel="bookmark" title="Google Code: mudim"><acronym title="Mudzot&rsquo;s Input Method">Mudim</acronym></a> khi nhập vào trang Web. Theo mặc định, hai script này không tự động bị tắt.
+* Thêm khoản mục trình đơn để chuyển qua kiểu gõ trước và sau. Trước đây, các nhãn phím tắt về kiểu gõ đi đi lại lại khi thay đổi kiểu gõ, nhưng cách hiển thị này gây khó khăn trong Mac <acronym title="Operating System" class="initialism">OS</acronym> <abbr title="Ten">X</abbr>.
+* Không còn thay đổi được các tùy chọn như là kiểu gõ lúc khi <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> bị tắt. Trước đây, các khoản mục trình đơn về những tùy chọn này vô hiệu, nhưng các phím tắt vẫn hoạt động.
+
+----
+
+* Added an option to allow words that begin with `dz` or `f`, even when spelling rules are enforced.
+* Added support for more rich text editors, including Dojo&rsquo;s <a href="http://dojotoolkit.org/book/dojo-book-0-9/part-2-dijit/advanced-editing-and-display/editor-rich-text" rel="bookmark" title="The Dojo Toolkit: The Book of Dojo: Editor">Dijit.Editor</a>.
+* Added support for disabling some versions of <a href="http://www.dactai.com/download.html" hreflang="vi-vn" rel="bookmark" title="Đắc Tài: Download MViet">MViet</a>.
+* Added support for disabling the <a href="http://xvnkb.sourceforge.net/chim/" rel="bookmark" title="CHIM"><acronym title="CHuoi&rsquo;s Input Method">CHIM</acronym></a> and <a href="http://code.google.com/p/mudim/" hreflang="vi" rel="bookmark" title="Google Code: mudim"><acronym title="Mudzot&rsquo;s Input Method">Mudim</acronym></a> scripts when typing in a webpage. The two scripts are not disabled by default.
+* Added explicit menu items for switching to the previous and next input methods. Previously, keys for cycling methods would move around as the input method changed, but this approach caused problems in Mac <acronym title="Operating System" class="initialism">OS</acronym> <abbr title="Ten">X</abbr>.
+* Options such as input method can no longer be changed when <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> is disabled. Before, the menu items for these options were disabled, but the keyboard shortcuts were still active.
+
+----
+
+* Añadir una opcion para aceptar las palabras comenzadas por `dz` o `f`, aún cuando la opcion de ortografía sea activada.
+* Apoyar más editores de texto enriquecido, incluyendo <a href="http://dojotoolkit.org/book/dojo-book-0-9/part-2-dijit/advanced-editing-and-display/editor-rich-text" hreflang="en" rel="bookmark" title="The Dojo Toolkit: The Book of Dojo: Editor">Dijit.Editor</a> de Dojo.
+* Apoyar desactivar unas versiones de <a href="http://www.dactai.com/download.html" hreflang="vi-vn" rel="bookmark" title="Đắc Tài: Download MViet">MViet</a>.
+* Apoyar desactivar los scripts <a href="http://xvnkb.sourceforge.net/chim/" hreflang="en" rel="bookmark" title="CHIM"><acronym title="CHuoi&rsquo;s Input Method">CHIM</acronym></a> and <a href="http://code.google.com/p/mudim/" hreflang="vi" rel="bookmark" title="Google Code: mudim"><acronym title="Mudzot&rsquo;s Input Method">Mudim</acronym></a> cuando entrar texto en una página Web. Por defecto, ninguno de los dos scripts se desactivan.
+* Añadir las opciones de menú para seleccionar los métodos de entrada anterior y siguiente. Previamente, las etiquetas de atajos de teclas para cambiar el método movían mientras el método cambiaba, pero esta técnica causa problemas en Mac <acronym title="Operating System" class="initialism">OS</acronym> <abbr title="Ten">X</abbr>.
+* Ya no puedes cambiar las opciones como el método de entrada cuando <acronym title="Advanced Vietnamese Input Method">AVIM</acronym> está desactivada. Previamente, las opciones de menú de estas opciones estaban desactivadas, pero los atajos de teclas todavía estaban activadas.</p>
+                <div class="files">
+                                           <div class="assets">
+                                                          <div>
+                               <a href="https://github.com/1ec5/avim/releases/download/20080224.118/avim-20080224.118.xpi" class="button big primary">
+                                   <i class="icon icon-download"></i>
+                                   Download "avim-20080224.118.xpi"
+                               </a>
+                               <div>
+                                   Downloaded <strong>20</strong> times
+                               </div>
+                               </div>
+                                                  </div>
+                                      <div class="source">
+                       <a href="https://github.com/1ec5/avim/archive/Một trăm mười tám.zip" class="button">
+                           <i class="icon icon-download"></i>
+                           Download Source
+                       </a>
+                   </div>
+                </div>
+            </div>
+                </div>
+            </div>
+
+<div class="clearfix"></div>
+
+<div class="tabs">
+    <ul>
+                <li><a href="#readme">Readme</a></li>
+                <li><a href="#comments">Comments</a></li>
+    </ul>
+            <div id="readme" class="readme user-input">
+        <p><img src="https://raw.github.com/1ec5/avim/master/icon.png?raw=true" alt=""></p>
+
+<h1>AVIM for Firefox</h1>
+
+<p>AVIM is an extension for Firefox and similar applications that provides an input method editor for Vietnamese, based on Hiếu Đặng’s <a href="http://sourceforge.net/projects/rhos/">webpage script</a> of the same name. Hiếu was the original developer of this extension; Minh Nguyễn has been the developer since 2007. (There is also an unaffiliated <a href="https://github.com/kimkha/avim-chrome">Chrome extension</a> of the same name.)</p>
+
+<p><em>AVIM là một phần mở rộng cung cấp bộ gõ tiếng Việt trong Firefox và các chương trình tương tự, dựa trên <a href="http://sourceforge.net/projects/rhos/">kịch bản cùng tên</a> của Đặng Trần Hiếu. Hiếu là người đầu tiên phát triển phần mở rộng này, còn Nguyễn Xuân Minh là người phát triển phần mở rộng kể từ năm 2007. (Một dự án không có liên quan sản xuất một <a href="https://github.com/kimkha/avim-chrome">tiện ích mở rộng Chrome</a> cùng tên.)</em></p>
+
+<h2>Installation</h2>
+
+<p>Visit <a href="http://avim.1ec5.org/en/">AVIM’s homepage</a> for the latest version or <a href="https://addons.mozilla.org/firefox/addon/avim/">Firefox Add-ons</a> for the Mozilla-approved version, which may be out of date.</p>
+
+<p><em>Hãy truy cập phiên bản mới nhất tại <a href="http://avim.1ec5.org/">trang chủ của AVIM</a> hoặc phiên bản trên <a href="https://addons.mozilla.org/vi/firefox/addon/avim/">Tiện ích Firefox</a>, bản này được Mozilla chấp nhận nhưng có thể lỗi thời.</em></p>
+
+<h2>Building</h2>
+
+<p><a href="https://travis-ci.org/1ec5/avim"><img src="https://travis-ci.org/1ec5/avim.svg?branch=master" alt="Build Status"></a></p>
+
+<p>To package the code as an extension yourself, you can use the included build script, which requires Python 2.7. In a command line window, navigate to the <code>avim/</code> directory and execute the following commands:</p>
+
+<p><code>bash
+pip install -r requirements.txt
+python build.py
+</code></p>
+
+<p>Two installable archives, <code>avim.xpi</code> and <code>avim-VERSION.xpi</code>, should now reside in that directory.</p>
+
+<p><em>Để gói lấy mã nguồn thành phần mở rộng, bạn có thể sử dụng script xây dựng, cần Python 2.7. Trong cửa sổ dòng lệnh, hãy duyệt tới thư mục <code>avim/</code> và chạy lệnh sau:</em></p>
+
+<p><code>bash
+pip install -r requirements.txt
+python build.py
+</code></p>
+
+<p><em>Hai gói cài đặt được, <code>avim.xpi</code> và <code>avim-PHIÊN_BẢN.xpi</code>, sẽ nằm trong thư mục đó. Script xây dựng có vài tùy chọn, chẳng hạn để sản xuất một phiên bản soát lỗi có bộ phận đo thử.</em></p>
+
+<h2>Tests</h2>
+
+<p>The test harness requires <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey">SpiderMonkey</a>, the command line interface to the JavaScript engine in Firefox:</p>
+
+<ol>
+<li><a href="http://ftp.mozilla.org/pub/mozilla.org/js/">Download SpiderMonkey</a> 24 or later. (If you’re feeling brave, you can also build and use <a href="https://groups.google.com/d/msg/mozilla.dev.tech.js-engine/lrVCmUuXkDk/TQtz8jJ54mMJ">version 31rc0</a>, which is closer to the version of Firefox most AVIM users are on.)</li>
+<li>Follow the instructions in the INSTALL file to build SpiderMonkey, then run <code>make install</code> to install it.</li>
+<li>Go to the tests/ directory in your checkout of this project.</li>
+<li>Run <code>js24 -b -s test.js</code>.</li>
+</ol>
+
+<p>The tests/ directory also contains corpus.js, useful for testing AVIM against a wordlist, such as those maintained by the <a href="https://github.com/1ec5/hunspell-vi">hunspell-vi</a> project.</p>
+
+<h2>Translations</h2>
+
+<p>AVIM’s user interface is currently available in several languages. Please help translate AVIM into additional languages at <a href="http://beta.babelzilla.org/projects/p/avim/">BabelZilla Beta</a>.</p>
+
+<p><em>Giao diện của AVIM hiện có sẵn trong vài ngôn ngữ. Xin hãy giúp biên dịch AVIM ra thêm ngôn ngữ tại <a href="http://beta.babelzilla.org/projects/p/avim/">BabelZilla Beta</a>.</em></p>
+
+<p><a href="http://beta.babelzilla.org/projects/p/avim/"><img src="http://beta.babelzilla.org/projects/p/avim/chart/image_png" alt="Translation statistics for AVIM"></a></p>
+
+<h2>License</h2>
+
+<p>AVIM is licensed under the <a href="https://raw.github.com/1ec5/avim/master/LICENSE">MIT license</a>.</p>
+
+<p><em>AVIM được phát hành theo <a href="https://raw.github.com/1ec5/avim/master/LICENSE">giấy phép MIT</a>.</em></p>
+
+<h2>More information</h2>
+
+<p>For a detailed documentation and a feature comparison against other Vietnamese IMEs, see <a href="http://avim.1ec5.org/en/">AVIM’s official website</a> and <a href="https://github.com/1ec5/avim/wiki">project wiki</a>.</p>
+
+<p><em>Xem tài liệu đầy đủ và bảng các tính năng so với các bộ gõ tiếng Việt khác tại <a href="http://avim.1ec5.org/">trang chủ AVIM</a> và <a href="https://github.com/1ec5/avim/wiki">wiki của dự án</a>.</em></p>
+        </div>
+        <div id="comments" class="comments">
+        <p>
+            Please note that the comment section is not a reliable resource for
+            support.
+        </p>
+        <hr>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+            var disqus_shortname = 'komodoide';
+    
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+</div>    </article>
+                </section>
+                                <aside class="sidebar-resources normalize">
+                    <div id="side-border"></div>
+                    <button id="side-collapse" class="button big">
+                        <i class="icon icon-chevron-left"></i>
+                        <i class="icon icon-chevron-right"></i>
+                    </button>
+                    <div class="inner">
+                        
+<ul class="categories">
+    <li>
+        <h3>
+            <a href="/screencasts">Screencasts</a>
+        </h3>
+    </li>
+            <li>
+            <h3>
+                <a href="/resources/addons">Addons</a>
+                <!--<span>24</span>-->
+            </h3>
+        </li>
+            <li>
+            <h3>
+                <a href="/resources/macros">Macros</a>
+                <!--<span>35</span>-->
+            </h3>
+        </li>
+            <li>
+            <h3>
+                <a href="/resources/toolbox">Toolbox</a>
+                <!--<span>4</span>-->
+            </h3>
+        </li>
+            <li>
+            <h3>
+                <a href="/resources/colorschemes">Color Schemes</a>
+                <!--<span>14</span>-->
+            </h3>
+        </li>
+            <li>
+            <h3>
+                <a href="/resources/skins">Skins</a>
+                <!--<span>5</span>-->
+            </h3>
+        </li>
+            <li>
+            <h3>
+                <a href="/resources/iconsets">Iconsets</a>
+                <!--<span>0</span>-->
+            </h3>
+        </li>
+            <li>
+            <h3>
+                <a href="/resources/languages">Languages</a>
+                <!--<span>16</span>-->
+            </h3>
+        </li>
+            <li>
+            <h3>
+                <a href="/resources/keybindings">Keybindings</a>
+                <!--<span>2</span>-->
+            </h3>
+        </li>
+            <li>
+            <h3>
+                <a href="/resources/miscellaneous">Miscellaneous</a>
+                <!--<span>3</span>-->
+            </h3>
+        </li>
+    </ul>
+
+<hr>
+
+<h2>How To ..</h2>
+
+<ul class="disc">
+    <li>
+        <a href="http://komodoide.com/resources/install-instructions">Install Resources</a>
+    </li>
+    <li>
+        <a href="http://komodoide.com/resources/submit-instructions">Contribute</a>
+    </li>
+    <li>
+        <a href="http://komodoide.com/customize">Customize Komodo</a>
+    </li>
+</ul>
+                    </div>
+                </aside>
+                            </div>
+            <div id="footer_push"></div>
+        </div>
+
+        <!-- Analytics -->
+        
+        <!-- AS.com -->
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+        _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+        _gaq.push(['_setAccount', 'UA-20072-24']);
+        _gaq.push(['_setDomainName', '.komodoide.com']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_setAllowHash', false]);
+        _gaq.push(['_trackPageview']);
+        (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async =
+        true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+        </script>
+
+        <!-- KIDE -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','_gak');
+
+          _gak('create', 'UA-47685083-1', 'auto');
+          _gak('require', 'linkid', 'linkid.js');
+          // pageview is handled in scripts.js
+
+        </script>
+
+        <!-- Adwords -->
+        <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 1071420929;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+        </script>
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+        </script>
+        <noscript>
+        <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1071420929/?value=0&amp;guid=ON&amp;script=0"/>
+        </div>
+        </noscript>
+
+        <!-- Clicky -->
+        <script type="text/javascript">
+        var clicky_site_ids = clicky_site_ids || [];
+        clicky_site_ids.push(100751147);
+        (function() {
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = '//static.getclicky.com/js';
+          ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+        })();
+        </script>
+        <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100751147ns.gif" /></p></noscript>
+
+        
+        <!-- Marketo -->
+        <script type="text/javascript">
+        (function() {
+          var didInit = false;
+          function initMunchkin() {
+            if(didInit === false) {
+              didInit = true;
+              Munchkin.init('894-ACS-622');
+            }
+          }
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = '//munchkin.marketo.net/munchkin.js';
+          s.onreadystatechange = function() {
+            if (this.readyState == 'complete' || this.readyState == 'loaded') {
+              initMunchkin();
+            }
+          };
+          s.onload = initMunchkin;
+          document.getElementsByTagName('head')[0].appendChild(s);
+        })();
+        </script>
+
+        <!-- Footer -->
+        <footer>
+            <div class="columns">
+                <div class="navigation">
+                    <h3>Navigation</h3>
+                    <ul class="">
+<li>
+<a href="http://komodoide.com" title="Home" target="_self">
+<span class="link-name">Home</span>
+</a>
+</li>
+<li>
+<a href="http://komodoide.com/features" title="Features" target="_self">
+<span class="link-name">Features</span>
+</a>
+</li>
+<li>
+<a href="http://komodoide.com/pricing" title="Pricing" target="_self">
+<span class="link-name">Pricing</span>
+</a>
+</li>
+<li class="has-sub">
+<a href="http://komodoide.com/download" title="Download" target="_self">
+<span class="link-name">Download</span>
+</a>
+<ul class="">
+<li>
+<a href="http://downloads.activestate.com/Komodo/" title="Archive" target="_self">
+<span class="link-name">Archive</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="has-sub">
+<a href="http://komodoide.com/customize" title="Customize" target="_self">
+<span class="link-name">Customize</span>
+</a>
+<ul class="">
+<li>
+<a href="/resources" title="Resources" target="_self">
+<span class="link-name">Resources</span>
+</a>
+</li>
+<li>
+<a href="/customize" title="Get Involved" target="_self">
+<span class="link-name">Get Involved</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="has-sub">
+<a href="http://forum.komodoide.com/category/support" title="Support" target="_self">
+<span class="link-name">Support</span>
+</a>
+<ul class="">
+<li>
+<a href="http://docs.activestate.com/komodo" title="Documentation" target="_self">
+<span class="link-name">Documentation</span>
+</a>
+</li>
+<li>
+<a href="http://bugs.activestate.com/enter_bug.cgi?product=Komodo" title="Report Bug" target="_blank">
+<span class="link-name">Report Bug</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>                </div>
+                <div class="support">
+                    <h3>Support</h3>
+                    <ul class="">
+<li>
+<a href="http://docs.activestate.com/komodo" title="Documentation" target="_self">
+<span class="link-name">Documentation</span>
+</a>
+</li>
+<li>
+<a href="http://docs.activestate.com/komodo/latest/macroapi.html#macroapi_top" title="API Reference" target="_self">
+<span class="link-name">API Reference</span>
+</a>
+</li>
+<li>
+<a href="#" title="&nbsp;" target="_self">
+<span class="link-name">&nbsp;</span>
+</a>
+</li>
+<li>
+<a href="http://bugs.activestate.com/enter_bug.cgi?product=Komodo" title="Report a Bug" target="_blank">
+<span class="link-name">Report a Bug</span>
+</a>
+</li>
+<li>
+<a href="http://forum.komodoide.com/" title="Ask the Community" target="_self">
+<span class="link-name">Ask the Community</span>
+</a>
+</li>
+</ul>
+                    <h3>ActiveState</h3>
+                    <ul class="">
+<li>
+<a href="http://www.activestate.com/company" title="About" target="_blank">
+<span class="link-name">About</span>
+</a>
+</li>
+<li>
+<a href="http://www.activestate.com/company/contact-us" title="Contact" target="_blank">
+<span class="link-name">Contact</span>
+</a>
+</li>
+<li>
+<a href="http://www.activestate.com/company/careers" title="Careers" target="_blank">
+<span class="link-name">Careers</span>
+</a>
+</li>
+</ul>                </div>
+                <div class="communicate">
+                    <ul class="social">
+<li>
+<a href="http://twitter.com/KomodoIDE" title="Twitter" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/twitter-24x24.png" alt="Twitter"/>
+<span class="link-name">Twitter</span>
+</a>
+</li>
+<li>
+<a href="https://www.facebook.com/komodoide" title="Facebook" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/facebook-24x24.png" alt="Facebook"/>
+<span class="link-name">Facebook</span>
+</a>
+</li>
+<li>
+<a href="https://plus.google.com/u/0/115431120071336108525/posts" title="Google+" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/google+-24x24.png" alt="Google+"/>
+<span class="link-name">Google+</span>
+</a>
+</li>
+<li>
+<a href="https://vimeo.com/channels/komodo" title="Vimeo" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/vimeo-24x24.png" alt="Vimeo"/>
+<span class="link-name">Vimeo</span>
+</a>
+</li>
+<li>
+<a href="https://github.com/Komodo" title="GitHub" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/github-24x24.png" alt="GitHub"/>
+<span class="link-name">GitHub</span>
+</a>
+</li>
+<li>
+<a href="http://stackoverflow.com/questions/tagged/komodo" title="StackOverflow" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/stackoverflow-24x24.png" alt="StackOverflow"/>
+<span class="link-name">StackOverflow</span>
+</a>
+</li>
+<li>
+<a href="/blog.rss" title="RSS Feed" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/feed-24x24.png" alt="RSS Feed"/>
+<span class="link-name">RSS Feed</span>
+</a>
+</li>
+</ul>
+                    <p>&nbsp;</p>
+                    <a href="https://twitter.com/KomodoIDE" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @KomodoIDE</a>
+
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-text="Check out @KomodoIDE! One IDE for all major web languages." data-dnt="true">Tweet</a>
+
+                    <p>&nbsp;</p>
+
+                    <script>
+                        document.write('<div class="fb-like" data-href="'+location.href+'" data-layout="button" data-action="recommend" data-show-faces="false" data-share="true"></div>');
+                    </script>
+
+                    <h3>Communicate</h3>
+                    <ul class="">
+<li>
+<a href="http://www.activestate.com/company/contact-us" title="Contact Us" target="_self">
+<span class="link-name">Contact Us</span>
+</a>
+</li>
+<li>
+<a href="http://komodoide.com/blog" title="Blog" target="_self">
+<span class="link-name">Blog</span>
+</a>
+</li>
+<li>
+<a href="http://forum.komodoide.com/" title="Forums" target="_self">
+<span class="link-name">Forums</span>
+</a>
+</li>
+<li>
+<a href="http://kiwiirc.com/client/irc.mozilla.org/komodo?nick=komodo_visitor" title="IRC" target="_blank">
+<span class="link-name">IRC</span>
+</a>
+</li>
+<li>
+<a href="http://code.activestate.com/lists#ActiveState" title="Mailing Lists" target="_self">
+<span class="link-name">Mailing Lists</span>
+</a>
+</li>
+</ul>                </div>
+                <div class="newsletter">
+                    <!--
+                    <form>
+                        <h3>Newsletter Sign Up</h3>
+                        <input type="text" placeholder="Enter your E-Mail address"/>
+                    </form>
+                    -->
+
+                    <p>
+                        ActiveState Software Inc.
+                        Suite 1700-409 Granville St.,
+                        Vancouver, BC,
+                        V6C 1T2, Canada
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        General Enquiries: 778.786.1100 <br>
+                        Fax: 778.786.1133 <br>
+                        Sales: 1.866.631.4581
+                    </p>
+                    <p>&nbsp;</p>
+                    <p class="copytrade">
+                        © 2014 ActiveState Software Inc. All rights reserved. ActiveState®, Komodo®, ActivePerl®, ActivePython®, ActiveTcl®, and Stackato® are registered trademarks of ActiveState. All other marks are property of their respective owners.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        <a href="/privacy">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script>
+        //<![CDATA[
+            window.twttr = (function (d,s,id) {
+            var t, js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+            js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+            return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+            }(document, "script", "twitter-wjs"));
+            twttr.ready(function (twttr) {
+                twttr.events.bind('tweet', function (event) {
+                    if (_gak) _gaq.push(['_trackSocial', "Twitter", "Tweet"]);
+                    $.event.trigger({
+                        type: "pageShared",
+                        url: event.target.baseURI,
+                        network: "Twitter",
+                        action: "Tweet"
+                    });
+                });
+            });
+
+            (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=252636704908473&version=v2.0";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+            window.fbAsyncInit = function() {
+                // init the FB JS SDK
+
+                FB.Event.subscribe('edge.create', function(href, widget) {
+                    $.event.trigger({
+                        type: "pageShared",
+                        url: href,
+                        network: "Facebook",
+                        action: "like"
+                    });
+                });
+            };
+        //]]>
+        </script>
+        
+        <script defer="defer"  src="http://komodoide.com/scripts/all.min.js"></script>    </body>
+</html>

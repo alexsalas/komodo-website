@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+
+        <!-- Standard Meta -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Site Properities -->
+        <title>Komodo 9 Beta Release Now Available! | Komodo IDE</title>
+        <meta name="description" content="Try out the new features of Komodo IDE 9 - check out what we've working on and contribute towards the next version by reporting bugs or enhancement ideas." />
+        <meta name="keywords" content="komodo, komodo ide, activestate komodo ide, activestate komodo ide 6, activestate komodo, activestate ide, comodo ide, activestate comodo, kumodo ide, active state komodo, perl komodo ide, ide software, perl ide, python ide, ide python, tcl ide, integrated development environment, development environment, activetstate, komodo linux, komodo mac" />
+        <meta name="google-site-verification" content="V2GfldsIqa0sZB3JNGexrZGI8xHcIiAJAZbaRseKTIg" />
+
+        <link rel="icon"  type="image/png" href="/images/favicon.png">
+
+        <!-- Meta -->
+        <meta name="generator" content="DocPad v6.64.2" />
+        <!-- Styles -->
+        <link  rel="stylesheet" href="http://komodoide.com/styles/all.min.css" />
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,400italic,500,700,700italic' rel='stylesheet' type='text/css'>
+
+    </head>
+    <body>
+
+        <noscript>
+            <div id="noscript-warning">
+                <h2>JavaScript Recommended</h2>
+                <p>
+                    Some of the functionality on this website relies on JavaScript
+                    to be enabled. Your experience will unfortunately be negatively
+                    affected if you do not use JavaScript.
+                </p>
+            </div>
+        </noscript>
+
+        <script type="text/javascript">
+            document.body.classList.remove("no-js")
+        </script>
+
+        <!-- Main Container -->
+        <div id="container">
+            <a name="top"></a>
+            <header>
+    <div class="outer">
+        <div class="inner">
+            <div class="nav-wrap">
+                <span class="collapser button primary">
+                    <i class="icon icon-bars fa fa-bars"></i>
+                </span>
+                <!-- Navigation -->
+                <nav>
+                    <ul class="unstyled">
+<li>
+<a href="http://komodoide.com" title="Home" target="_self">
+<span class="link-name">Home</span>
+</a>
+</li>
+<li class="has-sub">
+<a href="#" title="Solutions" target="_self">
+<span class="link-name">Solutions</span>
+<i class="icon icon-sort-down"></i>
+</a>
+<ul class="">
+<li>
+<a href="http://komodoide.com/komodo-edit" title="Komodo Edit" target="_self">
+<span class="link-name">Komodo Edit</span>
+</a>
+</li>
+<li>
+<a href="http://www.activestate.com/pro-studio" title="Pro Studio" target="_self">
+<span class="link-name">Pro Studio</span>
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="http://komodoide.com/pricing" title="Pricing" target="_self">
+<span class="link-name">Pricing</span>
+</a>
+</li>
+<li>
+<a href="http://komodoide.com/download" title="Download" target="_self">
+<span class="link-name">Download</span>
+</a>
+</li>
+<li class="has-sub">
+<a href="http://komodoide.com/resources" title="Resources" target="_self">
+<span class="link-name">Resources</span>
+<i class="icon icon-sort-down"></i>
+</a>
+<ul class="">
+<li>
+<a href="http://komodoide.com/screencasts" title="Screencasts" target="_self">
+<span class="link-name">Screencasts</span>
+</a>
+</li>
+<li>
+<a href="/resources/addons" title="Addons" target="_self">
+<span class="link-name">Addons</span>
+</a>
+</li>
+<li>
+<a href="/resources/macros" title="Macros" target="_self">
+<span class="link-name">Macros</span>
+</a>
+</li>
+<li>
+<a href="/resources/toolbox" title="Toolbox" target="_self">
+<span class="link-name">Toolbox</span>
+</a>
+</li>
+<li>
+<a href="/resources/colorschemes" title="Color Schemes" target="_self">
+<span class="link-name">Color Schemes</span>
+</a>
+</li>
+<li>
+<a href="/resources/skins" title="Skins" target="_self">
+<span class="link-name">Skins</span>
+</a>
+</li>
+<li>
+<a href="/resources/iconsets" title="Iconsets" target="_self">
+<span class="link-name">Iconsets</span>
+</a>
+</li>
+<li>
+<a href="/resources/languages" title="Languages" target="_self">
+<span class="link-name">Languages</span>
+</a>
+</li>
+<li>
+<a href="/resources/keybindings" title="Keybindings" target="_self">
+<span class="link-name">Keybindings</span>
+</a>
+</li>
+<li>
+<a href="/resources/miscellaneous" title="Miscellaneous" target="_self">
+<span class="link-name">Miscellaneous</span>
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href="http://komodoide.com/blog" title="Blog" target="_self">
+<span class="link-name">Blog</span>
+</a>
+</li>
+<li>
+<a href="http://forum.komodoide.com/" title="Forums" target="_self">
+<span class="link-name">Forums</span>
+</a>
+</li>
+</ul>                </nav>
+            </div>
+
+            <!-- Logo -->
+            <a href="http://komodoide.com"><figure id="header-logo"></figure></a>
+        </div>
+    </div>
+    </header>
+
+            <div id="content" class="document-komodo-9-beta-release-now-available                                     sidebar                                     document-blog-entry">
+
+                
+                <section role="main">
+                <article class="normalize">
+
+    <div class="share">
+        <a href="https://twitter.com/share" class="twitter-share-button" data-via="KomodoIDE" data-size="large" data-dnt="true">Tweet</a>
+        <div class="spacer-quarter"></div>
+        <script>
+        document.write('<div class="fb-like" data-href="'+location.href+'" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>');
+        </script>
+    </div>
+
+    <h1>Komodo 9 Beta Release Now Available!</h1>
+    <div class="clearfix"></div>
+    <!--<span class="blog-title-under">
+        by <a href="#">Todd Whiteman</a> / tags
+                <a href="/blog/tags#release">release</a>
+                <a href="/blog/tags#beta">beta</a>
+                <a href="/blog/tags#nightly">nightly</a>
+                <a href="/blog/tags#preview">preview</a>
+                / December 18th, 2014    </span>-->
+    <div class="content">
+    <p>We&#39;ve completed most of the big feature work for Komodo IDE 9, and we&#39;ll mainly
+be focusing on bug fixes and polishing for the final release, so please help us
+out by giving Komodo 9 beta a try and report any issues you run into.</p>
+
+<p>We&#39;ll also continue making nightly releases from here on out, to make it easy
+for Komodo 9 pre-release users to keep up to date.</p>
+
+<p>You can <a href="/download#preview">download the latest Komodo IDE 9 pre-release from our Download section</a>.</p>
+
+<div class="centered">
+    <div class="spacer"></div>
+    <a href="/download#preview" class="button big primary">
+        <i class="icon icon-download"></i>
+        Download Komodo 9 Preview
+    </a>
+    <div class="spacer-half"></div>
+    <span>
+        <i class="icon icon-bug"></i>
+        <a href="https://bugs.activestate.com/enter_bug.cgi?product=Komodo&version=9.0.0%20preview" target="_blank">Report a Bug</a>
+    </span>
+</div>
+
+<p>Just remember, this is beta software - which means it&#39;s not thoroughly hardened
+and will contain bugs&hellip; as such, please report any problems you run into on our <a href="https://bugs.activestate.com/enter_bug.cgi?product=Komodo&amp;version=9.0.0%20preview">bug tracker</a>.</p>
+
+<h2>What&#39;s New</h2>
+
+<p>Here is a list of the major features and product changes made in Komodo 9:</p>
+
+<h3>Track Changes</h3>
+
+<p><a href="/images/blog/2014-12/trackchanges.png" class="lightbox" title="Track Changes mockup - subject to change - click to enlarge">
+<img src="/images/blog/2014-12/trackchanges-thumb.png" align="right">
+</a></p>
+
+<p>The editor has gained a new left margin - which highlights unsaved changes, as
+well as any uncommitted SCC changes. Clicking on the margin will show a diff
+dialog of the changes - as well as letting you revert individual changes! Sweet!</p>
+
+<div class="clearfix"></div>
+
+<h3>Markdown Viewer</h3>
+
+<p><a href="/images/blog/2014-12/markdown-viewer.png" class="lightbox" title="Markdown viewer - click to enlarge screenshot">
+<img src="/images/blog/2014-12/markdown-viewer-thumb.png" align="right">
+</a></p>
+
+<p>For Markdown files, Komodo provides a preview of the generated HTML directly
+within a Komodo split view and contents will dynamically update itself whenever
+you make a change to the Markdown text - it doesn&#39;t even need to be saved. You
+can check out the <a href="http://komodoide.com/blog/2014-11/live-markdown-viewing-in-komodo/">markdown blog post</a> for more details on this feature.</p>
+
+<div class="clearfix"></div>
+
+<h3>Go Programming Language Support</h3>
+
+<p><img src="http://komodoide.com/images/blog/2014-10/golang-logo.png" align="right"></p>
+
+<p>Golang is now becoming supported in Komodo. We provide syntax coloring, code
+folding, syntax checking (linting) and code intelligence with completions,
+calltips, outline and goto definition for .go files. Please check out the
+<a href="http://komodoide.com/blog/2014-10/introducing-go-lang-support/">golang blog post</a> for more details on this support.</p>
+
+<div class="clearfix"></div>
+
+<h3>Commando</h3>
+
+<p><a href="/images/blog/2014-12/commando.png" class="lightbox" title="Commando - click to enlarge screenshot">
+<img src="/images/blog/2014-12/commando-thumb.png" align="right">
+</a></p>
+
+<p>This popup dialog is the combined successor of the <em>Fast Open</em> and <em>Invoke Tool</em>
+dialogs in Komodo 8. Commando provides fuzzy matching, match highlighting,
+search for files (find any file under a folder), toolbox search, bookmark
+integration, shortcuts (go-tool) integration as well as custom category
+filtering.</p>
+
+<div class="clearfix"></div>
+
+<h3><a href="http://kopy.io/">Kopy.io</a> Helper</h3>
+
+<p><a href="http://kopy.io/">
+<img src="http://kopy.io/img/pastebin-logo-dark.png" align="right">
+</a></p>
+
+<p>Now you can easily share snippets of code with other people (like pastebin)
+directly from Komodo. Simple make a text selection and use the editor
+right-click context menu and choose <em>Share Code via Kopy.io</em>. Even better is that
+Kopy.io supports client side encryption, so you can make those shared pastes
+more secure.</p>
+
+<div class="clearfix"></div>
+
+<h3>Notifications UI</h3>
+
+<p><a href="/images/blog/2014-12/notify.png" class="lightbox" title="Notifications UI - click to enlarge screenshot">
+<img src="/images/blog/2014-12/notify-thumb.png" align="right">
+</a></p>
+
+<p>Notification messages shown to the user now appear in a separate popup panel
+that overlays the main Komodo editor window (previously they appeared in the
+Komodo statusbar). Komodo also has notification preferences, allowing you to
+control which messages get displayed in the popup panel.</p>
+
+<div class="clearfix"></div>
+
+<h3>Icons</h3>
+
+<p>Most of the icons in Komodo user interface have been updated to use improved
+images or to use a consistent style. We&#39;ve tweaked the file icons, language
+icons, places icons, toolbox icons, preference page icons and code intelligence
+icons (completions, sections list, code browser).</p>
+
+<div class="clearfix"></div>
+
+<h3>Editor Color Schemes</h3>
+
+<p>We&#39;ve changed all the default Komodo color schemes. All Komodo color schemes now
+use Base16, that is, they are based on a set of 16 different base colors, which
+are then re-used in different parts of that scheme.</p>
+
+<p>We also added the ability to tweak the editor line height spacing, which is now
+saved in the color scheme preferences page.</p>
+
+<h3>Menu Bar</h3>
+
+<p>The Komodo main menu bar (i.e. the File, Edit, &hellip;) is now hidden by default on
+Windows and Linux. You can use the Alt key to toggle the menu visibility, or
+force it be always displayed through the <em>View &gt; Toolbars</em> menu.</p>
+
+<p>Whilst the top-level menu is hidden, a unified menu button will be visible in
+the top-right of the Komodo toolbar, or if the toolbar is also hidden, then it
+will appear in the Komodo view status bar.</p>
+
+<h3>PHP 5.6 Support</h3>
+
+<p>We&#39;ve added support for PHP 5.6, with a new Xdebug module (for PHP debugging and
+Code Profiling), updates for keyword changes and updates to code intelligence to
+provide the latest API data for PHP 5.6.</p>
+
+<h3>Python Updates</h3>
+
+<p>Python 3.4 is fully supported for syntax checking, debugging, code intelligence,
+etc&hellip;</p>
+
+<p>We&#39;ve added PEP 8 syntax checking - you can enable this in the Python Syntax
+Checking preferences. For those that don&#39;t know - PEP 8 is the official <a href="http://legacy.python.org/dev/peps/pep-0008/">Style
+Guide for Python Code</a>.</p>
+
+<h3>Komodo Developer APIs</h3>
+
+<p>We&#39;ve been overhauling the Komodo APIs, to make it easier to load and access the
+methods inside of Komodo. We&#39;re now making use of CommonJS (aka Node.js)
+require() calls to load individual modules - you can see the full list of
+supported modules in the Komodo <a href="https://github.com/Komodo/KomodoEdit/tree/master/src/chrome/komodo/content/sdk">sdk directory</a>. Examples of use and more
+information can be found in the <a href="https://github.com/Komodo/KomodoEdit/wiki/Komodo-9-Changes">Komodo wiki</a>.</p>
+
+<p>We&#39;ve also added convenient console.log() and friends support - the messages
+show up in the Komodo notifications pane.</p>
+
+<p>There are other changes that Komodo Add-on developers should be aware of - we&#39;ve
+been documenting these major changes on our <a href="https://github.com/Komodo/KomodoEdit/wiki/Komodo-9-Changes">Komodo wiki</a> page.</p>
+
+<h3>Performance Tweaks</h3>
+
+<p>We&#39;ve made a bunch of performance tweaks to Komodo 9 already - with more to
+follow. So far we&#39;ve been concentrating on two main areas:</p>
+
+<ul>
+<li><p><em>Startup</em> - we&#39;ve managed to improve Komodo startup times by around 15%.</p></li>
+<li><p><em>Editor typing speed</em> - various editing features have been improved, which
+should be most noticeable in larger files, especially HTML/XML.</p></li>
+<li><p><em>Search</em> - improved performance of find next/previous calls</p></li>
+<li><p><em>Syntax Checking</em> - Faster syntax checking times</p></li>
+</ul>
+
+<h3>Miscellaneous</h3>
+
+<ul>
+<li><em>Statusbar moved</em> - it&#39;s now attached to the bottom of the editor view (and
+not to the bottom of the window)</li>
+<li><em>Preferences page</em> - now has <em>simple</em> and <em>advanced</em> modes</li>
+<li><em>Startpage</em> - now removed - a Quick Launch page is now displayed when no views are opened</li>
+<li><em>Custom workspaces</em> - can be saved and loaded on demand, use the File &gt; Workspace menu</li>
+<li><em>High DPI</em> - should work correctly on Windows - no blurred fonts</li>
+<li><em>Tab width</em> - the indentation preference has changed from 8 spaces to 4 spaces</li>
+<li><em>Commit dialog</em> - now displays the current branch name</li>
+<li><em>Menus</em> - various menus were re-organised, including tab and editor context menus</li>
+<li><em>Sections list</em> - has merged with breadcrumbs widget</li>
+<li><em>Copy find results</em> - which can be used via the toolbar in the find results widget</li>
+<li><em>Primary language cleanup</em> - less used languages like (XBL, XUL, Luddite) no
+longer appear in the main menu - though your free to adjust these in the
+Komodo <em>Languages</em> preferences.</li>
+<li><em>Mozilla 31</em> - Komodo is now built on top of the Mozilla 31 code base</li>
+<li><em>Analytics</em> - We now analyze how our users use Komodo to help us improve our
+product. This is entirely optional and we do not track user specific
+information. You can <a href="https://github.com/Komodo/KomodoEdit/blob/master/src/modules/analytics/content/analytics.js">view our Analytics code on
+github</a>.</li>
+</ul>
+
+<h2>Questions?</h2>
+
+<p><strong>Q:</strong> When will Komodo 9 be released?<br>
+<strong>A:</strong> We&#39;ve not set a firm deadline - but it will likely be early next year.</p>
+
+<p><strong>Q:</strong> What else is coming in Komodo 9?<br>
+<strong>A:</strong> This is most of the big feature plans we have for Komodo 9, we&#39;ve got a
+few other things planned, but mostly the focus will be on bug fixes and polish
+until Komodo 9 final is released.</p>
+
+<p><strong>Q:</strong> What about Komodo Edit?<br>
+<strong>A:</strong> Komodo Edit builds are not being released yet - they will be included later in
+the preview cycle - as we wanted to start with the focus being on Komodo IDE.</p>
+
+<p><strong>Q:</strong> I have more questions!<br>
+<strong>A:</strong> <a href="http://forum.komodoide.com/">Talk to us directly on the forums!</a></p>
+        <hr>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+            var disqus_shortname = 'komodoide';
+    
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </div>
+</article>
+                </section>
+                                <aside class="sidebar-blog normalize">
+                    <div id="side-border"></div>
+                    <button id="side-collapse" class="button big">
+                        <i class="icon icon-chevron-left"></i>
+                        <i class="icon icon-chevron-right"></i>
+                    </button>
+                    <div class="inner">
+                        <a href="/resources/submit-instructions/#pane-blogs" class="button big primary submit-content">
+    Submit Content
+</a>
+<div class="info">
+    <h1>Blog Info</h1>
+
+        <img src="/images/authors/ToddWhiteman.jpg" alt="Todd Whiteman">
+
+    <p>
+        <strong>By:</strong>
+                    <a href="/authors#ToddWhiteman">Todd Whiteman</a>
+            </p>
+
+    <p>
+        <strong>Tags: </strong>
+                <a href="/blog/tagged?release">release</a>
+                <a href="/blog/tagged?beta">beta</a>
+                <a href="/blog/tagged?nightly">nightly</a>
+                <a href="/blog/tagged?preview">preview</a>
+            </p>
+    <p><strong>Date Posted: </strong>December 18th, 2014</p>
+</div>
+<div class="clearfix"></div>
+<div class="blogs">
+            <h1>Related</h1>
+    <ul>
+                <li>
+            <a href="/blog/2012-07/komodo-7-1-screencast">Komodo 7.1 Video: SCC Push, Variable Highlighting, Add Your Own Language</a>
+        </li>
+                <li>
+            <a href="/blog/2013-02/komodo-8-beta-available">Komodo 8.0 Beta Now Available</a>
+        </li>
+                <li>
+            <a href="/blog/2013-03/komodo-8-release-next-week">Komodo Set to Attack: 8.0 Release Next Week</a>
+        </li>
+                <li>
+            <a href="/blog/2013-03/komodo-8-release">Komodo 8.0: Some Thoughts on a Killer Release</a>
+        </li>
+                <li>
+            <a href="/blog/2014-06/komodo-9-pre-release-now-available">Komodo 9 Pre-Release Now Available!</a>
+        </li>
+                <li>
+            <a href="/blog/2014-08/komodo-854-release">Komodo 8.5.4 release is now available</a>
+        </li>
+                <li>
+            <a href="/blog/2014-11/live-markdown-viewing-in-komodo">Live Markdown Preview in Komodo</a>
+        </li>
+            </ul>
+    
+    <h1>Recent Blogs</h1>
+    <ul>
+                <li>
+            <a href="/blog/2015-02/join-the-komodo-team">
+                Come and join the Komodo development team!            </a>
+        </li>
+                <li>
+            <a href="/blog/2015-01/logging-time-in-komodo-with-wakatime">
+                Logging Time in Komodo with WakaTime            </a>
+        </li>
+                <li>
+            <a href="/blog/2014-12/tracking-editor-changes-in-komodo">
+                Tracking Editor Changes in Komodo 9            </a>
+        </li>
+                <li>
+            <a href="/blog/2014-12/komodo-9-beta-release-now-available">
+                Komodo 9 Beta Release Now Available!            </a>
+        </li>
+                <li>
+            <a href="/blog/2014-10/introducing-go-lang-support">
+                Go-lang Support for Komodo            </a>
+        </li>
+                <li>
+            <a href="/blog/2014-11/live-markdown-viewing-in-komodo">
+                Live Markdown Preview in Komodo            </a>
+        </li>
+                <li>
+            <a href="/blog/2014-11/komodo-ide-personal-is-here-to-stay">
+                Komodo IDE Personal is Here to Stay!            </a>
+        </li>
+                <li>
+            <a href="/blog/2014-10/multi-row-editor-tabs">
+                Multi-row Editor Tabs for Komodo            </a>
+        </li>
+                <li>
+            <a href="/blog/2014-10/enhancing-productivity-with-command-line-applications">
+                Enhancing Productivity with Command Line Applications through Komodo Macros            </a>
+        </li>
+                <li>
+            <a href="/blog/2014-10/introducing-kopy-io">
+                Introducing kopy.io            </a>
+        </li>
+            </ul>
+</div>
+<div class="screencasts">
+    <h1>Recent Screencasts</h1>
+        <a href="/screencasts/watch/91022155-fast-open-go-to-file">
+        <i class="icon icon-youtube-play"></i>
+        <figure style="background-image: url('http://i.vimeocdn.com/video/470396218_200x150.jpg')"></figure>
+        <span>Fast Open (Go To File)</span>
+    </a>
+        <a href="/screencasts/watch/89728467-auto-abbreviations-snippets">
+        <i class="icon icon-youtube-play"></i>
+        <figure style="background-image: url('http://i.vimeocdn.com/video/468591284_200x150.jpg')"></figure>
+        <span>Auto-Abbreviations (Snippets)</span>
+    </a>
+        <a href="/screencasts/watch/89123307-vi-mode">
+        <i class="icon icon-youtube-play"></i>
+        <figure style="background-image: url('http://i.vimeocdn.com/video/467750155_200x150.jpg')"></figure>
+        <span>Vi Mode</span>
+    </a>
+        <a href="/screencasts/watch/88367341-customizable-panes">
+        <i class="icon icon-youtube-play"></i>
+        <figure style="background-image: url('http://i.vimeocdn.com/video/466804084_200x150.jpg')"></figure>
+        <span>Customizable Panes</span>
+    </a>
+        <a href="/screencasts/watch/87675282-open-files-widget">
+        <i class="icon icon-youtube-play"></i>
+        <figure style="background-image: url('http://i.vimeocdn.com/video/465826977_200x150.jpg')"></figure>
+        <span>Open Files Widget</span>
+    </a>
+        <a href="/screencasts/watch/87287634-projects-and-what-theyre-for">
+        <i class="icon icon-youtube-play"></i>
+        <figure style="background-image: url('http://i.vimeocdn.com/video/465288761_200x150.jpg')"></figure>
+        <span>Projects and What They're For</span>
+    </a>
+    </div>
+                    </div>
+                </aside>
+                            </div>
+            <div id="footer_push"></div>
+        </div>
+
+        <!-- Analytics -->
+        
+        <!-- AS.com -->
+        <script type="text/javascript">
+        var _gaq = _gaq || [];
+        var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+        _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+        _gaq.push(['_setAccount', 'UA-20072-24']);
+        _gaq.push(['_setDomainName', '.komodoide.com']);
+        _gaq.push(['_setAllowLinker', true]);
+        _gaq.push(['_setAllowHash', false]);
+        _gaq.push(['_trackPageview']);
+        (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async =
+        true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+        </script>
+
+        <!-- KIDE -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','_gak');
+
+          _gak('create', 'UA-47685083-1', 'auto');
+          _gak('require', 'linkid', 'linkid.js');
+          // pageview is handled in scripts.js
+
+        </script>
+
+        <!-- Adwords -->
+        <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 1071420929;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+        </script>
+        <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+        </script>
+        <noscript>
+        <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1071420929/?value=0&amp;guid=ON&amp;script=0"/>
+        </div>
+        </noscript>
+
+        <!-- Clicky -->
+        <script type="text/javascript">
+        var clicky_site_ids = clicky_site_ids || [];
+        clicky_site_ids.push(100751147);
+        (function() {
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = '//static.getclicky.com/js';
+          ( document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0] ).appendChild( s );
+        })();
+        </script>
+        <noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100751147ns.gif" /></p></noscript>
+
+        
+        <!-- Marketo -->
+        <script type="text/javascript">
+        (function() {
+          var didInit = false;
+          function initMunchkin() {
+            if(didInit === false) {
+              didInit = true;
+              Munchkin.init('894-ACS-622');
+            }
+          }
+          var s = document.createElement('script');
+          s.type = 'text/javascript';
+          s.async = true;
+          s.src = '//munchkin.marketo.net/munchkin.js';
+          s.onreadystatechange = function() {
+            if (this.readyState == 'complete' || this.readyState == 'loaded') {
+              initMunchkin();
+            }
+          };
+          s.onload = initMunchkin;
+          document.getElementsByTagName('head')[0].appendChild(s);
+        })();
+        </script>
+
+        <!-- Footer -->
+        <footer>
+            <div class="columns">
+                <div class="navigation">
+                    <h3>Navigation</h3>
+                    <ul class="">
+<li>
+<a href="http://komodoide.com" title="Home" target="_self">
+<span class="link-name">Home</span>
+</a>
+</li>
+<li>
+<a href="http://komodoide.com/features" title="Features" target="_self">
+<span class="link-name">Features</span>
+</a>
+</li>
+<li>
+<a href="http://komodoide.com/pricing" title="Pricing" target="_self">
+<span class="link-name">Pricing</span>
+</a>
+</li>
+<li class="has-sub">
+<a href="http://komodoide.com/download" title="Download" target="_self">
+<span class="link-name">Download</span>
+</a>
+<ul class="">
+<li>
+<a href="http://downloads.activestate.com/Komodo/" title="Archive" target="_self">
+<span class="link-name">Archive</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="has-sub">
+<a href="http://komodoide.com/customize" title="Customize" target="_self">
+<span class="link-name">Customize</span>
+</a>
+<ul class="">
+<li>
+<a href="/resources" title="Resources" target="_self">
+<span class="link-name">Resources</span>
+</a>
+</li>
+<li>
+<a href="/customize" title="Get Involved" target="_self">
+<span class="link-name">Get Involved</span>
+</a>
+</li>
+</ul>
+</li>
+<li class="has-sub">
+<a href="http://forum.komodoide.com/category/support" title="Support" target="_self">
+<span class="link-name">Support</span>
+</a>
+<ul class="">
+<li>
+<a href="http://docs.activestate.com/komodo" title="Documentation" target="_self">
+<span class="link-name">Documentation</span>
+</a>
+</li>
+<li>
+<a href="http://bugs.activestate.com/enter_bug.cgi?product=Komodo" title="Report Bug" target="_blank">
+<span class="link-name">Report Bug</span>
+</a>
+</li>
+</ul>
+</li>
+</ul>                </div>
+                <div class="support">
+                    <h3>Support</h3>
+                    <ul class="">
+<li>
+<a href="http://docs.activestate.com/komodo" title="Documentation" target="_self">
+<span class="link-name">Documentation</span>
+</a>
+</li>
+<li>
+<a href="http://docs.activestate.com/komodo/latest/macroapi.html#macroapi_top" title="API Reference" target="_self">
+<span class="link-name">API Reference</span>
+</a>
+</li>
+<li>
+<a href="#" title="&nbsp;" target="_self">
+<span class="link-name">&nbsp;</span>
+</a>
+</li>
+<li>
+<a href="http://bugs.activestate.com/enter_bug.cgi?product=Komodo" title="Report a Bug" target="_blank">
+<span class="link-name">Report a Bug</span>
+</a>
+</li>
+<li>
+<a href="http://forum.komodoide.com/" title="Ask the Community" target="_self">
+<span class="link-name">Ask the Community</span>
+</a>
+</li>
+</ul>
+                    <h3>ActiveState</h3>
+                    <ul class="">
+<li>
+<a href="http://www.activestate.com/company" title="About" target="_blank">
+<span class="link-name">About</span>
+</a>
+</li>
+<li>
+<a href="http://www.activestate.com/company/contact-us" title="Contact" target="_blank">
+<span class="link-name">Contact</span>
+</a>
+</li>
+<li>
+<a href="http://www.activestate.com/company/careers" title="Careers" target="_blank">
+<span class="link-name">Careers</span>
+</a>
+</li>
+</ul>                </div>
+                <div class="communicate">
+                    <ul class="social">
+<li>
+<a href="http://twitter.com/KomodoIDE" title="Twitter" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/twitter-24x24.png" alt="Twitter"/>
+<span class="link-name">Twitter</span>
+</a>
+</li>
+<li>
+<a href="https://www.facebook.com/komodoide" title="Facebook" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/facebook-24x24.png" alt="Facebook"/>
+<span class="link-name">Facebook</span>
+</a>
+</li>
+<li>
+<a href="https://plus.google.com/u/0/115431120071336108525/posts" title="Google+" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/google+-24x24.png" alt="Google+"/>
+<span class="link-name">Google+</span>
+</a>
+</li>
+<li>
+<a href="https://vimeo.com/channels/komodo" title="Vimeo" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/vimeo-24x24.png" alt="Vimeo"/>
+<span class="link-name">Vimeo</span>
+</a>
+</li>
+<li>
+<a href="https://github.com/Komodo" title="GitHub" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/github-24x24.png" alt="GitHub"/>
+<span class="link-name">GitHub</span>
+</a>
+</li>
+<li>
+<a href="http://stackoverflow.com/questions/tagged/komodo" title="StackOverflow" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/stackoverflow-24x24.png" alt="StackOverflow"/>
+<span class="link-name">StackOverflow</span>
+</a>
+</li>
+<li>
+<a href="/blog.rss" title="RSS Feed" target="_blank">
+<img src="http://komodoide.com/images/icons/sm/feed-24x24.png" alt="RSS Feed"/>
+<span class="link-name">RSS Feed</span>
+</a>
+</li>
+</ul>
+                    <p>&nbsp;</p>
+                    <a href="https://twitter.com/KomodoIDE" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @KomodoIDE</a>
+
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-text="Komodo 9 Beta Release Now Available! via @KomodoIDE" data-dnt="true">Tweet</a>
+
+                    <p>&nbsp;</p>
+
+                    <script>
+                        document.write('<div class="fb-like" data-href="'+location.href+'" data-layout="button" data-action="recommend" data-show-faces="false" data-share="true"></div>');
+                    </script>
+
+                    <h3>Communicate</h3>
+                    <ul class="">
+<li>
+<a href="http://www.activestate.com/company/contact-us" title="Contact Us" target="_self">
+<span class="link-name">Contact Us</span>
+</a>
+</li>
+<li>
+<a href="http://komodoide.com/blog" title="Blog" target="_self">
+<span class="link-name">Blog</span>
+</a>
+</li>
+<li>
+<a href="http://forum.komodoide.com/" title="Forums" target="_self">
+<span class="link-name">Forums</span>
+</a>
+</li>
+<li>
+<a href="http://kiwiirc.com/client/irc.mozilla.org/komodo?nick=komodo_visitor" title="IRC" target="_blank">
+<span class="link-name">IRC</span>
+</a>
+</li>
+<li>
+<a href="http://code.activestate.com/lists#ActiveState" title="Mailing Lists" target="_self">
+<span class="link-name">Mailing Lists</span>
+</a>
+</li>
+</ul>                </div>
+                <div class="newsletter">
+                    <!--
+                    <form>
+                        <h3>Newsletter Sign Up</h3>
+                        <input type="text" placeholder="Enter your E-Mail address"/>
+                    </form>
+                    -->
+
+                    <p>
+                        ActiveState Software Inc.
+                        Suite 1700-409 Granville St.,
+                        Vancouver, BC,
+                        V6C 1T2, Canada
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        General Enquiries: 778.786.1100 <br>
+                        Fax: 778.786.1133 <br>
+                        Sales: 1.866.631.4581
+                    </p>
+                    <p>&nbsp;</p>
+                    <p class="copytrade">
+                        © 2014 ActiveState Software Inc. All rights reserved. ActiveState®, Komodo®, ActivePerl®, ActivePython®, ActiveTcl®, and Stackato® are registered trademarks of ActiveState. All other marks are property of their respective owners.
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        <a href="/privacy">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Scripts -->
+        <script>
+        //<![CDATA[
+            window.twttr = (function (d,s,id) {
+            var t, js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
+            js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+            return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+            }(document, "script", "twitter-wjs"));
+            twttr.ready(function (twttr) {
+                twttr.events.bind('tweet', function (event) {
+                    if (_gak) _gaq.push(['_trackSocial', "Twitter", "Tweet"]);
+                    $.event.trigger({
+                        type: "pageShared",
+                        url: event.target.baseURI,
+                        network: "Twitter",
+                        action: "Tweet"
+                    });
+                });
+            });
+
+            (function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=252636704908473&version=v2.0";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+            window.fbAsyncInit = function() {
+                // init the FB JS SDK
+
+                FB.Event.subscribe('edge.create', function(href, widget) {
+                    $.event.trigger({
+                        type: "pageShared",
+                        url: href,
+                        network: "Facebook",
+                        action: "like"
+                    });
+                });
+            };
+        //]]>
+        </script>
+        
+        <script defer="defer"  src="http://komodoide.com/scripts/all.min.js"></script>    </body>
+</html>

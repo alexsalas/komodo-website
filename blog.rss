@@ -1,0 +1,557 @@
+<rss version="2.0">
+    <channel>
+        <title>Komodo Blogs</title>
+        <description>Komodo blog RSS feed.  </description>
+        <link>http://komodoide.com/blog/</link>
+        <language>en</language>
+        <webMaster>support@activestate.com (ActiveState Support)</webMaster>
+        <lastBuildDate>Fri, 6 Feb 2015 06:01:01 -08:00</lastBuildDate>
+        <generator>DocPad v6.64.0</generator>
+        <item>
+            <title>Come and join the Komodo development team!</title>
+            <link>http://komodoide.com/blog/2015-02/join-the-komodo-team</link>
+            <pubDate>Tue, 3 Feb 2015 06:00:00 -08:00</pubDate>
+            <description>We've got a really great career opportunity, come work as a Komodo developer and help make awesome software tools!</description>
+            <guid>http://komodoide.com/blog/2015-02/join-the-komodo-team</guid>
+        </item>
+        <item>
+            <title>Logging Time in Komodo with WakaTime</title>
+            <link>http://komodoide.com/blog/2015-01/logging-time-in-komodo-with-wakatime</link>
+            <pubDate>Mon, 5 Jan 2015 06:00:00 -08:00</pubDate>
+            <description>A while ago a new Komodo addon was submitted that seeks to make time tracking easier simply by using your editor activity as a means of tracking your time, allowing you to just do what you normally do without having to worry about manually starting or stopping some meter.</description>
+            <guid>http://komodoide.com/blog/2015-01/logging-time-in-komodo-with-wakatime</guid>
+        </item>
+        <item>
+            <title>Tracking Editor Changes in Komodo 9</title>
+            <link>http://komodoide.com/blog/2014-12/tracking-editor-changes-in-komodo</link>
+            <pubDate>Sun, 21 Dec 2014 04:00:00 -08:00</pubDate>
+            <description>Discover how the Komodo 9 Track Changes component went from a nice to have feature into a must-have!</description>
+            <guid>http://komodoide.com/blog/2014-12/tracking-editor-changes-in-komodo</guid>
+        </item>
+        <item>
+            <title>Komodo 9 Beta Release Now Available!</title>
+            <link>http://komodoide.com/blog/2014-12/komodo-9-beta-release-now-available</link>
+            <pubDate>Thu, 18 Dec 2014 04:00:00 -08:00</pubDate>
+            <description>Try out the new features of Komodo IDE 9 - check out what we've working on and contribute towards the next version by reporting bugs or enhancement ideas.</description>
+            <guid>http://komodoide.com/blog/2014-12/komodo-9-beta-release-now-available</guid>
+        </item>
+        <item>
+            <title>Go-lang Support for Komodo</title>
+            <link>http://komodoide.com/blog/2014-10/introducing-go-lang-support</link>
+            <pubDate>Sun, 14 Dec 2014 04:00:00 -08:00</pubDate>
+            <description>Go programming language support is being introduced into Komodo!</description>
+            <guid>http://komodoide.com/blog/2014-10/introducing-go-lang-support</guid>
+        </item>
+        <item>
+            <title>Live Markdown Preview in Komodo</title>
+            <link>http://komodoide.com/blog/2014-11/live-markdown-viewing-in-komodo</link>
+            <pubDate>Mon, 17 Nov 2014 04:00:00 -08:00</pubDate>
+            <description>Showing a live Markdown preview inside of Komodo.</description>
+            <guid>http://komodoide.com/blog/2014-11/live-markdown-viewing-in-komodo</guid>
+        </item>
+        <item>
+            <title>Komodo IDE Personal is Here to Stay!</title>
+            <link>http://komodoide.com/blog/2014-11/komodo-ide-personal-is-here-to-stay</link>
+            <pubDate>Thu, 6 Nov 2014 06:00:00 -08:00</pubDate>
+            <description>Good news everyone! After testing the Personal license for a few months we&#38;#39;ve come to the conclusion that we would really like to keep it around. The following changes will be made to the license:</description>
+            <guid>http://komodoide.com/blog/2014-11/komodo-ide-personal-is-here-to-stay</guid>
+        </item>
+        <item>
+            <title>Multi-row Editor Tabs for Komodo</title>
+            <link>http://komodoide.com/blog/2014-10/multi-row-editor-tabs</link>
+            <pubDate>Tue, 21 Oct 2014 05:00:00 -07:00</pubDate>
+            <description>This little macro will wrap Komodo's editor tabs into multiple rows of tabs when there is not enough space to display all of them.</description>
+            <guid>http://komodoide.com/blog/2014-10/multi-row-editor-tabs</guid>
+        </item>
+        <item>
+            <title>Enhancing Productivity with Command Line Applications through Komodo Macros</title>
+            <link>http://komodoide.com/blog/2014-10/enhancing-productivity-with-command-line-applications</link>
+            <pubDate>Thu, 16 Oct 2014 06:00:00 -07:00</pubDate>
+            <description>Learning a new editor can be a daunting task, and it is a task that I faced in May 2013 when I switched to Komodo (briefly to Edit and then to IDE) after a 7 year history with my previous editor. After becoming familiar with the Komodo interface and keyboard shortcuts, I quickly began looking for other ways to boost my productivity.</description>
+            <guid>http://komodoide.com/blog/2014-10/enhancing-productivity-with-command-line-applications</guid>
+        </item>
+        <item>
+            <title>Introducing kopy.io</title>
+            <link>http://komodoide.com/blog/2014-10/introducing-kopy-io</link>
+            <pubDate>Tue, 14 Oct 2014 05:00:00 -07:00</pubDate>
+            <description>Today we finally launched kopy.io after having had it in soft-launch for about 2 weeks. kopy.io is a new &#34;service&#34; for Komodo. Essentially it is a pastebin alternative with a bunch of little extras you likely wont find in other pastebin solutions.</description>
+            <guid>http://komodoide.com/blog/2014-10/introducing-kopy-io</guid>
+        </item>
+        <item>
+            <title>The History of Komodo, A Trip Down Memory Lane</title>
+            <link>http://komodoide.com/blog/2014-09/the-history-of-komodo</link>
+            <pubDate>Wed, 10 Sep 2014 05:00:00 -07:00</pubDate>
+            <description>The first version of Komodo was released roughly 14 years ago. This means Komodo is older than some of its users.. and yet its held up remarkably well. Yes it was starting to show signs of aging, but Komodo 8 came with some age-reversing serum so this dragon isn't going anywhere.</description>
+            <guid>http://komodoide.com/blog/2014-09/the-history-of-komodo</guid>
+        </item>
+        <item>
+            <title>Macro for Toggling Editor Comments</title>
+            <link>http://komodoide.com/blog/2014-09/comment-toggle</link>
+            <pubDate>Sun, 7 Sep 2014 05:00:00 -07:00</pubDate>
+            <description>Toggle comments (on or off) for the current editor line, or over the selected lines.</description>
+            <guid>http://komodoide.com/blog/2014-09/comment-toggle</guid>
+        </item>
+        <item>
+            <title>Komodo 8.5.4 release is now available</title>
+            <link>http://komodoide.com/blog/2014-08/komodo-854-release</link>
+            <pubDate>Wed, 20 Aug 2014 05:00:00 -07:00</pubDate>
+            <description>Komodo 8.5.4 has been released - containing bug fixes and improvements.</description>
+            <guid>http://komodoide.com/blog/2014-08/komodo-854-release</guid>
+        </item>
+        <item>
+            <title>Print to the Komodo Output Tab</title>
+            <link>http://komodoide.com/blog/2014-08/print-to-komodo-output-tab</link>
+            <pubDate>Mon, 18 Aug 2014 06:00:00 -07:00</pubDate>
+            <description>Manually print to output tab in Komodo.</description>
+            <guid>http://komodoide.com/blog/2014-08/print-to-komodo-output-tab</guid>
+        </item>
+        <item>
+            <title>Debug Komodo with Komodo</title>
+            <link>http://komodoide.com/blog/2014-08/debugging-komodo-with-komodo</link>
+            <pubDate>Thu, 14 Aug 2014 06:00:00 -07:00</pubDate>
+            <description>Ever wondered what's going on in there when you're working with Komodo?  Ever wondered how a component works?  Well why not walk through the code as Komodo does?</description>
+            <guid>http://komodoide.com/blog/2014-08/debugging-komodo-with-komodo</guid>
+        </item>
+        <item>
+            <title>Auto Toggle Panes</title>
+            <link>http://komodoide.com/blog/2014-08/auto-toggle-panes</link>
+            <pubDate>Mon, 11 Aug 2014 06:00:00 -07:00</pubDate>
+            <description>I like to use Komodo without any panes or tabs showing - just the editor. Normally I would use keybindings to toggle the relevant panes when I need them but I wanted something more intuitive; so I wrote a macro.</description>
+            <guid>http://komodoide.com/blog/2014-08/auto-toggle-panes</guid>
+        </item>
+        <item>
+            <title>PHP 5.6, PHPNG and Onwards</title>
+            <link>http://komodoide.com/blog/2014-07/php56-phpng-and-onwards</link>
+            <pubDate>Tue, 22 Jul 2014 05:00:00 -07:00</pubDate>
+            <description>PHP - taking a look at future PHP releases to see what's coming in the future.</description>
+            <guid>http://komodoide.com/blog/2014-07/php56-phpng-and-onwards</guid>
+        </item>
+        <item>
+            <title>Open the same file in different directories</title>
+            <link>http://komodoide.com/blog/2014-07/alternative_location</link>
+            <pubDate>Sun, 20 Jul 2014 05:00:00 -07:00</pubDate>
+            <description>This macro allows opening the current file in another location, such as an alternative branch location.</description>
+            <guid>http://komodoide.com/blog/2014-07/alternative_location</guid>
+        </item>
+        <item>
+            <title>Building Komodo with Docker</title>
+            <link>http://komodoide.com/blog/2014-07/building-komodo-with-docker</link>
+            <pubDate>Tue, 15 Jul 2014 06:00:00 -07:00</pubDate>
+            <description>How I &#34;accidentally&#34; made building on Linux much easier by using Docker and SSH X11 port forwarding.</description>
+            <guid>http://komodoide.com/blog/2014-07/building-komodo-with-docker</guid>
+        </item>
+        <item>
+            <title>Best Coding Fonts</title>
+            <link>http://komodoide.com/blog/2014-07/best-coding-fonts</link>
+            <pubDate>Wed, 9 Jul 2014 06:00:00 -07:00</pubDate>
+            <description>Each day us programmers spend hours upon hours looking at our screen, and the main thing we look at is not our IDE, it's not our software or our browser; it's our code. So it's only natural that our code should be a pleasure to look at. One side of this is completely in your own hands; writing clean and sensible code. The other side slightly less so; the font you choose to represent your code.</description>
+            <guid>http://komodoide.com/blog/2014-07/best-coding-fonts</guid>
+        </item>
+        <item>
+            <title>Workspace Save and Restore Macro</title>
+            <link>http://komodoide.com/blog/2014-07/workspace-save-and-restore-macro</link>
+            <pubDate>Mon, 7 Jul 2014 06:00:00 -07:00</pubDate>
+            <description>A Komodo startup macro that injects a menu element at startup into the Tools menu, allowing users to save the current workspace (all the currently opened files) and restore previously saved ones.</description>
+            <guid>http://komodoide.com/blog/2014-07/workspace-save-and-restore-macro</guid>
+        </item>
+        <item>
+            <title>Komodo 9 Pre-Release Now Available!</title>
+            <link>http://komodoide.com/blog/2014-06/komodo-9-pre-release-now-available</link>
+            <pubDate>Sun, 29 Jun 2014 05:00:00 -07:00</pubDate>
+            <description>A glimpse of Komodo IDE 9 - check out what we've working on and contribute towards the next version by reporting bugs or enhancement ideas.</description>
+            <guid>http://komodoide.com/blog/2014-06/komodo-9-pre-release-now-available</guid>
+        </item>
+        <item>
+            <title>Python Performance Boost by using Profile Guided Optimization</title>
+            <link>http://komodoide.com/blog/2014-06/python-pgo-on-linux</link>
+            <pubDate>Tue, 24 Jun 2014 05:00:00 -07:00</pubDate>
+            <description>I've been examing the benefits of using Profile Guided Optimization for building Python - with some success.</description>
+            <guid>http://komodoide.com/blog/2014-06/python-pgo-on-linux</guid>
+        </item>
+        <item>
+            <title>Run SSH Commands from Komodo</title>
+            <link>http://komodoide.com/blog/2014-06/run-ssh-command-from-komodo</link>
+            <pubDate>Sun, 22 Jun 2014 05:00:00 -07:00</pubDate>
+            <description>Execute a remote command through SSH based on the connection to a remote file in the editor</description>
+            <guid>http://komodoide.com/blog/2014-06/run-ssh-command-from-komodo</guid>
+        </item>
+        <item>
+            <title>Working With Node.JS Through Vagrant, Puppet and VirtualBox</title>
+            <link>http://komodoide.com/blog/2014-06/working-with-nodejs-through-vagrant-puppet-virtualbox</link>
+            <pubDate>Wed, 18 Jun 2014 05:00:00 -07:00</pubDate>
+            <description>How I launched a development environment for the Komodo website (or any docpad site) using Vagrant, Puppet and Virtualbox.</description>
+            <guid>http://komodoide.com/blog/2014-06/working-with-nodejs-through-vagrant-puppet-virtualbox</guid>
+        </item>
+        <item>
+            <title>Execute Snippet As PHP</title>
+            <link>http://komodoide.com/blog/2014-06/execute-snippet-as-php</link>
+            <pubDate>Mon, 16 Jun 2014 06:00:00 -07:00</pubDate>
+            <description>Quickly execute a snippet of code as PHP, the snippet can be an (unsaved) file or simply the text you currently have selected</description>
+            <guid>http://komodoide.com/blog/2014-06/execute-snippet-as-php</guid>
+        </item>
+        <item>
+            <title>Automatic Brace Wrap for Editor Selections</title>
+            <link>http://komodoide.com/blog/2014-06/brace-wrap-selection</link>
+            <pubDate>Sun, 8 Jun 2014 05:00:00 -07:00</pubDate>
+            <description>A Komodo startup macro that allows automatic wrapping of text selections by key-pressing the required brace character.</description>
+            <guid>http://komodoide.com/blog/2014-06/brace-wrap-selection</guid>
+        </item>
+        <item>
+            <title>Select Brace Contents</title>
+            <link>http://komodoide.com/blog/2014-06/select-brace-contents</link>
+            <pubDate>Mon, 2 Jun 2014 06:00:00 -07:00</pubDate>
+            <description>Easily select the contents of xml/html nodes by placing your cursor inside them and executing this macro.</description>
+            <guid>http://komodoide.com/blog/2014-06/select-brace-contents</guid>
+        </item>
+        <item>
+            <title>The State of Static Site Generators</title>
+            <link>http://komodoide.com/blog/2014-05/the-state-of-static-site-generators</link>
+            <pubDate>Tue, 27 May 2014 05:00:00 -07:00</pubDate>
+            <description>In this blog post I go over my own introduction to static site generators, what I like about them, what I dislike about them and where I think the future will (or should) take us.</description>
+            <guid>http://komodoide.com/blog/2014-05/the-state-of-static-site-generators</guid>
+        </item>
+        <item>
+            <title>Character Transpose</title>
+            <link>http://komodoide.com/blog/2014-05/transpose-macro</link>
+            <pubDate>Sun, 25 May 2014 05:00:00 -07:00</pubDate>
+            <description>Swap character order using the transpose macro.   Easily augmented to swap whole words as well when word is selected.</description>
+            <guid>http://komodoide.com/blog/2014-05/transpose-macro</guid>
+        </item>
+        <item>
+            <title>Source Code Annotate Macro</title>
+            <link>http://komodoide.com/blog/2014-05/scc-annotate-macro</link>
+            <pubDate>Sun, 18 May 2014 05:00:00 -07:00</pubDate>
+            <description>Show source code file annotations inside the Komodo editor margin.</description>
+            <guid>http://komodoide.com/blog/2014-05/scc-annotate-macro</guid>
+        </item>
+        <item>
+            <title>Getting git submodule to track a branch</title>
+            <link>http://komodoide.com/blog/2014-05/git-submodules</link>
+            <pubDate>Wed, 14 May 2014 06:00:00 -07:00</pubDate>
+            <description>What you need to know about using Git submodules and branch tracking. We're sharing what we've learnt when using Git submodules in the Komodo code base.</description>
+            <guid>http://komodoide.com/blog/2014-05/git-submodules</guid>
+        </item>
+        <item>
+            <title>Auto Allman-style Braces in Komodo</title>
+            <link>http://komodoide.com/blog/2014-05/auto-allman-style-braces</link>
+            <pubDate>Mon, 12 May 2014 06:00:00 -07:00</pubDate>
+            <description>Komodo does not dictate any sort of coding style, it merely facilitates you to code whichever way you want. It's easy to code in Allman style, but we can make it even easier with a simple macro.</description>
+            <guid>http://komodoide.com/blog/2014-05/auto-allman-style-braces</guid>
+        </item>
+        <item>
+            <title>Image Tag Dimension Completion</title>
+            <link>http://komodoide.com/blog/2014-05/image-tag-dimension-completion</link>
+            <pubDate>Sun, 4 May 2014 05:00:00 -07:00</pubDate>
+            <description>Quickly add image dimensions to an &#38;lt;img&#38;gt; tag based off the image tags src attribute.  Everyone wants it, now you've got it.</description>
+            <guid>http://komodoide.com/blog/2014-05/image-tag-dimension-completion</guid>
+        </item>
+        <item>
+            <title>Introducing Komodo Resources!</title>
+            <link>http://komodoide.com/blog/2014-04/introducing-komodo-resources</link>
+            <pubDate>Mon, 28 Apr 2014 05:00:00 -07:00</pubDate>
+            <description>We've overhauled the website, we've overhauled the forums, and now -- we're overhauling the &#34;addon directory&#34;, now called the &#34;Resources&#34; section.</description>
+            <guid>http://komodoide.com/blog/2014-04/introducing-komodo-resources</guid>
+        </item>
+        <item>
+            <title>Swap Assignment Macro</title>
+            <link>http://komodoide.com/blog/2014-04/swap-assignment-macro</link>
+            <pubDate>Sun, 27 Apr 2014 05:00:00 -07:00</pubDate>
+            <description>It's a common idiom to swap things around in your code, either swapping the position of two function arguments, or changing the assignment of variables around in a save and restore  operation.</description>
+            <guid>http://komodoide.com/blog/2014-04/swap-assignment-macro</guid>
+        </item>
+        <item>
+            <title>Organize Files With Patterns</title>
+            <link>http://komodoide.com/blog/2014-04/organize-files-with-patterns</link>
+            <pubDate>Sun, 20 Apr 2014 05:00:00 -07:00</pubDate>
+            <description>Did you know you can organize your open files using your own custom patterns? This can be incredibly useful for example when you're working in a Project that uses the MVC pattern. Imagine not just having your files grouped by language but also by their pattern (model, view, controller).</description>
+            <guid>http://komodoide.com/blog/2014-04/organize-files-with-patterns</guid>
+        </item>
+        <item>
+            <title>Introducing Komodo Personal Licensing</title>
+            <link>http://komodoide.com/blog/2014-04/komodo_personal_license</link>
+            <pubDate>Sun, 6 Apr 2014 05:00:00 -07:00</pubDate>
+            <description>We are very excited to let you know that (for a limited time only) we are offering a special Personal license of Komodo IDE to individual developers for $89.</description>
+            <guid>http://komodoide.com/blog/2014-04/komodo_personal_license</guid>
+        </item>
+        <item>
+            <title>Absolute Cursor Position in Statusbar</title>
+            <link>http://komodoide.com/blog/2014-03/show-absolute-position-in-statusbar</link>
+            <pubDate>Sun, 30 Mar 2014 05:00:00 -07:00</pubDate>
+            <description>Ever wanted to easily see where in the document your current cursor position is relative to the first character?  It's quite easy to override a built-in Komodo function to update your statusbar and show this information.</description>
+            <guid>http://komodoide.com/blog/2014-03/show-absolute-position-in-statusbar</guid>
+        </item>
+        <item>
+            <title>Variable Dumper Macro</title>
+            <link>http://komodoide.com/blog/2014-03/variable-dumper-macro</link>
+            <pubDate>Sun, 23 Mar 2014 05:00:00 -07:00</pubDate>
+            <description>Quickly create a print statement from a variable or selection of code. This is one of Todd's most frequently used macros!</description>
+            <guid>http://komodoide.com/blog/2014-03/variable-dumper-macro</guid>
+        </item>
+        <item>
+            <title>Open Terminal From Komodo</title>
+            <link>http://komodoide.com/blog/2014-03/open-terminal-from-komodo</link>
+            <pubDate>Sun, 16 Mar 2014 05:00:00 -07:00</pubDate>
+            <description>Ever wanted to quickly jump from Komodo to your terminal? It's likely a common occurrance, one that twitter user @mjatharvest was facing and decided to tweet us about. Turns out it's pretty easy to add with a macro!</description>
+            <guid>http://komodoide.com/blog/2014-03/open-terminal-from-komodo</guid>
+        </item>
+        <item>
+            <title>Quickly Adding Custom Snippets</title>
+            <link>http://komodoide.com/blog/2014-03/quickly-adding-custom-snippets</link>
+            <pubDate>Sun, 9 Mar 2014 05:00:00 -07:00</pubDate>
+            <description>Does Komodo not come with a snippet you need?  I'll show you how to create that snippet with one keybinding using Komodo macros.  We heard you liked keybindings too, so we're gonna put a keybinding in that keybound snippet.</description>
+            <guid>http://komodoide.com/blog/2014-03/quickly-adding-custom-snippets</guid>
+        </item>
+        <item>
+            <title>Komodo Edit Is Now On GitHub!</title>
+            <link>http://komodoide.com/blog/2014-03/komodo-edit-is-now-on-github</link>
+            <pubDate>Tue, 4 Mar 2014 04:00:00 -08:00</pubDate>
+            <description>Both Git and GitHub are playing an increasing role in Komodo's development process. See how, why and where the Komodo team are using Git for source code control.</description>
+            <guid>http://komodoide.com/blog/2014-03/komodo-edit-is-now-on-github</guid>
+        </item>
+        <item>
+            <title>First Contest Winner!</title>
+            <link>http://komodoide.com/blog/2014-02/contest-winner</link>
+            <pubDate>Thu, 27 Feb 2014 04:00:00 -08:00</pubDate>
+            <description>Today we selected our first contest winner! In case you wheren't keeping track - we're having a contest in which you can win a copy of Komodo simply by showing off your Komodo setup!</description>
+            <guid>http://komodoide.com/blog/2014-02/contest-winner</guid>
+        </item>
+        <item>
+            <title>Adding Functionality to Komodo With Macros</title>
+            <link>http://komodoide.com/blog/2014-02/adding-new-functionality-to-komodo-with-macros</link>
+            <pubDate>Sun, 23 Feb 2014 04:00:00 -08:00</pubDate>
+            <description>Does Komodo have feature X? What do you do when Komodo does not support a feature you've seen in another editor? After hearing this story multiple times, Todd will describe how you can add new functionality using Komodo macro's.</description>
+            <guid>http://komodoide.com/blog/2014-02/adding-new-functionality-to-komodo-with-macros</guid>
+        </item>
+        <item>
+            <title>New Website! Win a Copy of Komodo!</title>
+            <link>http://komodoide.com/blog/2014-02/new-website-launched</link>
+            <pubDate>Tue, 18 Feb 2014 04:00:00 -08:00</pubDate>
+            <description>After weeks of hard work we can finally present to you our new web site! It's been a long time coming and although a lot of work has been done thus far a lot more is still to come. We're working hard not just on Komodo but also on the infrastructure surrounding Komodo: community, addons, support, documentation, etc.</description>
+            <guid>http://komodoide.com/blog/2014-02/new-website-launched</guid>
+        </item>
+        <item>
+            <title>Auto-table Generation with Snippets, EJS and Komodo IDE/Edit</title>
+            <link>http://komodoide.com/blog/2013-12/auto-table-generation-snippets-ejs-komodo</link>
+            <pubDate>Tue, 3 Dec 2013 12:00:00 -08:00</pubDate>
+            <description>I hate laying out tedious HTML tables. I know you do too. In fact, I'm sure you have a better way of doing it then typing it out tag for closing tag. This post is to show you how you can easily write a snippet in Komodo that does that for you.</description>
+            <guid>http://komodoide.com/blog/2013-12/auto-table-generation-snippets-ejs-komodo</guid>
+        </item>
+        <item>
+            <title>Save big this Thanksgiving weekend! Up to $100 off on developer tools!</title>
+            <link>http://komodoide.com/blog/2013-11/save-big-thanksgiving-weekend-100-developer-tools</link>
+            <pubDate>Wed, 27 Nov 2013 12:00:00 -08:00</pubDate>
+            <description>2013 has been a fruitful year for us and we would like to give thanks in the best way possible: passing savings onto our supporters! From Thanksgiving Thursday to Cyber Monday, we will be holding a dev tools sale just for you: </description>
+            <guid>http://komodoide.com/blog/2013-11/save-big-thanksgiving-weekend-100-developer-tools</guid>
+        </item>
+        <item>
+            <title>strlen Considered Dangerous</title>
+            <link>http://komodoide.com/blog/2013-10/strlen-considered-dangerous</link>
+            <pubDate>Tue, 29 Oct 2013 12:00:00 -07:00</pubDate>
+            <description>A user complained that when he loaded a particular PHP file into Komodo, the editor would become unresponsive, and there would be no code intelligence. A quick check outside the editor showed most of what I needed to know about this file:</description>
+            <guid>http://komodoide.com/blog/2013-10/strlen-considered-dangerous</guid>
+        </item>
+        <item>
+            <title>One Week Left to Save on Komodo IDE 8.5, and Perl &#38; Tcl Dev Kits</title>
+            <link>http://komodoide.com/blog/2013-09/one-week-left-komodo-ide</link>
+            <pubDate>Mon, 23 Sep 2013 12:00:00 -07:00</pubDate>
+            <description>Our Komodo 8.5/Back to Work promotion is coming to a close next Monday, September 30. Now is the time to get licenses of Perl Dev Kit, Tcl Dev Kit, Komodo IDE or Pro Studio, as we rarely offer discounts on our developer tools.</description>
+            <guid>http://komodoide.com/blog/2013-09/one-week-left-komodo-ide</guid>
+        </item>
+        <item>
+            <title>Komodo 8.5: Productivity with a Touch of Darkness</title>
+            <link>http://komodoide.com/blog/2013-09/komodo-8-5-release</link>
+            <pubDate>Thu, 12 Sep 2013 12:00:00 -07:00</pubDate>
+            <description>I am pleased to announce that Komodo IDE and Edit 8.5.0 are officially released. On behalf of the Komodo team, I'd like to thank all of our beta testers, customers, and anyone who has given feedback over the years. Komodo continues to evolve as a leading IDE thanks to your efforts.</description>
+            <guid>http://komodoide.com/blog/2013-09/komodo-8-5-release</guid>
+        </item>
+        <item>
+            <title>Supporting the Arch Linux ARM Development Team with Komodo IDE</title>
+            <link>http://komodoide.com/blog/2013-06/supporting-arch-linux-arm-development-team-komodo-ide</link>
+            <pubDate>Thu, 27 Jun 2013 12:00:00 -07:00</pubDate>
+            <description>Arch Linux ARM (ALARM) is a distribution of Linux for ARM computers. Since ARM architecture is found in microprocessors and semiconductors made by a wide range of manufacturers, including Apple, Broadcom and Texas Instruments, chances are that at least one of your devices has an ARM-based processor.</description>
+            <guid>http://komodoide.com/blog/2013-06/supporting-arch-linux-arm-development-team-komodo-ide</guid>
+        </item>
+        <item>
+            <title>Adopt a Komodo: Help Conservation Efforts this Spring with Komodo IDE </title>
+            <link>http://komodoide.com/blog/2013-05/adopt-a-komodo</link>
+            <pubDate>Wed, 8 May 2013 12:00:00 -07:00</pubDate>
+            <description>This month, ActiveState is running a Komodo IDE fundraiser. $50 of each license sold of Komodo IDE or ActivePerl/Tcl Pro Studio will go towards efforts for the conservation of endangered species such as the Komodo Dragon. As a thank you gift, each customer will receive a gift bag containing an official certificate and an awesome Komodo plushie!</description>
+            <guid>http://komodoide.com/blog/2013-05/adopt-a-komodo</guid>
+        </item>
+        <item>
+            <title>Meeting our Komodo Users: Gary Chau, Knight IT Inc.</title>
+            <link>http://komodoide.com/blog/2013-04/meeting-komodo-users-knight-it</link>
+            <pubDate>Wed, 3 Apr 2013 12:00:00 -07:00</pubDate>
+            <description>Gary Chau, a Python developer at Knight IT Inc. recently contacted us about upgrading to the latest version of Komodo IDE. It turns out Gary has been a big fan of Komodo and ActivePython since 2003.</description>
+            <guid>http://komodoide.com/blog/2013-04/meeting-komodo-users-knight-it</guid>
+        </item>
+        <item>
+            <title>Komodo 8.0: Some Thoughts on a Killer Release</title>
+            <link>http://komodoide.com/blog/2013-03/komodo-8-release</link>
+            <pubDate>Thu, 14 Mar 2013 12:00:00 -07:00</pubDate>
+            <description>We have officially shipped Komodo IDE/Edit 8.0, and are now getting a bit of bandwidth after responding to the overwhelming feedback -- bandwidth being the operative word after one of our servers was nearly brought to a halt from Komodo downloads!</description>
+            <guid>http://komodoide.com/blog/2013-03/komodo-8-release</guid>
+        </item>
+        <item>
+            <title>Komodo Set to Attack: 8.0 Release Next Week</title>
+            <link>http://komodoide.com/blog/2013-03/komodo-8-release-next-week</link>
+            <pubDate>Fri, 1 Mar 2013 12:00:00 -08:00</pubDate>
+            <description>Komodo 8.0 is set to release on Thursday, March 7, and to say we're excited is a huge understatement. Every Komodo release is a big deal, but this one's really going to be a killer. With a totally refreshed UI and major updates to editing and workflow, 8.0 promises to deliver an incredible user experience. Note: Anyone who has purchased Komodo IDE on or after Feb. 7, 2013...</description>
+            <guid>http://komodoide.com/blog/2013-03/komodo-8-release-next-week</guid>
+        </item>
+        <item>
+            <title>The New Komodo 8 User Interface</title>
+            <link>http://komodoide.com/blog/2013-02/komodo-8-user-interface</link>
+            <pubDate>Wed, 13 Feb 2013 12:00:00 -08:00</pubDate>
+            <description>Ever since I started using Komodo many years ago, I was intrigued by its ability and potential. No other IDE out there gave me the level of flexibility that Komodo did (and does).</description>
+            <guid>http://komodoide.com/blog/2013-02/komodo-8-user-interface</guid>
+        </item>
+        <item>
+            <title>Komodo 8.0 Beta Now Available</title>
+            <link>http://komodoide.com/blog/2013-02/komodo-8-beta-available</link>
+            <pubDate>Fri, 8 Feb 2013 12:00:00 -08:00</pubDate>
+            <description>We are excited to announce that the Komodo 8.0 beta is now available for both Edit and IDE. With 8.0.0b1, we are nearing the end of our pre-release build cycle, which will lead to the official Komodo 8.0 release in early 2013. Here is an overview of the major features included in the 8.0 beta.</description>
+            <guid>http://komodoide.com/blog/2013-02/komodo-8-beta-available</guid>
+        </item>
+        <item>
+            <title>Stackato and Komodo Named Jolt Award Finalists</title>
+            <link>http://komodoide.com/blog/2013-02/stackato-and-komodo-named-jolt-award-finalists</link>
+            <pubDate>Fri, 8 Feb 2013 12:00:00 -08:00</pubDate>
+            <description>We are proud to announce that Stackato 2.4 and Komodo 7.1 IDE were named Dr. Dobbs 2013 Jolt Awards finalists in the &#34;Coding Tools&#34; category.</description>
+            <guid>http://komodoide.com/blog/2013-02/stackato-and-komodo-named-jolt-award-finalists</guid>
+        </item>
+        <item>
+            <title>Top 10 Komodo Tips and Tricks</title>
+            <link>http://komodoide.com/blog/2013-01/komodo-tips-tricks</link>
+            <pubDate>Mon, 28 Jan 2013 12:00:00 -08:00</pubDate>
+            <description>There are a great many features in Komodo, and it's hard to know them all. Here is a list of my top 10 tips and tricks, which will help you get more out of your use of Komodo. Enjoy! 1. Toggle Side Panes Komodo has three side panes: left, right and bottom. You can easily toggle these side panes on/off by double-clicking on a Komodo editor tab.</description>
+            <guid>http://komodoide.com/blog/2013-01/komodo-tips-tricks</guid>
+        </item>
+        <item>
+            <title>Web Editing with Komodo: Tutorial Videos</title>
+            <link>http://komodoide.com/blog/2013-01/web-editing-komodo-tutorial-videos</link>
+            <pubDate>Mon, 14 Jan 2013 12:00:00 -08:00</pubDate>
+            <description>Recently, a university professor contacted us about using Komodo as a teaching tool for his course on web design. He wanted to know if we could refer him to any educational resources demonstrating web editing with Komodo.</description>
+            <guid>http://komodoide.com/blog/2013-01/web-editing-komodo-tutorial-videos</guid>
+        </item>
+        <item>
+            <title>Saving Keystrokes with Macro-Like Snippets</title>
+            <link>http://komodoide.com/blog/2012-12/saving-keystrokes-macro-snippets</link>
+            <pubDate>Wed, 19 Dec 2012 12:00:00 -08:00</pubDate>
+            <description>Snippets and macros have been a part of Komodo since the beginning. Snippets are for inserting frequently-used pieces of boilerplate text into documents. They have some pre-canned functionality in their shortcuts, but can't be extended.</description>
+            <guid>http://komodoide.com/blog/2012-12/saving-keystrokes-macro-snippets</guid>
+        </item>
+        <item>
+            <title>Komodo Macro of the day: Inserting Image Tags</title>
+            <link>http://komodoide.com/blog/2012-11/komodo-macro-day-inserting-image-tags</link>
+            <pubDate>Tue, 20 Nov 2012 12:00:00 -08:00</pubDate>
+            <description>A Komodo customer recently asked for us to make adding image tags painless the way he was used to in his previous editor. Instead of typing some HTML and the URI, he wanted to pick the image file via a dialog box, and have Komodo do all the work. Well, I could file a bug, and he could then wait for the next development cycle to release a fix.</description>
+            <guid>http://komodoide.com/blog/2012-11/komodo-macro-day-inserting-image-tags</guid>
+        </item>
+        <item>
+            <title>So You Think We're Malicious?</title>
+            <link>http://komodoide.com/blog/2012-11/komodo-malicious-google-chrome</link>
+            <pubDate>Fri, 16 Nov 2012 12:00:00 -08:00</pubDate>
+            <description>FIRST THINGS FIRST: Google Chrome is flagging Komodo installers as &#34;malicious&#34;. Rest assured, Komodo IDE and Komodo Edit are NOT malicious files set out to stream all personal data off your computer and into an evil doer's dirty hard drive.</description>
+            <guid>http://komodoide.com/blog/2012-11/komodo-malicious-google-chrome</guid>
+        </item>
+        <item>
+            <title>Komodo: Chess Grandmaster</title>
+            <link>http://komodoide.com/blog/2012-10/komodo-chess-macro</link>
+            <pubDate>Fri, 26 Oct 2012 12:00:00 -07:00</pubDate>
+            <description>The macro system in Komodo allows for some creative possibilities. I've written a macro that provides the ability to replay chess games, utilizing the Komodo editor to display the board, game pieces and sequence of moves: JavaScript macro source code here.</description>
+            <guid>http://komodoide.com/blog/2012-10/komodo-chess-macro</guid>
+        </item>
+        <item>
+            <title>Komodo 7.1 Video: SCC Push, Variable Highlighting, Add Your Own Language</title>
+            <link>http://komodoide.com/blog/2012-07/komodo-7-1-screencast</link>
+            <pubDate>Tue, 24 Jul 2012 12:00:00 -07:00</pubDate>
+            <description>Komodo IDE 7.1 is out! I've put together a short screencast to demo all the great new features we've added.</description>
+            <guid>http://komodoide.com/blog/2012-07/komodo-7-1-screencast</guid>
+        </item>
+        <item>
+            <title>New Screencast: Collaborative Editing in Komodo IDE 7</title>
+            <link>http://komodoide.com/blog/2012-03/new-screencast-collaborative-editing-komodo-ide-7</link>
+            <pubDate>Thu, 29 Mar 2012 12:00:00 -07:00</pubDate>
+            <description>We've been remiss in making screencasts for all the new features in Komodo IDE 7. To remedy that, Todd Whiteman has made this short video showing off Komodo Collaboration.</description>
+            <guid>http://komodoide.com/blog/2012-03/new-screencast-collaborative-editing-komodo-ide-7</guid>
+        </item>
+        <item>
+            <title>Diving Deep Into Komodo's Syntax Checker</title>
+            <link>http://komodoide.com/blog/2012-02/diving-deep-komodos-syntax-checker</link>
+            <pubDate>Thu, 23 Feb 2012 12:00:00 -08:00</pubDate>
+            <description>h2, h3, h4 { clear: both } dl { clear: both; } dt { float: left; clear: left; width: 100px; text-align: right; font-weight: bold; } dt:after { content: &#34;:&#34;; } dd { margin: 0 0 0 110px; padding: 0 0 0.5em 0; } The previous post on Komodo's new syntax checker showed how it works out of the box. This post shows how to take more control of the system and add your own syntax checkers.</description>
+            <guid>http://komodoide.com/blog/2012-02/diving-deep-komodos-syntax-checker</guid>
+        </item>
+        <item>
+            <title>Syntax Checking Revisited in Komodo 7</title>
+            <link>http://komodoide.com/blog/2012-02/syntax-checking-revisited-komodo-7</link>
+            <pubDate>Wed, 8 Feb 2012 12:00:00 -08:00</pubDate>
+            <description>Komodo has always been adept at working with multiple languages. When we realized that multi-language templating systems were becoming more common, we made it easier to create new colorizers for them. But until now, Komodo wasn't very flexible at checking the syntax of these documents.</description>
+            <guid>http://komodoide.com/blog/2012-02/syntax-checking-revisited-komodo-7</guid>
+        </item>
+        <item>
+            <title>Komodo IDE 7: The world's fiercest IDE has evolved!</title>
+            <link>http://komodoide.com/blog/2012-02/komodo-ide-7-worlds-fiercest-ide-has-evolved</link>
+            <pubDate>Wed, 1 Feb 2012 12:00:00 -08:00</pubDate>
+            <description>Komodo IDE 7 has just been released! It offers groundbreaking new technologies and innovative enhancements. Here's an introduction to the most prominent features it includes.</description>
+            <guid>http://komodoide.com/blog/2012-02/komodo-ide-7-worlds-fiercest-ide-has-evolved</guid>
+        </item>
+        <item>
+            <title>Komodo IDE and Stackato: Deploying Apps and Accessing Data</title>
+            <link>http://komodoide.com/blog/2012-01/komodo-ide-and-stackato-deploying-apps-and-accessing-data</link>
+            <pubDate>Mon, 9 Jan 2012 12:00:00 -08:00</pubDate>
+            <description>I've been doing a lot of demos of Stackato lately and starting to incorporate the new Komodo IDE 7 client interface (currently RC).</description>
+            <guid>http://komodoide.com/blog/2012-01/komodo-ide-and-stackato-deploying-apps-and-accessing-data</guid>
+        </item>
+        <item>
+            <title>Komodo 7 Beta is Ready!</title>
+            <link>http://komodoide.com/blog/2011-10/komodo-7-beta-ready</link>
+            <pubDate>Fri, 28 Oct 2011 12:00:00 -07:00</pubDate>
+            <description>Komodo 7 Beta 1 is now available, with Edit builds as well as IDE. If you didn't get a chance to look at the Alpha, download the Beta now, give it a try, and let us know what you think. We'd love to get your feedback! Here are some of the new features that we've put into it:</description>
+            <guid>http://komodoide.com/blog/2011-10/komodo-7-beta-ready</guid>
+        </item>
+        <item>
+            <title>Komodo IDE: Code Profiling</title>
+            <link>http://komodoide.com/blog/2011-08/komodo-ide-code-profiling</link>
+            <pubDate>Fri, 12 Aug 2011 12:00:00 -07:00</pubDate>
+            <description>For programmers, one of the most common questions posed is &#34;Why is my application taking so long?&#34; For dynamic programming languages, there are often limited tools that can answer this important question, or variant questions like:</description>
+            <guid>http://komodoide.com/blog/2011-08/komodo-ide-code-profiling</guid>
+        </item>
+        <item>
+            <title>Using Komodo IDE's new Stackato Tools</title>
+            <link>http://komodoide.com/blog/2011-08/using-komodo-ides-new-stackato-tools</link>
+            <pubDate>Tue, 9 Aug 2011 12:00:00 -07:00</pubDate>
+            <description>We've been writing a fair bit about Stackato recently, but mostly with IT managers and sysadmins in mind. We thought it was time to evangelize a bit to the Komodo community. Since it's developers who will be the day-to-day users of this platform, we'd like to get you involved a bit more and hear your feedback.</description>
+            <guid>http://komodoide.com/blog/2011-08/using-komodo-ides-new-stackato-tools</guid>
+        </item>
+        <item>
+            <title>Solving the Wedged Web App Problem with Komodo's Rx Toolkit</title>
+            <link>http://komodoide.com/blog/2011-07/solving-wedged-web-app-problem-komodos-rx-toolkit</link>
+            <pubDate>Mon, 18 Jul 2011 12:00:00 -07:00</pubDate>
+            <description>As part of the beta launch for ActiveState's Stackato cloud platform, we've written a Rails app that tracks the tweet activity on some of the players in the upcoming American presidential election (only less than 16 months away as I write this!). You can read more about CandidateBuzz here.</description>
+            <guid>http://komodoide.com/blog/2011-07/solving-wedged-web-app-problem-komodos-rx-toolkit</guid>
+        </item>
+        <item>
+            <title>Node.js support in Komodo 7 Alpha 3</title>
+            <link>http://komodoide.com/blog/2011-06/nodejs-support-komodo-7-alpha-3</link>
+            <pubDate>Thu, 23 Jun 2011 12:00:00 -07:00</pubDate>
+            <description>After months of hearing the question &#34;When are you adding Node.js support to Komodo?&#34; I'm very pleased to announce that Node.js autocomplete and debugging are available in Komodo IDE 7 Alpha 3.</description>
+            <guid>http://komodoide.com/blog/2011-06/nodejs-support-komodo-7-alpha-3</guid>
+        </item>
+        <item>
+            <title>Komodo 7 Alpha 2: Improved Syntax Checking </title>
+            <link>http://komodoide.com/blog/2011-05/komodo-7-alpha-2-improved-syntax-checking</link>
+            <pubDate>Tue, 10 May 2011 12:00:00 -07:00</pubDate>
+            <description>The plan for rolling out Komodo 7 is to bring on a wave of new functionality with each new alpha. This time the main difference is a revamp in the way we do as-you-type syntax checking.</description>
+            <guid>http://komodoide.com/blog/2011-05/komodo-7-alpha-2-improved-syntax-checking</guid>
+        </item>
+        <item>
+            <title>Komodo 7 Alpha: Code Collaboration</title>
+            <link>http://komodoide.com/blog/2011-04/komodo-7-alpha-code-collaboration</link>
+            <pubDate>Thu, 7 Apr 2011 12:00:00 -07:00</pubDate>
+            <description>A couple of weeks ago we released Komodo IDE 7 Alpha 1 on an unsuspecting world. We want to get feedback on a couple of new features as early as possible so that we can incorporate the feedback in subsequent builds. In other words: things might break, and things will change, but it'll be fun.</description>
+            <guid>http://komodoide.com/blog/2011-04/komodo-7-alpha-code-collaboration</guid>
+        </item>
+    </channel>
+</rss>
